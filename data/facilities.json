@@ -1,0 +1,353 @@
+{
+  "atm": {
+    "name": {
+      "en": "ATM",
+      "id": "ATM"
+    },
+    "icon": "atm",
+    "providers": {
+      "bca": {
+        "name": {
+          "en": "BCA",
+          "id": "BCA"
+        },
+        "logo": "/images/bca-logo.png",
+        "locations": [
+          {
+            "id": "bca-atm-1",
+            "name": {
+              "en": "BCA ATM - AEON Mall BSD City",
+              "id": "ATM BCA - AEON Mall BSD City"
+            },
+            "address": {
+              "en": "AEON Mall BSD City, Ground Floor, Jl. BSD Raya Utama, BSD City, Tangerang",
+              "id": "AEON Mall BSD City, Lantai Dasar, Jl. BSD Raya Utama, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3018,
+              "lng": 106.6519
+            },
+            "distance": "1.2 km",
+            "estimatedTime": "4 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3018,106.6519"
+          },
+          {
+            "id": "bca-atm-2",
+            "name": {
+              "en": "BCA ATM - The Breeze BSD City",
+              "id": "ATM BCA - The Breeze BSD City"
+            },
+            "address": {
+              "en": "The Breeze BSD City, 1st Floor, Jl. Grand Boulevard, BSD City, Tangerang",
+              "id": "The Breeze BSD City, Lantai 1, Jl. Grand Boulevard, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3025,
+              "lng": 106.6495
+            },
+            "distance": "0.8 km",
+            "estimatedTime": "3 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3025,106.6495"
+          },
+          {
+            "id": "bca-atm-3",
+            "name": {
+              "en": "BCA ATM - BSD Junction",
+              "id": "ATM BCA - BSD Junction"
+            },
+            "address": {
+              "en": "BSD Junction, Ground Floor, Jl. Pahlawan Seribu, BSD City, Tangerang",
+              "id": "BSD Junction, Lantai Dasar, Jl. Pahlawan Seribu, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3042,
+              "lng": 106.6478
+            },
+            "distance": "1.5 km",
+            "estimatedTime": "5 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3042,106.6478"
+          }
+        ]
+      },
+      "mandiri": {
+        "name": {
+          "en": "Mandiri",
+          "id": "Mandiri"
+        },
+        "logo": "/images/mandiri-logo.png",
+        "locations": [
+          {
+            "id": "mandiri-atm-1",
+            "name": {
+              "en": "Mandiri ATM - AEON Mall BSD City",
+              "id": "ATM Mandiri - AEON Mall BSD City"
+            },
+            "address": {
+              "en": "AEON Mall BSD City, 2nd Floor, Jl. BSD Raya Utama, BSD City, Tangerang",
+              "id": "AEON Mall BSD City, Lantai 2, Jl. BSD Raya Utama, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.302,
+              "lng": 106.6521
+            },
+            "distance": "1.3 km",
+            "estimatedTime": "4 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3020,106.6521"
+          },
+          {
+            "id": "mandiri-atm-2",
+            "name": {
+              "en": "Mandiri ATM - Summarecon Mall Serpong",
+              "id": "ATM Mandiri - Summarecon Mall Serpong"
+            },
+            "address": {
+              "en": "Summarecon Mall Serpong, Ground Floor, Jl. Boulevard Gading Serpong, Tangerang",
+              "id": "Summarecon Mall Serpong, Lantai Dasar, Jl. Boulevard Gading Serpong, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.2423,
+              "lng": 106.6251
+            },
+            "distance": "7.2 km",
+            "estimatedTime": "15 min",
+            "mapUrl": "https://maps.google.com/?q=-6.2423,106.6251"
+          }
+        ]
+      },
+      "bni": {
+        "name": {
+          "en": "BNI",
+          "id": "BNI"
+        },
+        "logo": "/images/bni-logo.png",
+        "locations": [
+          {
+            "id": "bni-atm-1",
+            "name": {
+              "en": "BNI ATM - The Breeze BSD City",
+              "id": "ATM BNI - The Breeze BSD City"
+            },
+            "address": {
+              "en": "The Breeze BSD City, Ground Floor, Jl. Grand Boulevard, BSD City, Tangerang",
+              "id": "The Breeze BSD City, Lantai Dasar, Jl. Grand Boulevard, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3027,
+              "lng": 106.6493
+            },
+            "distance": "0.9 km",
+            "estimatedTime": "3 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3027,106.6493"
+          }
+        ]
+      }
+    }
+  },
+  "hospital": {
+    "name": {
+      "en": "Hospital",
+      "id": "Rumah Sakit"
+    },
+    "icon": "local_hospital",
+    "providers": {
+      "siloam": {
+        "name": {
+          "en": "Siloam Hospital",
+          "id": "Rumah Sakit Siloam"
+        },
+        "logo": "/images/siloam-logo.png",
+        "locations": [
+          {
+            "id": "siloam-1",
+            "name": {
+              "en": "Siloam Hospital Lippo Village",
+              "id": "Rumah Sakit Siloam Lippo Village"
+            },
+            "address": {
+              "en": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang",
+              "id": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.2962,
+              "lng": 106.6319
+            },
+            "distance": "3.2 km",
+            "estimatedTime": "8 min",
+            "mapUrl": "https://maps.google.com/?q=-6.2962,106.6319"
+          }
+        ]
+      },
+      "omni": {
+        "name": {
+          "en": "Omni Hospital",
+          "id": "Rumah Sakit Omni"
+        },
+        "logo": "/images/omni-logo.png",
+        "locations": [
+          {
+            "id": "omni-1",
+            "name": {
+              "en": "Omni Hospital Alam Sutera",
+              "id": "Rumah Sakit Omni Alam Sutera"
+            },
+            "address": {
+              "en": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang",
+              "id": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.2275,
+              "lng": 106.6597
+            },
+            "distance": "8.5 km",
+            "estimatedTime": "18 min",
+            "mapUrl": "https://maps.google.com/?q=-6.2275,106.6597"
+          }
+        ]
+      }
+    }
+  },
+  "pharmacy": {
+    "name": {
+      "en": "Pharmacy",
+      "id": "Apotek"
+    },
+    "icon": "local_pharmacy",
+    "providers": {
+      "guardian": {
+        "name": {
+          "en": "Guardian",
+          "id": "Guardian"
+        },
+        "logo": "/images/guardian-logo.png",
+        "locations": [
+          {
+            "id": "guardian-1",
+            "name": {
+              "en": "Guardian AEON Mall BSD City",
+              "id": "Guardian AEON Mall BSD City"
+            },
+            "address": {
+              "en": "AEON Mall BSD City, Ground Floor, Jl. BSD Raya Utama, BSD City, Tangerang",
+              "id": "AEON Mall BSD City, Lantai Dasar, Jl. BSD Raya Utama, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3016,
+              "lng": 106.6517
+            },
+            "distance": "1.1 km",
+            "estimatedTime": "4 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3016,106.6517"
+          }
+        ]
+      },
+      "kimiaFarma": {
+        "name": {
+          "en": "Kimia Farma",
+          "id": "Kimia Farma"
+        },
+        "logo": "/images/kimia-farma-logo.png",
+        "locations": [
+          {
+            "id": "kimia-farma-1",
+            "name": {
+              "en": "Kimia Farma The Breeze BSD City",
+              "id": "Kimia Farma The Breeze BSD City"
+            },
+            "address": {
+              "en": "The Breeze BSD City, Ground Floor, Jl. Grand Boulevard, BSD City, Tangerang",
+              "id": "The Breeze BSD City, Lantai Dasar, Jl. Grand Boulevard, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3023,
+              "lng": 106.6497
+            },
+            "distance": "0.7 km",
+            "estimatedTime": "3 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3023,106.6497"
+          }
+        ]
+      }
+    }
+  },
+  "gasStation": {
+    "name": {
+      "en": "Gas Station",
+      "id": "SPBU"
+    },
+    "icon": "local_gas_station",
+    "providers": {
+      "pertamina": {
+        "name": {
+          "en": "Pertamina",
+          "id": "Pertamina"
+        },
+        "logo": "/images/pertamina-logo.png",
+        "locations": [
+          {
+            "id": "pertamina-1",
+            "name": {
+              "en": "Pertamina Gas Station BSD Raya",
+              "id": "SPBU Pertamina BSD Raya"
+            },
+            "address": {
+              "en": "Jl. BSD Raya Utama, BSD City, Tangerang",
+              "id": "Jl. BSD Raya Utama, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3035,
+              "lng": 106.6505
+            },
+            "distance": "1.0 km",
+            "estimatedTime": "3 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3035,106.6505"
+          },
+          {
+            "id": "pertamina-2",
+            "name": {
+              "en": "Pertamina Gas Station Pagedangan",
+              "id": "SPBU Pertamina Pagedangan"
+            },
+            "address": {
+              "en": "Jl. Raya Serpong, Pagedangan, Tangerang",
+              "id": "Jl. Raya Serpong, Pagedangan, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3125,
+              "lng": 106.6398
+            },
+            "distance": "2.1 km",
+            "estimatedTime": "6 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3125,106.6398"
+          }
+        ]
+      },
+      "shell": {
+        "name": {
+          "en": "Shell",
+          "id": "Shell"
+        },
+        "logo": "/images/shell-logo.png",
+        "locations": [
+          {
+            "id": "shell-1",
+            "name": {
+              "en": "Shell Gas Station BSD",
+              "id": "SPBU Shell BSD"
+            },
+            "address": {
+              "en": "Jl. Pahlawan Seribu, BSD City, Tangerang",
+              "id": "Jl. Pahlawan Seribu, BSD City, Tangerang"
+            },
+            "coordinates": {
+              "lat": -6.3058,
+              "lng": 106.6445
+            },
+            "distance": "1.8 km",
+            "estimatedTime": "5 min",
+            "mapUrl": "https://maps.google.com/?q=-6.3058,106.6445"
+          }
+        ]
+      }
+    }
+  }
+}
