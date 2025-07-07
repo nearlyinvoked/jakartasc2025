@@ -1,5 +1,4 @@
-"use client";
-import { useRouter } from "next/navigation";
+import { useNavigate, useParams } from "react-router-dom";
 import {
   Container,
   Grid,
@@ -17,18 +16,13 @@ import {
   LocalGasStation,
   LocationOn,
 } from "@mui/icons-material";
-import Header from "@/components/header";
-import { t, type Locale } from "@/lib/i18n";
-import facilitiesData from "@/data/facilities.json";
-import React from "react";
+import Header from "../components/header";
+import { t, type Locale } from "../lib/i18n";
+import facilitiesData from "../data/facilities.json";
 
-export default function HomePage({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}) {
-  const { locale } = React.use(params);
-  const router = useRouter();
+export default function HomePage() {
+  const { locale = "en" } = useParams<{ locale: Locale }>();
+  const navigate = useNavigate();
 
   const categories = [
     { id: "atm", icon: <Atm fontSize="large" />, name: t("atm", locale) },
@@ -56,7 +50,7 @@ export default function HomePage({
 
   const navigateToCategory = (categoryId: string) => {
     if (facilitiesData[categoryId as keyof typeof facilitiesData]) {
-      router.push(`/${locale}/${categoryId}`);
+      navigate(`/${locale}/${categoryId}`);
     }
   };
 
@@ -90,7 +84,7 @@ export default function HomePage({
         </Typography>
         <Grid container spacing={2}>
           {categories.map((category) => (
-            <Grid item xs={6} sm={4} key={category.id}>
+            <Grid size={{ xs: 6, sm: 4 }} key={category.id}>
               <Card
                 elevation={2}
                 sx={{
