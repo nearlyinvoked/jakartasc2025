@@ -37,8 +37,9 @@ export default function ProviderPage() {
     );
   }
 
-  const providerData =
-    categoryData.providers[provider as keyof typeof categoryData.providers];
+  const providerData = categoryData.providers[
+    provider as keyof typeof categoryData.providers
+  ] as any;
   if (!providerData) {
     return (
       <>
