@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import Header from "../components/header";
 import { t, type Locale } from "../lib/i18n";
-import facilitiesData from "../data/facilities.json";
+import facilitiesData from "../data/index";
 
 export default function CategoryPage() {
   const { locale = "en", category = "" } = useParams<{

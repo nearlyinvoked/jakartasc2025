@@ -1,0 +1,63 @@
+{
+  "name": {
+    "en": "Hospital",
+    "id": "Rumah Sakit"
+  },
+  "icon": "local_hospital",
+  "providers": {
+    "siloam": {
+      "name": {
+        "en": "Siloam Hospital",
+        "id": "Rumah Sakit Siloam"
+      },
+      "logo": "/images/siloam-logo.png",
+      "locations": [
+        {
+          "id": "siloam-1",
+          "name": {
+            "en": "Siloam Hospital Lippo Village",
+            "id": "Rumah Sakit Siloam Lippo Village"
+          },
+          "address": {
+            "en": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang",
+            "id": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.2962,
+            "lng": 106.6319
+          },
+          "distance": "3.2 km",
+          "estimatedTime": "8 min",
+          "mapUrl": "https://maps.google.com/?q=-6.2962,106.6319"
+        }
+      ]
+    },
+    "omni": {
+      "name": {
+        "en": "Omni Hospital",
+        "id": "Rumah Sakit Omni"
+      },
+      "logo": "/images/omni-logo.png",
+      "locations": [
+        {
+          "id": "omni-1",
+          "name": {
+            "en": "Omni Hospital Alam Sutera",
+            "id": "Rumah Sakit Omni Alam Sutera"
+          },
+          "address": {
+            "en": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang",
+            "id": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.2275,
+            "lng": 106.6597
+          },
+          "distance": "8.5 km",
+          "estimatedTime": "18 min",
+          "mapUrl": "https://maps.google.com/?q=-6.2275,106.6597"
+        }
+      ]
+    }
+  }
+}

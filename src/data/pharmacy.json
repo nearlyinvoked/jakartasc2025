@@ -1,0 +1,198 @@
+{
+  "name": {
+    "en": "Pharmacy",
+    "id": "Apotek"
+  },
+  "icon": "local_pharmacy",
+  "providers": {
+    "independent": {
+      "name": {
+        "en": "Independent Pharmacies",
+        "id": "Apotek Independen"
+      },
+      "logo": "/images/pharmacy-generic.png",
+      "locations": [
+        {
+          "id": "apotek-medika-prima-bsd",
+          "name": {
+            "en": "Apotek Medika Prima BSD",
+            "id": "Apotek Medika Prima BSD"
+          },
+          "address": {
+            "en": "Jl. BSD Grand Boulevard, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Jl. BSD Grand Boulevard, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3017,
+            "lng": 106.6519
+          },
+          "distance": "0.9 km",
+          "estimatedTime": "3 min",
+          "mapUrl": "https://maps.app.goo.gl/MndDysf4VTg6Pu2j9"
+        },
+        {
+          "id": "apotek-sumber-sehat-91-district",
+          "name": {
+            "en": "Apotek Sumber Sehat 91 District",
+            "id": "Apotek Sumber Sehat 91 District"
+          },
+          "address": {
+            "en": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3045,
+            "lng": 106.6501
+          },
+          "distance": "1.4 km",
+          "estimatedTime": "4 min",
+          "mapUrl": "https://maps.app.goo.gl/waQdpAMsfK2tdZbw6"
+        },
+        {
+          "id": "apotek-pharmaplus",
+          "name": {
+            "en": "Apotek Pharmaplus",
+            "id": "Apotek Pharmaplus"
+          },
+          "address": {
+            "en": "Gramedia World BSD Ground Floor G1, Commercial Park Barat Lot 1.9, BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Gramedia World BSD Lantai Dasar G1, Commercial Park Barat Lot 1.9, BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "2 km",
+          "estimatedTime": "5 min",
+          "mapUrl": "https://goo.gl/maps/pkbzcjpgT9iCBCiq6"
+        },
+        {
+          "id": "apotek-kayla-medika",
+          "name": {
+            "en": "Apotek Kayla Medika",
+            "id": "Apotek Kayla Medika"
+          },
+          "address": {
+            "en": "Jalan Raya, Pagedangan, Tangerang Regency, Banten 15339",
+            "id": "Jalan Raya, Pagedangan, Tangerang Regency, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "3.6 km",
+          "estimatedTime": "9 min",
+          "mapUrl": "https://goo.gl/maps/hTZ4cmhMvGcG8DaLA"
+        },
+        {
+          "id": "apotek-go",
+          "name": {
+            "en": "Apotek GO",
+            "id": "Apotek GO"
+          },
+          "address": {
+            "en": "Ruko West Park Blok D No.8 BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Ruko West Park Blok D No.8 BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "4.3 km",
+          "estimatedTime": "7 min",
+          "mapUrl": "https://goo.gl/maps/59kBM8HymPQ1qdus8"
+        },
+        {
+          "id": "apotek-permatasari",
+          "name": {
+            "en": "Apotek Permatasari",
+            "id": "Apotek Permatasari"
+          },
+          "address": {
+            "en": "Jl. Raya Serpong No.19, Muncul, Kec. Setu, Kota Tangerang Selatan, Banten 15314",
+            "id": "Jl. Raya Serpong No.19, Muncul, Kec. Setu, Kota Tangerang Selatan, Banten 15314"
+          },
+          "coordinates": {
+            "lat": -6.302,
+            "lng": 106.651
+          },
+          "distance": "9.3 km",
+          "estimatedTime": "30 min",
+          "mapUrl": "https://maps.app.goo.gl/JYTWcUxxwmZ1v9Lj6?g_st=iw"
+        }
+      ]
+    },
+    "guardian": {
+      "name": {
+        "en": "Guardian",
+        "id": "Guardian"
+      },
+      "logo": "/images/guardian-logo.png",
+      "locations": [
+        {
+          "id": "guardian-aeon-bsd",
+          "name": {
+            "en": "Guardian AEON BSD",
+            "id": "Guardian AEON BSD"
+          },
+          "address": {
+            "en": "AEON BSD Lt. Dasar, Jl. BSD Raya Utama No.59, Pagedangan, Kabupaten Tangerang, Banten 15345",
+            "id": "AEON BSD Lantai Dasar, Jl. BSD Raya Utama No.59, Pagedangan, Kabupaten Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3045,
+            "lng": 106.6501
+          },
+          "distance": "2 km",
+          "estimatedTime": "5 min",
+          "mapUrl": "https://goo.gl/maps/KwULoGp9oQNYZArLA"
+        }
+      ]
+    },
+    "kimiaFarma": {
+      "name": {
+        "en": "Kimia Farma",
+        "id": "Kimia Farma"
+      },
+      "logo": "/images/kimia-farma-logo.png",
+      "locations": [
+        {
+          "id": "kimia-farma-the-icon",
+          "name": {
+            "en": "Kimia Farma The Icon",
+            "id": "Kimia Farma The Icon"
+          },
+          "address": {
+            "en": "Jl. BSD Raya Barat Ruko The Icon Business Park Blok D No.5, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345",
+            "id": "Jl. BSD Raya Barat Ruko The Icon Business Park Blok D No.5, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3025,
+            "lng": 106.6515
+          },
+          "distance": "4.2 km",
+          "estimatedTime": "11 min",
+          "mapUrl": "https://goo.gl/maps/pcnGggUD63twCoCz7"
+        },
+        {
+          "id": "kimia-farma-serpong",
+          "name": {
+            "en": "Kimia Farma Serpong",
+            "id": "Kimia Farma Serpong"
+          },
+          "address": {
+            "en": "Jl. Pahlawan Seribu Ruko Versailles Blok Fb No. 15, Rw. Buntu, Kec. Serpong, Kota Tangerang Selatan, Banten 15318",
+            "id": "Jl. Pahlawan Seribu Ruko Versailles Blok Fb No. 15, Rw. Buntu, Kec. Serpong, Kota Tangerang Selatan, Banten 15318"
+          },
+          "coordinates": {
+            "lat": -6.3025,
+            "lng": 106.6515
+          },
+          "distance": "5.9 km",
+          "estimatedTime": "14 min",
+          "mapUrl": "https://maps.app.goo.gl/pajovygorqzd8Mgc9"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": {
+    "en": "Gas Station",
+    "id": "SPBU"
+  },
+  "icon": "local_gas_station",
+  "providers": {
+    "pertamina": {
+      "name": {
+        "en": "Pertamina",
+        "id": "Pertamina"
+      },
+      "logo": "/images/pertamina-logo.png",
+      "locations": [
+        {
+          "id": "pertamina-1",
+          "name": {
+            "en": "Pertamina Gas Station BSD Raya",
+            "id": "SPBU Pertamina BSD Raya"
+          },
+          "address": {
+            "en": "Jl. BSD Raya Utama, BSD City, Tangerang",
+            "id": "Jl. BSD Raya Utama, BSD City, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.3035,
+            "lng": 106.6505
+          },
+          "distance": "1.0 km",
+          "estimatedTime": "3 min",
+          "mapUrl": "https://maps.google.com/?q=-6.3035,106.6505"
+        },
+        {
+          "id": "pertamina-2",
+          "name": {
+            "en": "Pertamina Gas Station Pagedangan",
+            "id": "SPBU Pertamina Pagedangan"
+          },
+          "address": {
+            "en": "Jl. Raya Serpong, Pagedangan, Tangerang",
+            "id": "Jl. Raya Serpong, Pagedangan, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.3125,
+            "lng": 106.6398
+          },
+          "distance": "2.1 km",
+          "estimatedTime": "6 min",
+          "mapUrl": "https://maps.google.com/?q=-6.3125,106.6398"
+        }
+      ]
+    },
+    "shell": {
+      "name": {
+        "en": "Shell",
+        "id": "Shell"
+      },
+      "logo": "/images/shell-logo.png",
+      "locations": [
+        {
+          "id": "shell-1",
+          "name": {
+            "en": "Shell Gas Station BSD",
+            "id": "SPBU Shell BSD"
+          },
+          "address": {
+            "en": "Jl. Pahlawan Seribu, BSD City, Tangerang",
+            "id": "Jl. Pahlawan Seribu, BSD City, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.3058,
+            "lng": 106.6445
+          },
+          "distance": "1.8 km",
+          "estimatedTime": "5 min",
+          "mapUrl": "https://maps.google.com/?q=-6.3058,106.6445"
+        }
+      ]
+    }
+  }
+}

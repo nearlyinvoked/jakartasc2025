@@ -1,0 +1,63 @@
+{
+  "name": {
+    "en": "Restaurant",
+    "id": "Restoran"
+  },
+  "icon": "restaurant",
+  "providers": {
+    "mcdonalds": {
+      "name": {
+        "en": "McDonald's",
+        "id": "McDonald's"
+      },
+      "logo": "/images/mcdonalds-logo.png",
+      "locations": [
+        {
+          "id": "mcdonalds-1",
+          "name": {
+            "en": "McDonald's AEON Mall BSD City",
+            "id": "McDonald's AEON Mall BSD City"
+          },
+          "address": {
+            "en": "AEON Mall BSD City, Food Court, Jl. BSD Raya Utama, BSD City, Tangerang",
+            "id": "AEON Mall BSD City, Food Court, Jl. BSD Raya Utama, BSD City, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.3018,
+            "lng": 106.6519
+          },
+          "distance": "1.2 km",
+          "estimatedTime": "4 min",
+          "mapUrl": "https://maps.google.com/?q=-6.3018,106.6519"
+        }
+      ]
+    },
+    "kfc": {
+      "name": {
+        "en": "KFC",
+        "id": "KFC"
+      },
+      "logo": "/images/kfc-logo.png",
+      "locations": [
+        {
+          "id": "kfc-1",
+          "name": {
+            "en": "KFC The Breeze BSD City",
+            "id": "KFC The Breeze BSD City"
+          },
+          "address": {
+            "en": "The Breeze BSD City, Ground Floor, Jl. Grand Boulevard, BSD City, Tangerang",
+            "id": "The Breeze BSD City, Lantai Dasar, Jl. Grand Boulevard, BSD City, Tangerang"
+          },
+          "coordinates": {
+            "lat": -6.3025,
+            "lng": 106.6495
+          },
+          "distance": "0.8 km",
+          "estimatedTime": "3 min",
+          "mapUrl": "https://maps.google.com/?q=-6.3025,106.6495"
+        }
+      ]
+    }
+  }
+}

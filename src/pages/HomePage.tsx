@@ -18,7 +18,7 @@ import {
 } from "@mui/icons-material";
 import Header from "../components/header";
 import { t, type Locale } from "../lib/i18n";
-import facilitiesData from "../data/facilities.json";
+import facilitiesData from "../data/index";
 
 export default function HomePage() {
   const { locale = "en" } = useParams<{ locale: Locale }>();

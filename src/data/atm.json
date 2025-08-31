@@ -1,0 +1,342 @@
+{
+  "name": {
+    "en": "ATM",
+    "id": "ATM"
+  },
+  "icon": "atm",
+  "providers": {
+    "bni": {
+      "name": {
+        "en": "BNI",
+        "id": "BNI"
+      },
+      "logo": "/images/bni-logo.png",
+      "locations": [
+        {
+          "id": "atm-bni-ice-bsd",
+          "name": {
+            "en": "ATM BNI ICE BSD",
+            "id": "ATM BNI ICE BSD"
+          },
+          "address": {
+            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3017,
+            "lng": 106.6519
+          },
+          "distance": "0.1 km",
+          "estimatedTime": "2 min",
+          "mapUrl": "https://goo.gl/maps/7FM1JhZ3e43PJv8N8"
+        }
+      ]
+    },
+    "bri": {
+      "name": {
+        "en": "BRI",
+        "id": "BRI"
+      },
+      "logo": "/images/bri-logo.png",
+      "locations": [
+        {
+          "id": "atm-bri-ice-bsd",
+          "name": {
+            "en": "ATM BRI ICE BSD",
+            "id": "ATM BRI ICE BSD"
+          },
+          "address": {
+            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3017,
+            "lng": 106.6519
+          },
+          "distance": "0.1 km",
+          "estimatedTime": "1 min",
+          "mapUrl": "https://goo.gl/maps/pcRp7dtU2Kp9Hb8E7"
+        },
+        {
+          "id": "atm-bri-bsd-raya-utama",
+          "name": {
+            "en": "ATM BRI BSD Raya Utama",
+            "id": "ATM BRI BSD Raya Utama"
+          },
+          "address": {
+            "en": "Jl. BSD Raya Utama No.22, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Jl. BSD Raya Utama No.22, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3045,
+            "lng": 106.6501
+          },
+          "distance": "2 km",
+          "estimatedTime": "6 min",
+          "mapUrl": "https://goo.gl/maps/eGYc8aqp1GfxP1rW8"
+        },
+        {
+          "id": "atm-bri-indomaret-pagedangan-raya",
+          "name": {
+            "en": "ATM BRI Indomaret Pagedangan Raya",
+            "id": "ATM BRI Indomaret Pagedangan Raya"
+          },
+          "address": {
+            "en": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Kabupaten Tangerang, Banten 15339",
+            "id": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "2.9 km",
+          "estimatedTime": "8 min",
+          "mapUrl": "https://goo.gl/maps/SKA1ABhgQEaVbCULA"
+        },
+        {
+          "id": "atm-bri-alfamart-pagedangan-2",
+          "name": {
+            "en": "ATM BRI Alfamart Pagedangan 2",
+            "id": "ATM BRI Alfamart Pagedangan 2"
+          },
+          "address": {
+            "en": "Alfamart Pagedangan 2, Jalan Raya Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Alfamart Pagedangan 2, Jalan Raya Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "3.9 km",
+          "estimatedTime": "10 min",
+          "mapUrl": "https://maps.app.goo.gl/fDVFu1AUBKRigd8a9"
+        },
+        {
+          "id": "atm-bri-bjb-indomaret-pagedangan",
+          "name": {
+            "en": "ATM BRI Indomaret Pagedangan",
+            "id": "ATM BRI Indomaret Pagedangan"
+          },
+          "address": {
+            "en": "Indomaret Pagedangan, Bumi Puspitek Asri 2 N No. 01, Kabupaten Tangerang, Banten 15339",
+            "id": "Indomaret Pagedangan, Bumi Puspitek Asri 2 N No. 01, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "4.4 km",
+          "estimatedTime": "10 min",
+          "mapUrl": "https://goo.gl/maps/e4LxzRSThbZFff7Q7"
+        }
+      ]
+    },
+    "cimbNiaga": {
+      "name": {
+        "en": "CIMB Niaga",
+        "id": "CIMB Niaga"
+      },
+      "logo": "/images/cimb-logo.png",
+      "locations": [
+        {
+          "id": "atm-cimb-ice-bsd",
+          "name": {
+            "en": "ATM CIMB Niaga ICE BSD",
+            "id": "ATM CIMB Niaga ICE BSD"
+          },
+          "address": {
+            "en": "ICE BSD – Nusantara Hall, Jl. BSD Grand Boulevard No.1, Kabupaten Tangerang, Banten 15339",
+            "id": "ICE BSD – Nusantara Hall, Jl. BSD Grand Boulevard No.1, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3017,
+            "lng": 106.6519
+          },
+          "distance": "0.1 km",
+          "estimatedTime": "2 min",
+          "mapUrl": "https://goo.gl/maps/VNpiVw9VUWevHibh7"
+        },
+        {
+          "id": "atm-cimb-unilever-bsd",
+          "name": {
+            "en": "ATM CIMB Niaga Gedung Unilever BSD",
+            "id": "ATM CIMB Niaga Gedung Unilever BSD"
+          },
+          "address": {
+            "en": "Gedung Unilever BSD, BSD Green Office Park, Sampora, Cisauk, Banten 15345",
+            "id": "Gedung Unilever BSD, BSD Green Office Park, Sampora, Cisauk, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3089,
+            "lng": 106.6428
+          },
+          "distance": "3.4 km",
+          "estimatedTime": "11 min",
+          "mapUrl": "https://goo.gl/maps/4snZeWb7hSUyQcSt6"
+        },
+        {
+          "id": "atm-cimb-ceriamart-pagedangan",
+          "name": {
+            "en": "ATM CIMB Niaga Ceriamart Pagedangan",
+            "id": "ATM CIMB Niaga Ceriamart Pagedangan"
+          },
+          "address": {
+            "en": "Ceriamart, Jl. Kp. Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Ceriamart, Jl. Kp. Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "4 km",
+          "estimatedTime": "9 min",
+          "mapUrl": "https://goo.gl/maps/Pnf2GPbBQfdUvEKf7"
+        }
+      ]
+    },
+    "ocbc": {
+      "name": {
+        "en": "OCBC",
+        "id": "OCBC"
+      },
+      "logo": "/images/ocbc-logo.png",
+      "locations": [
+        {
+          "id": "atm-ocbc-premium-guest-house",
+          "name": {
+            "en": "ATM OCBC Premium Guest House BSD",
+            "id": "ATM OCBC Premium Guest House BSD"
+          },
+          "address": {
+            "en": "ON Space, Jl. BSD Grand Boulevard No.Lot 9, Kabupaten Tangerang, Banten 15339",
+            "id": "ON Space, Jl. BSD Grand Boulevard No.Lot 9, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3017,
+            "lng": 106.6519
+          },
+          "distance": "0.5 km",
+          "estimatedTime": "2 min",
+          "mapUrl": "https://maps.app.goo.gl/vbJiooUq6mor88pw9"
+        }
+      ]
+    },
+    "mandiri": {
+      "name": {
+        "en": "Mandiri",
+        "id": "Mandiri"
+      },
+      "logo": "/images/mandiri-logo.png",
+      "locations": [
+        {
+          "id": "atm-mandiri-prasmul-bsd",
+          "name": {
+            "en": "ATM Mandiri Kampus Prasetiya Mulya BSD",
+            "id": "ATM Mandiri Kampus Prasetiya Mulya BSD"
+          },
+          "address": {
+            "en": "Kampus Prasetya Mulya BSD, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Kampus Prasetya Mulya BSD, Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "1.1 km",
+          "estimatedTime": "9 min",
+          "mapUrl": "https://goo.gl/maps/r7ceVtzbGtdEPGwg7"
+        },
+        {
+          "id": "atm-mandiri-indomaret-pagedangan-raya",
+          "name": {
+            "en": "ATM Mandiri Indomaret Pagedangan Raya",
+            "id": "ATM Mandiri Indomaret Pagedangan Raya"
+          },
+          "address": {
+            "en": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Kabupaten Tangerang, Banten 15339",
+            "id": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "2.9 km",
+          "estimatedTime": "8 min",
+          "mapUrl": "https://goo.gl/maps/SKA1ABhgQEaVbCULA"
+        }
+      ]
+    },
+    "bca": {
+      "name": {
+        "en": "BCA",
+        "id": "BCA"
+      },
+      "logo": "/images/bca-logo.png",
+      "locations": [
+        {
+          "id": "atm-bca-alfamart-pagedangan-2",
+          "name": {
+            "en": "ATM BCA Alfamart Pagedangan 2",
+            "id": "ATM BCA Alfamart Pagedangan 2"
+          },
+          "address": {
+            "en": "Alfamart Pagedangan 2, Jalan Raya Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Alfamart Pagedangan 2, Jalan Raya Pagedangan, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.2899,
+            "lng": 106.6234
+          },
+          "distance": "3.9 km",
+          "estimatedTime": "10 min",
+          "mapUrl": "https://maps.app.goo.gl/GkdkfGuUgH2GBAqh9"
+        },
+        {
+          "id": "atm-bca-ruko-the-icon",
+          "name": {
+            "en": "ATM BCA Ruko The Icon BSD",
+            "id": "ATM BCA Ruko The Icon BSD"
+          },
+          "address": {
+            "en": "Alfamart, Ruko The Icon Blok M3 No.2, BSD City, Sampora, Kabupaten Tangerang, Banten 15345",
+            "id": "Alfamart, Ruko The Icon Blok M3 No.2, BSD City, Sampora, Kabupaten Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3084,
+            "lng": 106.6523
+          },
+          "distance": "4 km",
+          "estimatedTime": "11 min",
+          "mapUrl": "https://goo.gl/maps/dmcsAfDDa8gn5qoP7"
+        }
+      ]
+    },
+    "sinarmas": {
+      "name": {
+        "en": "Bank Sinarmas",
+        "id": "Bank Sinarmas"
+      },
+      "logo": "/images/sinarmas-logo.png",
+      "locations": [
+        {
+          "id": "atm-sinarmas-prasmul-bsd",
+          "name": {
+            "en": "ATM Bank Sinarmas Prasmul BSD",
+            "id": "ATM Bank Sinarmas Prasmul BSD"
+          },
+          "address": {
+            "en": "Prasetiya Mulya University BSD City, Kavling Edutown I.1, Jl. BSD Raya Utama, Kabupaten Tangerang, Banten 15339",
+            "id": "Prasetiya Mulya University BSD City, Kavling Edutown I.1, Jl. BSD Raya Utama, Kabupaten Tangerang, Banten 15339"
+          },
+          "coordinates": {
+            "lat": -6.3045,
+            "lng": 106.6501
+          },
+          "distance": "2.3 km",
+          "estimatedTime": "7 min",
+          "mapUrl": "https://goo.gl/maps/XrACdHFg8zDe3Hua9"
+        }
+      ]
+    }
+  }
+}
