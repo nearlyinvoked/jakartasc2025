@@ -5,120 +5,66 @@
   },
   "icon": "local_pharmacy",
   "providers": {
-    "independent": {
+    "apotek_independent": {
       "name": {
         "en": "Independent Pharmacies",
         "id": "Apotek Independen"
       },
-      "logo": "/images/pharmacy-generic.png",
+      "logo": "/images/independent-logo.png",
       "locations": [
         {
-          "id": "apotek-medika-prima-bsd",
+          "id": "pharmacy-medika_prima_ice_bsd-0",
           "name": {
-            "en": "Apotek Medika Prima BSD",
-            "id": "Apotek Medika Prima BSD"
+            "en": "Apotek Medika Prima ICE BSD",
+            "id": "Apotek Medika Prima ICE BSD"
           },
           "address": {
-            "en": "Jl. BSD Grand Boulevard, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Jl. BSD Grand Boulevard, Pagedangan, Kabupaten Tangerang, Banten 15339"
+            "en": "Jl. BSD Grand Boulevard, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Jl. BSD Grand Boulevard, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.3017,
-            "lng": 106.6519
+            "lat": -6.3015,
+            "lng": 106.63338155197441
           },
-          "distance": "0.9 km",
-          "estimatedTime": "3 min",
-          "mapUrl": "https://maps.app.goo.gl/MndDysf4VTg6Pu2j9"
+          "distance": "900 M",
+          "estimatedTime": "4 Menit",
+          "mapUrl": "https://maps.app.goo.gl/L46t8PFMV8wiX7K19-6.304906264681695"
         },
         {
-          "id": "apotek-sumber-sehat-91-district",
+          "id": "pharmacy-sumber_sehat_91_district-1",
           "name": {
             "en": "Apotek Sumber Sehat 91 District",
             "id": "Apotek Sumber Sehat 91 District"
           },
           "address": {
-            "en": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kabupaten Tangerang, Banten 15339"
+            "en": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Ruko 91 District, Jl. BSD Raya Utama No.5 Blok B, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.3045,
-            "lng": 106.6501
+            "lat": -6.3015,
+            "lng": 106.63954337623655
           },
-          "distance": "1.4 km",
-          "estimatedTime": "4 min",
-          "mapUrl": "https://maps.app.goo.gl/waQdpAMsfK2tdZbw6"
+          "distance": "1,4 KM",
+          "estimatedTime": "4 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/ysfZEYfwtQPiMngY6-6.293552113749104"
         },
         {
-          "id": "apotek-pharmaplus",
+          "id": "pharmacy-sana_pharmacy-3",
           "name": {
-            "en": "Apotek Pharmaplus",
-            "id": "Apotek Pharmaplus"
+            "en": "Apotek Sana Pharmacy",
+            "id": "Apotek Sana Pharmacy"
           },
           "address": {
-            "en": "Gramedia World BSD Ground Floor G1, Commercial Park Barat Lot 1.9, BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Gramedia World BSD Lantai Dasar G1, Commercial Park Barat Lot 1.9, BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339"
+            "en": "Ruko Tabespot, Jl. BSD Raya Pusat No.25 Blok G1, Pagedangan, Tangerang Regency, Banten 15339",
+            "id": "Ruko Tabespot, Jl. BSD Raya Pusat No.25 Blok G1, Pagedangan, Tangerang Regency, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.2899,
-            "lng": 106.6234
+            "lat": -6.3015,
+            "lng": 106.62331334463049
           },
-          "distance": "2 km",
-          "estimatedTime": "5 min",
-          "mapUrl": "https://goo.gl/maps/pkbzcjpgT9iCBCiq6"
-        },
-        {
-          "id": "apotek-kayla-medika",
-          "name": {
-            "en": "Apotek Kayla Medika",
-            "id": "Apotek Kayla Medika"
-          },
-          "address": {
-            "en": "Jalan Raya, Pagedangan, Tangerang Regency, Banten 15339",
-            "id": "Jalan Raya, Pagedangan, Tangerang Regency, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.2899,
-            "lng": 106.6234
-          },
-          "distance": "3.6 km",
-          "estimatedTime": "9 min",
-          "mapUrl": "https://goo.gl/maps/hTZ4cmhMvGcG8DaLA"
-        },
-        {
-          "id": "apotek-go",
-          "name": {
-            "en": "Apotek GO",
-            "id": "Apotek GO"
-          },
-          "address": {
-            "en": "Ruko West Park Blok D No.8 BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Ruko West Park Blok D No.8 BSD City, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.2899,
-            "lng": 106.6234
-          },
-          "distance": "4.3 km",
-          "estimatedTime": "7 min",
-          "mapUrl": "https://goo.gl/maps/59kBM8HymPQ1qdus8"
-        },
-        {
-          "id": "apotek-permatasari",
-          "name": {
-            "en": "Apotek Permatasari",
-            "id": "Apotek Permatasari"
-          },
-          "address": {
-            "en": "Jl. Raya Serpong No.19, Muncul, Kec. Setu, Kota Tangerang Selatan, Banten 15314",
-            "id": "Jl. Raya Serpong No.19, Muncul, Kec. Setu, Kota Tangerang Selatan, Banten 15314"
-          },
-          "coordinates": {
-            "lat": -6.302,
-            "lng": 106.651
-          },
-          "distance": "9.3 km",
-          "estimatedTime": "30 min",
-          "mapUrl": "https://maps.app.goo.gl/JYTWcUxxwmZ1v9Lj6?g_st=iw"
+          "distance": "4,9 KM",
+          "estimatedTime": "8 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/UHq3CB3AMxLxtsAc9-6.290284365754287"
         }
       ]
     },
@@ -130,67 +76,121 @@
       "logo": "/images/guardian-logo.png",
       "locations": [
         {
-          "id": "guardian-aeon-bsd",
+          "id": "pharmacy-guardian_west_park-2",
           "name": {
-            "en": "Guardian AEON BSD",
-            "id": "Guardian AEON BSD"
+            "en": "Apotek GO (Guardian?) Ruko West Park Blok D No.8 BSD City",
+            "id": "Apotek GO (Guardian?) Ruko West Park Blok D No.8 BSD City"
           },
           "address": {
-            "en": "AEON BSD Lt. Dasar, Jl. BSD Raya Utama No.59, Pagedangan, Kabupaten Tangerang, Banten 15345",
-            "id": "AEON BSD Lantai Dasar, Jl. BSD Raya Utama No.59, Pagedangan, Kabupaten Tangerang, Banten 15345"
+            "en": "Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.3045,
-            "lng": 106.6501
+            "lat": -6.3015,
+            "lng": 106.62254110063007
           },
-          "distance": "2 km",
-          "estimatedTime": "5 min",
-          "mapUrl": "https://goo.gl/maps/KwULoGp9oQNYZArLA"
+          "distance": "4,2 KM",
+          "estimatedTime": "7 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/LpztAnMZBiL5DVqh8-6.294635494486269"
+        },
+        {
+          "id": "pharmacy-guardian_aeon_bsd-5",
+          "name": {
+            "en": "GUARDIAN - AEON BSD",
+            "id": "GUARDIAN - AEON BSD"
+          },
+          "address": {
+            "en": "AEON BSD Lt. Dasar, Jl. BSD Raya Utama No.59 Lot G, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345",
+            "id": "AEON BSD Lt. Dasar, Jl. BSD Raya Utama No.59 Lot G, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3015,
+            "lng": 106.64374135361112
+          },
+          "distance": "2,3 KM",
+          "estimatedTime": "7 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/UXj9jpfgGiViXV7S8-6.303896493406636"
         }
       ]
     },
-    "kimiaFarma": {
+    "pharmaplus": {
       "name": {
-        "en": "Kimia Farma",
-        "id": "Kimia Farma"
+        "en": "PharmaPlus",
+        "id": "PharmaPlus"
       },
-      "logo": "/images/kimia-farma-logo.png",
+      "logo": "/images/pharmaplus-logo.png",
       "locations": [
         {
-          "id": "kimia-farma-the-icon",
+          "id": "pharmacy-pharmaplus_bsd-4",
           "name": {
-            "en": "Kimia Farma The Icon",
-            "id": "Kimia Farma The Icon"
+            "en": "Apotek PharmaPlus BSD",
+            "id": "Apotek PharmaPlus BSD"
           },
           "address": {
-            "en": "Jl. BSD Raya Barat Ruko The Icon Business Park Blok D No.5, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345",
-            "id": "Jl. BSD Raya Barat Ruko The Icon Business Park Blok D No.5, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345"
+            "en": "BSD City, GRAMEDIA WORLD BSD GROUND FLOOR G1 Commercial Park Barat, Tan, Lot 1.9, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "BSD City, GRAMEDIA WORLD BSD GROUND FLOOR G1 Commercial Park Barat, Tan, Lot 1.9, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.3025,
-            "lng": 106.6515
+            "lat": -6.3015,
+            "lng": 106.63979445048314
           },
-          "distance": "4.2 km",
-          "estimatedTime": "11 min",
-          "mapUrl": "https://goo.gl/maps/pcnGggUD63twCoCz7"
-        },
+          "distance": "2,1 KM",
+          "estimatedTime": "5 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/gaof2EvNFAL2s7xL9-6.2894296052431695"
+        }
+      ]
+    },
+    "watsons": {
+      "name": {
+        "en": "Watsons",
+        "id": "Watsons"
+      },
+      "logo": "/images/watsons-logo.png",
+      "locations": [
         {
-          "id": "kimia-farma-serpong",
+          "id": "pharmacy-watsons_aeon_mall-6",
           "name": {
-            "en": "Kimia Farma Serpong",
-            "id": "Kimia Farma Serpong"
+            "en": "Watsons - ÆON Mall BSD City",
+            "id": "Watsons - ÆON Mall BSD City"
           },
           "address": {
-            "en": "Jl. Pahlawan Seribu Ruko Versailles Blok Fb No. 15, Rw. Buntu, Kec. Serpong, Kota Tangerang Selatan, Banten 15318",
-            "id": "Jl. Pahlawan Seribu Ruko Versailles Blok Fb No. 15, Rw. Buntu, Kec. Serpong, Kota Tangerang Selatan, Banten 15318"
+            "en": "Jl. BSD Raya Utama Lantai 2, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345",
+            "id": "Jl. BSD Raya Utama Lantai 2, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345"
           },
           "coordinates": {
-            "lat": -6.3025,
-            "lng": 106.6515
+            "lat": -6.3015,
+            "lng": 106.64458685989554
           },
-          "distance": "5.9 km",
-          "estimatedTime": "14 min",
-          "mapUrl": "https://maps.app.goo.gl/pajovygorqzd8Mgc9"
+          "distance": "2,3 KM",
+          "estimatedTime": "7 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/jFJygX93ugJXavYS7-6.3035350452751535"
+        }
+      ]
+    },
+    "mandiri_pharma": {
+      "name": {
+        "en": "Mandiri Pharma",
+        "id": "Mandiri Pharma"
+      },
+      "logo": "/images/mandiri-pharma-logo.png",
+      "locations": [
+        {
+          "id": "pharmacy-mandiri_pharma_cisauk_bsd-7",
+          "name": {
+            "en": "Apotek Mandiri Pharma Cisauk BSD",
+            "id": "Apotek Mandiri Pharma Cisauk BSD"
+          },
+          "address": {
+            "en": "Ruko Campton, Jl. Raya Cisauk No.8 Blok A.6, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
+            "id": "Ruko Campton, Jl. Raya Cisauk No.8 Blok A.6, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3015,
+            "lng": 106.65080864233686
+          },
+          "distance": "5,3 KM",
+          "estimatedTime": "11 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/D8xnJk4UyCvcYW6EA-6.317382158192487"
         }
       ]
     }
