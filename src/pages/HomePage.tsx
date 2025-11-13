@@ -15,6 +15,8 @@ import {
   Restaurant,
   LocalGasStation,
   LocationOn,
+  CurrencyExchange,
+  Build,
 } from "@mui/icons-material";
 import Header from "../components/header";
 import { t, type Locale } from "../lib/i18n";
@@ -45,6 +47,16 @@ export default function HomePage() {
       id: "gasStation",
       icon: <LocalGasStation fontSize="large" />,
       name: t("gasStation", locale),
+    },
+    {
+      id: "moneyChanger",
+      icon: <CurrencyExchange fontSize="large" />,
+      name: t("moneyChanger", locale),
+    },
+    {
+      id: "autoRepair",
+      icon: <Build fontSize="large" />,
+      name: t("autoRepair", locale),
     },
   ];
 
