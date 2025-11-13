@@ -19,6 +19,7 @@ import {
 import Header from "../components/header";
 import { t, type Locale } from "../lib/i18n";
 import facilitiesData from "../data/index";
+import QRCodeWithLogo from "../../components/QRCodeWithLogo";
 
 export default function HomePage() {
   const { locale = "en" } = useParams<{ locale: Locale }>();

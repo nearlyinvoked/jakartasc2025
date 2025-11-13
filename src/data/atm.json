@@ -15,7 +15,7 @@
         {
           "id": "atm-atm_dbs-0",
           "name": {
-            "en": "ATM DBS",
+            "en": "DBS ATM",
             "id": "ATM DBS"
           },
           "address": {
@@ -23,12 +23,12 @@
             "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
+            "lat": -6.29884639341261,
+            "lng": 106.6366881404194
           },
-          "distance": "0.1 km",
-          "estimatedTime": "5 minutes",
-          "mapUrl": "https://goo.gl/maps/7FM1JhZ3e43PJv8N8OKE"
+          "distance": "0.1 KM",
+          "estimatedTime": "5 Menit",
+          "mapUrl": "https://maps.app.goo.gl/kAq96RH45QCD7kZa7"
         }
       ]
     },
@@ -40,9 +40,9 @@
       "logo": "/images/bca-logo.png",
       "locations": [
         {
-          "id": "atm-atm_bca-1",
+          "id": "atm-atm_bca-0",
           "name": {
-            "en": "ATM BCA",
+            "en": "BCA ATM",
             "id": "ATM BCA"
           },
           "address": {
@@ -50,624 +50,66 @@
             "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
+            "lat": -6.285656089811004,
+            "lng": 106.63444812319169
           },
-          "distance": "0,1 KM",
+          "distance": "0.1 KM",
           "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
+          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5"
         },
         {
-          "id": "atm-atm_bca-9",
+          "id": "atm-atm_bca-1",
           "name": {
-            "en": "ATM BCA",
+            "en": "BCA ATM",
             "id": "ATM BCA"
           },
           "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
+            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kabupaten Tangerang, Banten 15339",
+            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
+            "lat": -6.304762758513812,
+            "lng": 106.64329012208388
           },
           "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
+          "estimatedTime": "10 Menit",
+          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8"
         },
         {
-          "id": "atm-atm_bca_kcp_foresta-23",
+          "id": "atm-atm_bca-2",
           "name": {
-            "en": "ATM BCA KCP Foresta",
-            "id": "ATM BCA KCP Foresta"
+            "en": "BCA ATM",
+            "id": "ATM BCA"
+          },
+          "address": {
+            "en": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345",
+            "id": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.300277914841921,
+            "lng": 106.65125338520163
+          },
+          "distance": "3.6 KM",
+          "estimatedTime": "12 Menit",
+          "mapUrl": "https://maps.app.goo.gl/ok5oCYU6aSVASdSy5"
+        },
+        {
+          "id": "atm-atm_bca-3",
+          "name": {
+            "en": "BCA ATM",
+            "id": "ATM BCA"
           },
           "address": {
             "en": "Kavling Commercial Foresta Lot I-1, Lengkong Kulon, Pagedangan, Kab. Tangerang, Banten, Kabupaten Tangerang, DKI Jakarta 15331",
             "id": "Kavling Commercial Foresta Lot I-1, Lengkong Kulon, Pagedangan, Kab. Tangerang, Banten, Kabupaten Tangerang, DKI Jakarta 15331"
           },
           "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2,8 KM",
-          "estimatedTime": "7 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/YpxVY8P7bezzg3VV6OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bca-27",
-          "name": {
-            "en": "ATM BCA",
-            "id": "ATM BCA"
-          },
-          "address": {
-            "en": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345",
-            "id": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,6 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ok5oCYU6aSVASdSy5OKEATMATM"
-        }
-      ]
-    },
-    "bank_permata": {
-      "name": {
-        "en": "Permata",
-        "id": "Permata"
-      },
-      "logo": "/images/bank-permata-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_permata-2",
-          "name": {
-            "en": "ATM Bank Permata",
-            "id": "ATM Bank Permata"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_permata-8",
-          "name": {
-            "en": "ATM Bank Permata",
-            "id": "ATM Bank Permata"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "link": {
-      "name": {
-        "en": "ATM Link",
-        "id": "ATM Link"
-      },
-      "logo": "/images/link-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_link-3",
-          "name": {
-            "en": "ATM Link",
-            "id": "ATM Link"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        }
-      ]
-    },
-    "bsi": {
-      "name": {
-        "en": "BSI",
-        "id": "BSI"
-      },
-      "logo": "/images/bsi-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bsi-4",
-          "name": {
-            "en": "ATM BSI",
-            "id": "ATM BSI"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bsi-17",
-          "name": {
-            "en": "ATM BSI",
-            "id": "ATM BSI"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "bri": {
-      "name": {
-        "en": "BRI",
-        "id": "BRI"
-      },
-      "logo": "/images/bri-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bri-5",
-          "name": {
-            "en": "ATM BRI",
-            "id": "ATM BRI"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bri-12",
-          "name": {
-            "en": "ATM BRI",
-            "id": "ATM BRI"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bri-28",
-          "name": {
-            "en": "ATM BRI",
-            "id": "ATM BRI"
-          },
-          "address": {
-            "en": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,1 KM",
-          "estimatedTime": "8 Menit (Mobil))",
-          "mapUrl": "https://maps.app.goo.gl/8KbB2pdNcReQbMs88OKEATMATM"
-        }
-      ]
-    },
-    "bank_panin": {
-      "name": {
-        "en": "Panin",
-        "id": "Panin"
-      },
-      "logo": "/images/bank-panin-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_panin-6",
-          "name": {
-            "en": "ATM Bank Panin",
-            "id": "ATM Bank Panin"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_panin-18",
-          "name": {
-            "en": "ATM Bank Panin",
-            "id": "ATM Bank Panin"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "cimb_niaga": {
-      "name": {
-        "en": "CIMB Niaga",
-        "id": "CIMB Niaga"
-      },
-      "logo": "/images/cimb-niaga-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_cimb_niaga-7",
-          "name": {
-            "en": "ATM CIMB Niaga",
-            "id": "ATM CIMB Niaga"
-          },
-          "address": {
-            "en": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "ICE BSD, Jl. BSD Grand Boulevard No. 1, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "0,1 KM",
-          "estimatedTime": "5 Menit",
-          "mapUrl": "https://maps.app.goo.gl/a4jaCuNZwLpwqQiy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_cimb_niaga-10",
-          "name": {
-            "en": "ATM Bank CIMB Niaga",
-            "id": "ATM Bank CIMB Niaga"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_cimb_niaga-21",
-          "name": {
-            "en": "ATM Bank CIMB Niaga",
-            "id": "ATM Bank CIMB Niaga"
-          },
-          "address": {
-            "en": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
-            "id": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,8 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ZdNuQYuqwuV969xu8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_cimb_niaga-24",
-          "name": {
-            "en": "ATM Bank CIMB Niaga",
-            "id": "ATM Bank CIMB Niaga"
-          },
-          "address": {
-            "en": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345",
-            "id": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,6 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ok5oCYU6aSVASdSy5OKEATMATM"
-        }
-      ]
-    },
-    "bank_danamon": {
-      "name": {
-        "en": "Danamon",
-        "id": "Danamon"
-      },
-      "logo": "/images/bank-danamon-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_danamon-11",
-          "name": {
-            "en": "ATM Bank Danamon",
-            "id": "ATM Bank Danamon"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "bank_sinarmas": {
-      "name": {
-        "en": "Sinarmas",
-        "id": "Sinarmas"
-      },
-      "logo": "/images/bank-sinarmas-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_sinarmas-13",
-          "name": {
-            "en": "ATM Bank Sinarmas",
-            "id": "ATM Bank Sinarmas"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_sinarmas-25",
-          "name": {
-            "en": "ATM Bank Sinarmas",
-            "id": "ATM Bank Sinarmas"
-          },
-          "address": {
-            "en": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345",
-            "id": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,6 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ok5oCYU6aSVASdSy5OKEATMATM"
-        }
-      ]
-    },
-    "bank_mega": {
-      "name": {
-        "en": "Mega",
-        "id": "Mega"
-      },
-      "logo": "/images/bank-mega-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_mega-14",
-          "name": {
-            "en": "ATM Bank Mega",
-            "id": "ATM Bank Mega"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "ocbc": {
-      "name": {
-        "en": "OCBC NISP",
-        "id": "OCBC NISP"
-      },
-      "logo": "/images/ocbc-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_ocbc-15",
-          "name": {
-            "en": "ATM OCBC",
-            "id": "ATM OCBC"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        }
-      ]
-    },
-    "bni": {
-      "name": {
-        "en": "BNI",
-        "id": "BNI"
-      },
-      "logo": "/images/bni-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bni-16",
-          "name": {
-            "en": "ATM BNI",
-            "id": "ATM BNI"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bni-22",
-          "name": {
-            "en": "ATM BNI",
-            "id": "ATM BNI"
-          },
-          "address": {
-            "en": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
-            "id": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,8 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ZdNuQYuqwuV969xu8OKEATMATM"
-        }
-      ]
-    },
-    "bank_mandiri": {
-      "name": {
-        "en": "Mandiri",
-        "id": "Mandiri"
-      },
-      "logo": "/images/bank-mandiri-logo.png",
-      "locations": [
-        {
-          "id": "atm-atm_bank_mandiri-19",
-          "name": {
-            "en": "ATM Bank Mandiri",
-            "id": "ATM Bank Mandiri"
-          },
-          "address": {
-            "en": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "AEON MALL BSD City, Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/CYXykjFqG73XDpDj8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_mandiri-20",
-          "name": {
-            "en": "ATM Bank Mandiri",
-            "id": "ATM Bank Mandiri"
-          },
-          "address": {
-            "en": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
-            "id": "The Breeze, Jl. BSD Green Office Park, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,8 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ZdNuQYuqwuV969xu8OKEATMATM"
-        },
-        {
-          "id": "atm-atm_bank_mandiri-26",
-          "name": {
-            "en": "ATM Bank Mandiri",
-            "id": "ATM Bank Mandiri"
-          },
-          "address": {
-            "en": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345",
-            "id": "BSD Green Office Park BSD Barat, Jalan Boulevard Raya No.Kav 3, Sampora, Cisauk, Tangerang Regency, Banten 15345"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,6 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ok5oCYU6aSVASdSy5OKEATMATM"
-        },
-        {
-          "id": "atm-atm_mandiri-29",
-          "name": {
-            "en": "ATM Mandiri",
-            "id": "ATM Mandiri"
-          },
-          "address": {
-            "en": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Indomaret Pagedangan Raya, Jl. Raya Pagedangan No.8, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.0,
-            "lng": 106.0
-          },
-          "distance": "3,1 KM",
-          "estimatedTime": "8 Menit (Mobil))",
-          "mapUrl": "https://maps.app.goo.gl/8KbB2pdNcReQbMs88OKE"
+            "lat": -6.286991454358413,
+            "lng": 106.63929825395
+          },
+          "distance": "2.8 KM",
+          "estimatedTime": "7 Menit",
+          "mapUrl": "https://maps.app.goo.gl/YpxVY8P7bezzg3VV6"
         }
       ]
     }
