@@ -81,7 +81,7 @@ export default function LanguageSwitcher() {
         sx={{ minWidth: "auto", p: 1, textTransform: "none" }}
       >
         {languageNames[currentLocale]?.flag}{" "}
-        {languageNames[currentLocale]?.name.split(" ")[0] || "EN"}
+        {languageNames[currentLocale]?.name.split(" ")[0] || "English"}
       </Button>
       <Menu
         anchorEl={anchorEl}
