@@ -42,11 +42,35 @@ export default function LanguageSwitcher() {
     handleClose();
   };
 
-  const currentLocale = location.pathname.includes("/en")
-    ? "EN"
-    : location.pathname.includes("/id")
-    ? "ID"
-    : "EN";
+  // Get current locale from path
+  const getCurrentLocale = (): Locale => {
+    const segments = location.pathname.split("/");
+    const localeSegment = segments.find((segment) =>
+      locales.includes(segment as Locale)
+    );
+    return (localeSegment as Locale) || "en";
+  };
+
+  const currentLocale = getCurrentLocale();
+
+  // Language display names and flags
+  const languageNames: Record<Locale, { name: string; flag: string }> = {
+    en: { name: "English", flag: "🇬🇧" },
+    id: { name: "Bahasa Indonesia", flag: "🇮🇩" },
+    ja: { name: "日本語", flag: "🇯🇵" },
+    ms: { name: "Bahasa Malaysia", flag: "🇲🇾" },
+    my: { name: "မြန်မာဘာသာ", flag: "🇲🇲" },
+    nl: { name: "Nederlands", flag: "🇳🇱" },
+    fil: { name: "Filipino", flag: "🇵🇭" },
+    "zh-tw": { name: "繁體中文", flag: "🇹🇼" },
+    th: { name: "ไทย", flag: "🇹🇭" },
+    us: { name: "English (US)", flag: "🇺🇸" },
+    "pt-br": { name: "Português (Brasil)", flag: "🇧🇷" },
+    "es-co": { name: "Español (Colombia)", flag: "🇨🇴" },
+    hi: { name: "हिन्दी", flag: "🇮🇳" },
+    it: { name: "Italiano", flag: "🇮🇹" },
+    si: { name: "සිංහල", flag: "🇱🇰" },
+  };
 
   return (
     <>
@@ -54,15 +78,40 @@ export default function LanguageSwitcher() {
         color="inherit"
         onClick={handleClick}
         startIcon={<Language />}
-        sx={{ minWidth: "auto", p: 1 }}
+        sx={{ minWidth: "auto", p: 1, textTransform: "none" }}
       >
-        {currentLocale}
+        {languageNames[currentLocale]?.flag}{" "}
+        {languageNames[currentLocale]?.name.split(" ")[0] || "EN"}
       </Button>
-      <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
-        <MenuItem onClick={() => changeLanguage("en")}>English</MenuItem>
-        <MenuItem onClick={() => changeLanguage("id")}>
-          Bahasa Indonesia
-        </MenuItem>
+      <Menu
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        PaperProps={{
+          style: {
+            maxHeight: 400,
+            width: "280px",
+          },
+        }}
+      >
+        {locales.map((locale) => (
+          <MenuItem
+            key={locale}
+            onClick={() => changeLanguage(locale)}
+            selected={currentLocale === locale}
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              gap: 1,
+              py: 1.5,
+            }}
+          >
+            <span style={{ fontSize: "1.2em" }}>
+              {languageNames[locale]?.flag}
+            </span>
+            {languageNames[locale]?.name}
+          </MenuItem>
+        ))}
       </Menu>
     </>
   );

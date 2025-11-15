@@ -51,11 +51,23 @@ export default function ProviderPage() {
     );
   }
 
+  // Helper function to get localized text with fallback
+  const getLocalizedText = (textObj: any, fallback: string = "") => {
+    if (!textObj || typeof textObj !== "object") return fallback;
+    return (
+      textObj[locale] ||
+      textObj["en"] ||
+      textObj["id"] ||
+      Object.values(textObj)[0] ||
+      fallback
+    );
+  };
+
   return (
     <>
       <Header
         showBack
-        title={providerData.name[locale as keyof typeof providerData.name]}
+        title={getLocalizedText(providerData.name, "Provider")}
       />
       <Container maxWidth="sm" sx={{ py: 3 }}>
         <Typography variant="h5" component="h1" gutterBottom>
@@ -67,14 +79,14 @@ export default function ProviderPage() {
             <Card key={location.id} sx={{ mb: 2 }}>
               <CardContent>
                 <Typography variant="h6" component="h2">
-                  {location.name[locale as keyof typeof location.name]}
+                  {getLocalizedText(location.name, "Location")}
                 </Typography>
                 <Typography
                   variant="body2"
                   color="text.secondary"
                   sx={{ mb: 2 }}
                 >
-                  {location.address[locale as keyof typeof location.address]}
+                  {getLocalizedText(location.address, "Address not available")}
                 </Typography>
 
                 <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
@@ -108,9 +120,10 @@ export default function ProviderPage() {
                     allowFullScreen
                     referrerPolicy="no-referrer-when-downgrade"
                     src={`https://maps.google.com/maps?q=${location.coordinates.lat},${location.coordinates.lng}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
-                    title={`Map of ${
-                      location.name[locale as keyof typeof location.name]
-                    }`}
+                    title={`Map of ${getLocalizedText(
+                      location.name,
+                      "Location"
+                    )}`}
                   />
                 </Box>
 

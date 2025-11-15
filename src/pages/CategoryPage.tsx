@@ -36,6 +36,18 @@ export default function CategoryPage() {
 
   const providers = Object.entries(categoryData.providers);
 
+  // Helper function to get localized text with fallback
+  const getLocalizedText = (textObj: any, fallback: string = "") => {
+    if (!textObj || typeof textObj !== "object") return fallback;
+    return (
+      textObj[locale] ||
+      textObj["en"] ||
+      textObj["id"] ||
+      Object.values(textObj)[0] ||
+      fallback
+    );
+  };
+
   const handleProviderClick = (providerId: string) => {
     navigate(`/${locale}/${category}/${providerId}`);
   };
@@ -44,10 +56,7 @@ export default function CategoryPage() {
     <>
       <Header
         showBack
-        title={
-          categoryData.name[locale as keyof typeof categoryData.name] ||
-          t("providers", locale)
-        }
+        title={getLocalizedText(categoryData.name, t("providers", locale))}
       />
       <Container maxWidth="sm" sx={{ py: 3 }}>
         <Typography variant="h5" component="h1" gutterBottom>
@@ -63,7 +72,7 @@ export default function CategoryPage() {
               >
                 <ListItemAvatar>
                   <Avatar
-                    alt={provider.name[locale as keyof typeof provider.name]}
+                    alt={getLocalizedText(provider.name, "Provider")}
                     src={
                       provider.logo ||
                       "/placeholder.svg?height=40&width=40&query=logo"
@@ -71,7 +80,7 @@ export default function CategoryPage() {
                   />
                 </ListItemAvatar>
                 <ListItemText
-                  primary={provider.name[locale as keyof typeof provider.name]}
+                  primary={getLocalizedText(provider.name, "Provider")}
                   secondary={`${provider.locations.length} ${
                     t("locations", locale) || "locations"
                   }`}
