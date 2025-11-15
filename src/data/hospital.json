@@ -3,59 +3,275 @@
     "en": "Hospital",
     "id": "Rumah Sakit"
   },
-  "icon": "local_hospital",
+  "icon": "hospital",
   "providers": {
-    "siloam": {
+    "eka_hospital": {
       "name": {
-        "en": "Siloam Hospital",
-        "id": "Rumah Sakit Siloam"
+        "en": "Hospital",
+        "id": "Rumah Sakit"
       },
-      "logo": "/images/siloam-logo.png",
+      "logo": "",
       "locations": [
         {
-          "id": "siloam-1",
+          "id": "hospital-hospital_eka_hospital-0",
           "name": {
-            "en": "Siloam Hospital Lippo Village",
-            "id": "Rumah Sakit Siloam Lippo Village"
+            "en": "Hospital",
+            "id": "Rumah Sakit"
           },
           "address": {
-            "en": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang",
-            "id": "Jl. Boulevard Jenderal Sudirman, Lippo Village, Tangerang"
+            "en": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321",
+            "id": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
-            "lat": -6.2962,
-            "lng": 106.6319
+            "lat": -6.2989687679663895,
+            "lng": 106.66991599999297
           },
-          "distance": "3.2 km",
-          "estimatedTime": "8 min",
-          "mapUrl": "https://maps.google.com/?q=-6.2962,106.6319"
+          "distance": "4.8 KM",
+          "estimatedTime": "13 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/E1QrRFMs8jfjG2Ft9"
         }
       ]
     },
-    "omni": {
+    "rs_columbia_asia_bsd": {
       "name": {
-        "en": "Omni Hospital",
-        "id": "Rumah Sakit Omni"
+        "en": "Hospital",
+        "id": "Rumah Sakit"
       },
-      "logo": "/images/omni-logo.png",
+      "logo": "",
       "locations": [
         {
-          "id": "omni-1",
+          "id": "hospital-hospital_rs_columbia_asia_bsd-0",
           "name": {
-            "en": "Omni Hospital Alam Sutera",
-            "id": "Rumah Sakit Omni Alam Sutera"
+            "en": "Hospital",
+            "id": "Rumah Sakit"
           },
           "address": {
-            "en": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang",
-            "id": "Jl. Jalur Sutera Barat Kav. 15, Alam Sutera, Tangerang"
+            "en": "BSD Serpong, Jl. Letnan Sutopo No. 7 Kavling Komplek 3A, Lengkong Wetan, Serpong, Tangerang Selatan, Banten 15321",
+            "id": "BSD Serpong, Jl. Letnan Sutopo No. 7 Kavling Komplek 3A, Lengkong Wetan, Serpong, Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
-            "lat": -6.2275,
-            "lng": 106.6597
+            "lat": -6.284281132184802,
+            "lng": 106.66761587116733
           },
-          "distance": "8.5 km",
-          "estimatedTime": "18 min",
-          "mapUrl": "https://maps.google.com/?q=-6.2275,106.6597"
+          "distance": "8.3 KM",
+          "estimatedTime": "17 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/ai3A5Wa78FaCKyUa8"
+        }
+      ]
+    },
+    "rs_khusus_tht_bedah_kl_proklamasi_bsd": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_rs_khusus_tht_bedah_kl_proklamasi_bsd-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Central Business District BSD, Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321",
+            "id": "Central Business District BSD, Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321"
+          },
+          "coordinates": {
+            "lat": -6.202081766985129,
+            "lng": 106.84708760000564
+          },
+          "distance": "5.3 KM",
+          "estimatedTime": "15 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/GgjqqWFfoSN9ziBE7"
+        }
+      ]
+    },
+    "rs_ris_hospital_bsd": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_rs_ris_hospital_bsd-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Jl. Lengkong Gudang Timur Raya No. 777, Lengkong Gudang Timur, Serpong, Tangerang Selatan, Banten 15321",
+            "id": "Jl. Lengkong Gudang Timur Raya No. 777, Lengkong Gudang Timur, Serpong, Tangerang Selatan, Banten 15321"
+          },
+          "coordinates": {
+            "lat": -6.294483332078811,
+            "lng": 106.68430689999316
+          },
+          "distance": "6.7 KM",
+          "estimatedTime": "20 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/EdPFiMduNeV8C8bN8"
+        }
+      ]
+    },
+    "bethsaida_hospital": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_bethsaida_hospital-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kelapa Dua, Tangerang, Banten 15810",
+            "id": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kelapa Dua, Tangerang, Banten 15810"
+          },
+          "coordinates": {
+            "lat": -6.254879267517024,
+            "lng": 106.62234400000698
+          },
+          "distance": "9.5 KM",
+          "estimatedTime": "18 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/qeEdF68dYFHeHqkF6"
+        }
+      ]
+    },
+    "klinik_pratama_atma_jaya_bsd": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_klinik_pratama_atma_jaya_bsd-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Cisauk, Tangerang, Banten 15345",
+            "id": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Cisauk, Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.317920431839579,
+            "lng": 106.65035892883674
+          },
+          "distance": "6.5 KM",
+          "estimatedTime": "15 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/fRqgFXYcc89jMRo19"
+        }
+      ]
+    },
+    "sehat_plus_medical_klinik_bsd": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_sehat_plus_medical_klinik_bsd-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No. 39, Lengkong Wetan, Serpong, Tangerang Selatan",
+            "id": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No. 39, Lengkong Wetan, Serpong, Tangerang Selatan"
+          },
+          "coordinates": {
+            "lat": -6.281576396634049,
+            "lng": 106.66284892883448
+          },
+          "distance": "6.7 KM",
+          "estimatedTime": "14 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/rLMT2C24V7Ud3bnZ8"
+        }
+      ]
+    },
+    "klinik_bela_medika": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_klinik_bela_medika-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Kp. Pugur, Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331",
+            "id": "Kp. Pugur, Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331"
+          },
+          "coordinates": {
+            "lat": -6.282253896608637,
+            "lng": 106.63443887115334
+          },
+          "distance": "3.4 KM",
+          "estimatedTime": "7 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/uESiCnYfxVYimRHA7"
+        }
+      ]
+    },
+    "klinik_amira_bsd": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_klinik_amira_bsd-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Jl. Ciater Raya No.7A Blok A1, Rw. Buntu, Serpong, Tangerang Selatan, Banten 15310",
+            "id": "Jl. Ciater Raya No.7A Blok A1, Rw. Buntu, Serpong, Tangerang Selatan, Banten 15310"
+          },
+          "coordinates": {
+            "lat": -6.309241131929486,
+            "lng": 106.67971480001223
+          },
+          "distance": "6.8 KM",
+          "estimatedTime": "17 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/y5wveFAeKDtsKdCr7"
+        }
+      ]
+    },
+    "puskesmas_cisauk": {
+      "name": {
+        "en": "Hospital",
+        "id": "Rumah Sakit"
+      },
+      "logo": "",
+      "locations": [
+        {
+          "id": "hospital-hospital_puskesmas_cisauk-0",
+          "name": {
+            "en": "Hospital",
+            "id": "Rumah Sakit"
+          },
+          "address": {
+            "en": "Jl. Raya Cisauk Lapan, Sampora, Cisauk, Tangerang, Banten 15345",
+            "id": "Jl. Raya Cisauk Lapan, Sampora, Cisauk, Tangerang, Banten 15345"
+          },
+          "coordinates": {
+            "lat": -6.3235875411041915,
+            "lng": 106.64181331534145
+          },
+          "distance": "4.6 KM",
+          "estimatedTime": "10 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/jNNoPfzL5GeTBYK28?g_st=iw"
         }
       ]
     }
