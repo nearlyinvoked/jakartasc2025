@@ -5,22 +5,16 @@
   },
   "icon": "hospital",
   "providers": {
-    "eka_hospital": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+    "eka-hospital": {
+      "name": { "en": "Eka Hospital", "id": "Eka Hospital" },
+      "logo": "/images/eka-hospital-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_eka_hospital-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-eka-hospital-0",
+          "name": { "en": "Eka Hospital", "id": "Eka Hospital" },
           "address": {
             "en": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321",
-            "id": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321"
+            "id": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, Lengkong Gudang, Serpong, Kota Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
             "lat": -6.2989687679663895,
@@ -32,22 +26,20 @@
         }
       ]
     },
-    "rs_columbia_asia_bsd": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "rs-columbia-asia-bsd": {
+      "name": { "en": "RS Columbia Asia BSD", "id": "RS Columbia Asia BSD" },
+      "logo": "/images/columbia-asia-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_rs_columbia_asia_bsd-0",
+          "id": "hospital-rs-columbia-asia-bsd-0",
           "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
+            "en": "RS Columbia Asia BSD",
+            "id": "RS Columbia Asia BSD"
           },
           "address": {
             "en": "BSD Serpong, Jl. Letnan Sutopo No. 7 Kavling Komplek 3A, Lengkong Wetan, Serpong, Tangerang Selatan, Banten 15321",
-            "id": "BSD Serpong, Jl. Letnan Sutopo No. 7 Kavling Komplek 3A, Lengkong Wetan, Serpong, Tangerang Selatan, Banten 15321"
+            "id": "BSD Serpong, Jl. Letnan Sutopo No. 7 Kavling Komplek 3A, Lengkong Wetan, Kec. Serpong, Kota Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
             "lat": -6.284281132184802,
@@ -59,22 +51,23 @@
         }
       ]
     },
-    "rs_khusus_tht_bedah_kl_proklamasi_bsd": {
+
+    "rs-tht-bedah-kl-proklamasi-bsd": {
       "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
+        "en": "RS Khusus THT Bedah - KL Proklamasi BSD",
+        "id": "RS Khusus THT Bedah - KL Proklamasi BSD"
       },
-      "logo": "",
+      "logo": "/images/kl-proklamasi-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_rs_khusus_tht_bedah_kl_proklamasi_bsd-0",
+          "id": "hospital-rs-tht-bedah-kl-proklamasi-bsd-0",
           "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
+            "en": "RS Khusus THT Bedah - KL Proklamasi BSD",
+            "id": "RS Khusus THT Bedah - KL Proklamasi BSD"
           },
           "address": {
-            "en": "Central Business District BSD, Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321",
-            "id": "Central Business District BSD, Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321"
+            "en": "Central Business District BSD, Jalan Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321",
+            "id": "Central Business District BSD, Jalan Commercial Park, Jl. Pahlawan Seribu No. 7, Lengkong Gudang, Kota Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
             "lat": -6.202081766985129,
@@ -86,22 +79,17 @@
         }
       ]
     },
-    "rs_ris_hospital_bsd": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "rs-ris-hospital-bsd": {
+      "name": { "en": "RS RIS Hospital BSD", "id": "RS RIS Hospital BSD" },
+      "logo": "/images/ris-hospital-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_rs_ris_hospital_bsd-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-ris-hospital-bsd-0",
+          "name": { "en": "RS RIS Hospital BSD", "id": "RS RIS Hospital BSD" },
           "address": {
             "en": "Jl. Lengkong Gudang Timur Raya No. 777, Lengkong Gudang Timur, Serpong, Tangerang Selatan, Banten 15321",
-            "id": "Jl. Lengkong Gudang Timur Raya No. 777, Lengkong Gudang Timur, Serpong, Tangerang Selatan, Banten 15321"
+            "id": "Jl. Lengkong Gudan Timur Raya No. 777, Lengkong Gudang Tim, Kota Tangerang Selatan, Banten 15321"
           },
           "coordinates": {
             "lat": -6.294483332078811,
@@ -113,22 +101,17 @@
         }
       ]
     },
-    "bethsaida_hospital": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "bethsaida-hospital": {
+      "name": { "en": "Bethsaida Hospital", "id": "Bethsaida Hospital" },
+      "logo": "/images/bethsaida-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_bethsaida_hospital-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-bethsaida-0",
+          "name": { "en": "Bethsaida Hospital", "id": "Bethsaida Hospital" },
           "address": {
-            "en": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kelapa Dua, Tangerang, Banten 15810",
-            "id": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kelapa Dua, Tangerang, Banten 15810"
+            "en": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+            "id": "Jalan Boulevard Raya Gading Serpong Kav. 29, Curug Sangereng, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810"
           },
           "coordinates": {
             "lat": -6.254879267517024,
@@ -140,22 +123,23 @@
         }
       ]
     },
-    "klinik_pratama_atma_jaya_bsd": {
+
+    "klinik-pratama-atma-jaya-bsd": {
       "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
+        "en": "Klinik Pratama Atma Jaya BSD",
+        "id": "Klinik Pratama Atma Jaya BSD"
       },
-      "logo": "",
+      "logo": "/images/atma-jaya-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_klinik_pratama_atma_jaya_bsd-0",
+          "id": "hospital-atma-jaya-0",
           "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
+            "en": "Klinik Pratama Atma Jaya BSD",
+            "id": "Klinik Pratama Atma Jaya BSD"
           },
           "address": {
-            "en": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Cisauk, Tangerang, Banten 15345",
-            "id": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Cisauk, Tangerang, Banten 15345"
+            "en": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345",
+            "id": "Jl. Raya Cisauk Lapan No. A2/10, Sampora, Kec. Cisauk, Kab Tangerang, Banten 15345"
           },
           "coordinates": {
             "lat": -6.317920431839579,
@@ -167,22 +151,23 @@
         }
       ]
     },
-    "sehat_plus_medical_klinik_bsd": {
+
+    "sehat-plus-medical-bsd": {
       "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
+        "en": "Sehat Plus Medical Clinic BSD",
+        "id": "Klinik Sehat Plus Medical BSD"
       },
-      "logo": "",
+      "logo": "/images/sehat-plus-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_sehat_plus_medical_klinik_bsd-0",
+          "id": "hospital-sehat-plus-0",
           "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
+            "en": "Sehat Plus Medical Clinic BSD",
+            "id": "Klinik Sehat Plus Medical BSD"
           },
           "address": {
             "en": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No. 39, Lengkong Wetan, Serpong, Tangerang Selatan",
-            "id": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No. 39, Lengkong Wetan, Serpong, Tangerang Selatan"
+            "id": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No. 39, Lengkong Wetan, Kota Tangerang Selatan"
           },
           "coordinates": {
             "lat": -6.281576396634049,
@@ -194,22 +179,17 @@
         }
       ]
     },
-    "klinik_bela_medika": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "klinik-bela-medika": {
+      "name": { "en": "Klinik Bela Medika", "id": "Klinik Bela Medika" },
+      "logo": "/images/bela-medika-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_klinik_bela_medika-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-bela-medika-0",
+          "name": { "en": "Klinik Bela Medika", "id": "Klinik Bela Medika" },
           "address": {
-            "en": "Kp. Pugur, Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331",
-            "id": "Kp. Pugur, Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331"
+            "en": "Kp. Pugur, Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Pagedangan, Kabupaten Tangerang, Banten 15331",
+            "id": "Kp. Pugur Jl. Pagedangan-Lengkong, RT.05/RW.02, Lengkong Kulon, Kabupaten Tangerang, Banten 15331"
           },
           "coordinates": {
             "lat": -6.282253896608637,
@@ -221,22 +201,17 @@
         }
       ]
     },
-    "klinik_amira_bsd": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "klinik-amira-bsd": {
+      "name": { "en": "Klinik Amira BSD", "id": "Klinik Amira BSD" },
+      "logo": "/images/amira-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_klinik_amira_bsd-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-klinik-amira-bsd-0",
+          "name": { "en": "Klinik Amira BSD", "id": "Klinik Amira BSD" },
           "address": {
             "en": "Jl. Ciater Raya No.7A Blok A1, Rw. Buntu, Serpong, Tangerang Selatan, Banten 15310",
-            "id": "Jl. Ciater Raya No.7A Blok A1, Rw. Buntu, Serpong, Tangerang Selatan, Banten 15310"
+            "id": "Jl. Ciater Raya No.7A Blok A1, Rw. Buntu, Kota Tangerang Selatan, Banten 15310"
           },
           "coordinates": {
             "lat": -6.309241131929486,
@@ -248,22 +223,17 @@
         }
       ]
     },
-    "puskesmas_cisauk": {
-      "name": {
-        "en": "Hospital",
-        "id": "Rumah Sakit"
-      },
-      "logo": "",
+
+    "puskesmas-cisauk": {
+      "name": { "en": "Puskesmas Cisauk", "id": "Puskesmas Cisauk" },
+      "logo": "/images/puskesmas-logo.png",
       "locations": [
         {
-          "id": "hospital-hospital_puskesmas_cisauk-0",
-          "name": {
-            "en": "Hospital",
-            "id": "Rumah Sakit"
-          },
+          "id": "hospital-puskesmas-cisauk-0",
+          "name": { "en": "Puskesmas Cisauk", "id": "Puskesmas Cisauk" },
           "address": {
-            "en": "Jl. Raya Cisauk Lapan, Sampora, Cisauk, Tangerang, Banten 15345",
-            "id": "Jl. Raya Cisauk Lapan, Sampora, Cisauk, Tangerang, Banten 15345"
+            "en": "Jl. Raya Cisauk Lapan, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345",
+            "id": "Jl. Raya Cisauk Lapan, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345"
           },
           "coordinates": {
             "lat": -6.3235875411041915,
@@ -271,7 +241,7 @@
           },
           "distance": "4.6 KM",
           "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/jNNoPfzL5GeTBYK28?g_st=iw"
+          "mapUrl": "https://maps.app.goo.gl/jNNoPfzL5GeTBYK28"
         }
       ]
     }

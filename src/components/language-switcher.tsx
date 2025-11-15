@@ -55,7 +55,7 @@ export default function LanguageSwitcher() {
 
   // Language display names and flags
   const languageNames: Record<Locale, { name: string; flag: string }> = {
-    en: { name: "English", flag: "🇬🇧" },
+    en: { name: "English", flag: "en" },
     id: { name: "Bahasa Indonesia", flag: "🇮🇩" },
     ja: { name: "日本語", flag: "🇯🇵" },
     ms: { name: "Bahasa Malaysia", flag: "🇲🇾" },

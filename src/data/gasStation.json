@@ -1,25 +1,25 @@
 {
   "name": {
-    "en": "Gas/EV Charging Station",
-    "id": "SPBU/EV Charging Station"
+    "en": "Gas & EV Charging Stations",
+    "id": "SPBU & Stasiun Pengisian Listrik"
   },
-  "icon": "gas_station",
+  "icon": "gas-station",
   "providers": {
-    "evcuzz_charging_station": {
+    "evcuzz-charging-station": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "EVCuzz Charging Station",
+        "id": "EVCuzz Charging Station"
       },
-      "logo": "",
+      "logo": "/images/default-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_evcuzz_charging_station-0",
+          "id": "gas-evcuzz-charging-station-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "EVCuzz Charging Station",
+            "id": "EVCuzz Charging Station"
           },
           "address": {
-            "en": "Jl. BSD Boulevard Utara No.18-23, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
+            "en": "Jl. BSD Boulevard Utara No.18-23, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331",
             "id": "Jl. BSD Boulevard Utara No.18-23, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331"
           },
           "coordinates": {
@@ -32,22 +32,23 @@
         }
       ]
     },
-    "spklu_charging_station": {
+
+    "spklu-charging-station": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "SPKLU Charging Station",
+        "id": "SPKLU Charging Station"
       },
-      "logo": "",
+      "logo": "/images/default-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_spklu_charging_station-0",
+          "id": "gas-spklu-charging-station-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "SPKLU Charging Station",
+            "id": "SPKLU Charging Station"
           },
           "address": {
             "en": "MJVV+HXV, Pagedangan, Tangerang Regency, Banten 15339",
-            "id": "MJVV+HXV, Pagedangan, Tangerang Regency, Banten 15339"
+            "id": "MJVV+HXV, Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
             "lat": -6.303993248692348,
@@ -59,21 +60,22 @@
         }
       ]
     },
-    "pertamina_34_15_323_gas_station": {
+
+    "pertamina-3415323": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "Pertamina 34.15.323 Gas Station",
+        "id": "Pertamina 34.15.323"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_pertamina_34_15_323_gas_station-0",
+          "id": "gas-pertamina-3415323-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "Pertamina 34.15.323 Gas Station",
+            "id": "Pertamina 34.15.323"
           },
           "address": {
-            "en": "Jl. Raya Pagedangan No.80-88, Cicalengka, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
+            "en": "Jl. Raya Pagedangan No.80-88, Cicalengka, Pagedangan, Tangerang, Banten 15336",
             "id": "Jl. Raya Pagedangan No.80-88, Cicalengka, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
           },
           "coordinates": {
@@ -86,22 +88,17 @@
         }
       ]
     },
-    "shell_bsd_4": {
-      "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
-      },
-      "logo": "",
+
+    "shell-bsd-4": {
+      "name": { "en": "Shell BSD-4", "id": "Shell BSD-4" },
+      "logo": "/images/shell-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_shell_bsd_4-0",
-          "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
-          },
+          "id": "gas-shell-bsd-4-0",
+          "name": { "en": "Shell BSD-4", "id": "Shell BSD-4" },
           "address": {
-            "en": "Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Jl. BSD Raya Utama, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
+            "en": "Jl. BSD Raya Utama, Pagedangan, Tangerang, Banten 15339",
+            "id": "Jl. BSD Raya Utama, Pagedangan, Kabupaten Tangerang, Banten 15339"
           },
           "coordinates": {
             "lat": -6.290875920155744,
@@ -113,22 +110,23 @@
         }
       ]
     },
-    "spbu_bp_asterra_west_bsd_city": {
+
+    "bp-asterra-west-bsd": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "SPBU bp Asterra West - BSD City",
+        "id": "SPBU bp Asterra West - BSD City"
       },
-      "logo": "",
+      "logo": "/images/bp-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_spbu_bp_asterra_west_bsd_city-0",
+          "id": "gas-bp-asterra-west-bsd-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "SPBU bp Asterra West - BSD City",
+            "id": "SPBU bp Asterra West - BSD City"
           },
           "address": {
-            "en": "Jl. Raya pagedangan Kp. Cicayur II Blok Batu No.16, RT.1/RW.4, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
-            "id": "Jl. Raya pagedangan Kp. Cicayur II Blok Batu No.16, RT.1/RW.4, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
+            "en": "Jl. Raya Pagedangan Kp. Cicayur II Blok Batu No.16, Cijantra, Pagedangan, Tangerang, Banten 15336",
+            "id": "Jl. Raya Pagedangan Kp. Cicayur II Blok Batu No.16, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
           },
           "coordinates": {
             "lat": -6.288515934784374,
@@ -140,21 +138,22 @@
         }
       ]
     },
-    "pertamina_34_158_01_gas_station": {
+
+    "pertamina-3415801": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "Pertamina 34.158.01 Gas Station",
+        "id": "Pertamina 34.158.01"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_pertamina_34_158_01_gas_station-0",
+          "id": "gas-pertamina-3415801-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "Pertamina 34.158.01 Gas Station",
+            "id": "Pertamina 34.158.01"
           },
           "address": {
-            "en": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820",
+            "en": "Jl. Raya Pagedangan No.5000, Babakan, Legok, Tangerang, Banten 15820",
             "id": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820"
           },
           "coordinates": {
@@ -167,21 +166,22 @@
         }
       ]
     },
-    "spbu_34_15321_kadusirung": {
+
+    "spbu-3415321-kadusirung-1": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "SPBU 34-15321 Kadusirung",
+        "id": "SPBU 34-15321 Kadusirung"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_spbu_34_15321_kadusirung-0",
+          "id": "gas-spbu-3415321-kadusirung-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "SPBU 34-15321 Kadusirung",
+            "id": "SPBU 34-15321 Kadusirung"
           },
           "address": {
-            "en": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
+            "en": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Pagedangan, Tangerang, Banten 15336",
             "id": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
           },
           "coordinates": {
@@ -190,43 +190,26 @@
           },
           "distance": "6.4 KM",
           "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/tTkz5bxefJHfjNZC7"
-        },
-        {
-          "id": "gas-ev_gas_ev_spbu_34_15321_kadusirung-1",
-          "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
-          },
-          "address": {
-            "en": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
-            "id": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
-          },
-          "coordinates": {
-            "lat": -6.326446035667505,
-            "lng": 106.60366794319984
-          },
-          "distance": "6.4 KM",
-          "estimatedTime": "9 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/b7jtxK3JYYDi3F7n7"
+          "mapUrl": "https://maps.app.goo.gl/tTkz5bxefHfjNZC7"
         }
       ]
     },
-    "pertamina_34_158_10_gas_station": {
+
+    "pertamina-3415810": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "Pertamina 34.158.10 Gas Station",
+        "id": "Pertamina 34.158.10"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_pertamina_34_158_10_gas_station-0",
+          "id": "gas-pertamina-3415810-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "Pertamina 34.158.10 Gas Station",
+            "id": "Pertamina 34.158.10"
           },
           "address": {
-            "en": "Jl. Raya Jatake No.77, Caringin, Kec. Legok, Kabupaten Tangerang, Banten 15330",
+            "en": "Jl. Raya Jatake No.77, Caringin, Legok, Tangerang, Banten 15330",
             "id": "Jl. Raya Jatake No.77, Caringin, Kec. Legok, Kabupaten Tangerang, Banten 15330"
           },
           "coordinates": {
@@ -239,21 +222,22 @@
         }
       ]
     },
-    "mobil_indostation_pagedangan": {
+
+    "mobil-indostation-pagedangan": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "Mobil Indostation Pagedangan",
+        "id": "Mobil Indostation Pagedangan"
       },
-      "logo": "",
+      "logo": "/images/mobil-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_mobil_indostation_pagedangan-0",
+          "id": "gas-mobil-indostation-pagedangan-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "Mobil Indostation Pagedangan",
+            "id": "Mobil Indostation Pagedangan"
           },
           "address": {
-            "en": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820",
+            "en": "Jl. Raya Pagedangan No.5000, Babakan, Legok, Tangerang, Banten 15820",
             "id": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820"
           },
           "coordinates": {
@@ -266,22 +250,51 @@
         }
       ]
     },
-    "voltron_charging_station": {
+
+    "spbu-3415321-kadusirung-2": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "SPBU 34-15321 Kadusirung",
+        "id": "SPBU 34-15321 Kadusirung"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_voltron_charging_station-0",
+          "id": "gas-spbu-3415321-kadusirung-1",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "SPBU 34-15321 Kadusirung",
+            "id": "SPBU 34-15321 Kadusirung"
           },
           "address": {
-            "en": "MJXV+WH5, Jl. BSD Grand Boulevard, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten",
-            "id": "MJXV+WH5, Jl. BSD Grand Boulevard, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten"
+            "en": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Pagedangan, Tangerang, Banten 15336",
+            "id": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
+          },
+          "coordinates": {
+            "lat": -6.326446035667505,
+            "lng": 106.60366794319984
+          },
+          "distance": "6.4 KM",
+          "estimatedTime": "9 Menit (Mobil)",
+          "mapUrl": "https://maps.app.goo.gl/b7jtxK3JYYDi3F7n7"
+        }
+      ]
+    },
+
+    "voltron-charging-station": {
+      "name": {
+        "en": "Voltron Charging Station",
+        "id": "Voltron Charging Station"
+      },
+      "logo": "/images/default-logo.png",
+      "locations": [
+        {
+          "id": "gas-voltron-charging-station-0",
+          "name": {
+            "en": "Voltron Charging Station",
+            "id": "Voltron Charging Station"
+          },
+          "address": {
+            "en": "MJXV+WH5, Jl. BSD Grand Boulevard, Pagedangan, Tangerang, Banten",
+            "id": "MJXV+WH5, Jl. BSD Grand Boulevard, Kec. Pagedangan, Kabupaten Tangerang, Banten"
           },
           "coordinates": {
             "lat": -6.30023803798032,
@@ -293,22 +306,17 @@
         }
       ]
     },
-    "astra_otopower": {
-      "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
-      },
-      "logo": "",
+
+    "astra-otopower": {
+      "name": { "en": "Astra Otopower", "id": "Astra Otopower" },
+      "logo": "/images/astra-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_astra_otopower-0",
-          "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
-          },
+          "id": "gas-astra-otopower-0",
+          "name": { "en": "Astra Otopower", "id": "Astra Otopower" },
           "address": {
-            "en": "BSD City, Astra Biz Center, Jl. BSD Raya Utama No.11A, Lengkong Kulon, Kec. Serpong, Tanggerang, Banten 15310",
-            "id": "BSD City, Astra Biz Center, Jl. BSD Raya Utama No.11A, Lengkong Kulon, Kec. Serpong, Tanggerang, Banten 15310"
+            "en": "Astra Biz Center, BSD City, Jl. BSD Raya Utama No.11A, Serpong, Tangerang, Banten 15310",
+            "id": "Astra Biz Center, BSD City, Jl. BSD Raya Utama No.11A, Lengkong Kulon, Kec. Serpong, Tangerang, Banten 15310"
           },
           "coordinates": {
             "lat": -6.289170346707269,
@@ -320,18 +328,19 @@
         }
       ]
     },
-    "spbu_pertamina_34_15311": {
+
+    "pertamina-3415311": {
       "name": {
-        "en": "Gas/EV Charging Station",
-        "id": "SPBU/EV Charging Station"
+        "en": "SPBU Pertamina 34-15311",
+        "id": "SPBU Pertamina 34-15311"
       },
-      "logo": "",
+      "logo": "/images/pertamina-logo.png",
       "locations": [
         {
-          "id": "gas-ev_gas_ev_spbu_pertamina_34_15311-0",
+          "id": "gas-pertamina-3415311-0",
           "name": {
-            "en": "Gas/EV Charging Station",
-            "id": "SPBU/EV Charging Station"
+            "en": "SPBU Pertamina 34-15311",
+            "id": "SPBU Pertamina 34-15311"
           },
           "address": {
             "en": "Jl. Raya Cisauk Lapan No.3",
@@ -343,7 +352,7 @@
           },
           "distance": "5.0 KM",
           "estimatedTime": "11 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/2jiZsgWjbH3CfrZe9?g_st=iw"
+          "mapUrl": "https://maps.app.goo.gl/2jiZsgWjbH3CfrZe9"
         }
       ]
     }
