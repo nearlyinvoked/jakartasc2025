@@ -1,7 +1,7 @@
 import type React from "react";
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Button, Menu, MenuItem } from "@mui/material";
+import { Button, Menu, MenuItem, Box } from "@mui/material";
 import { Language } from "@mui/icons-material";
 import { type Locale, locales } from "../lib/i18n";
 
@@ -55,7 +55,7 @@ export default function LanguageSwitcher() {
 
   // Language display names and flags
   const languageNames: Record<Locale, { name: string; flag: string }> = {
-    en: { name: "English", flag: "en" },
+    en: { name: "English", flag: "🇬🇧" },
     id: { name: "Bahasa Indonesia", flag: "🇮🇩" },
     ja: { name: "日本語", flag: "🇯🇵" },
     ms: { name: "Bahasa Malaysia", flag: "🇲🇾" },
@@ -77,20 +77,33 @@ export default function LanguageSwitcher() {
       <Button
         color="inherit"
         onClick={handleClick}
-        startIcon={<Language />}
-        sx={{ minWidth: "auto", p: 1, textTransform: "none" }}
+        startIcon={<Language sx={{ display: { xs: "none", sm: "inline" } }} />}
+        sx={{
+          minWidth: "auto",
+          p: { xs: 0.5, sm: 1 },
+          textTransform: "none",
+          fontSize: { xs: "0.8rem", sm: "0.875rem" },
+        }}
       >
-        {languageNames[currentLocale]?.flag}{" "}
-        {languageNames[currentLocale]?.name.split(" ")[0] || "English"}
+        <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
+          <span style={{ fontSize: "1.1em" }}>
+            {languageNames[currentLocale]?.flag}
+          </span>
+          <Box sx={{ display: { xs: "none", sm: "inline" } }}>
+            {languageNames[currentLocale]?.name.split(" ")[0] || "English"}
+          </Box>
+        </Box>
       </Button>
       <Menu
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
-        PaperProps={{
-          style: {
-            maxHeight: 400,
-            width: "280px",
+        slotProps={{
+          paper: {
+            sx: {
+              maxHeight: { xs: 360, sm: 400 },
+              width: { xs: "260px", sm: "280px" },
+            },
           },
         }}
       >
@@ -103,13 +116,15 @@ export default function LanguageSwitcher() {
               display: "flex",
               alignItems: "center",
               gap: 1,
-              py: 1.5,
+              py: { xs: 1.2, sm: 1.5 },
+              px: { xs: 1.5, sm: 2 },
+              fontSize: { xs: "0.85rem", sm: "0.9rem" },
             }}
           >
-            <span style={{ fontSize: "1.2em" }}>
+            <span style={{ fontSize: "1.2em", minWidth: "24px" }}>
               {languageNames[locale]?.flag}
             </span>
-            {languageNames[locale]?.name}
+            <span style={{ flex: 1 }}>{languageNames[locale]?.name}</span>
           </MenuItem>
         ))}
       </Menu>

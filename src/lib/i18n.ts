@@ -45,7 +45,7 @@ export const getLocaleFromPath = (path: string): Locale => {
 
 export const translations = {
   en: {
-    appTitle: "Public Facilities Around ICE BSD",
+    appTitle: "Public Facilities",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -67,7 +67,7 @@ export const translations = {
     autoRepair: "Auto Repair",
   },
   id: {
-    appTitle: "Fasilitas Umum Sekitar ICE BSD",
+    appTitle: "Fasilitas Umum",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -89,7 +89,7 @@ export const translations = {
     autoRepair: "Bengkel Mobil",
   },
   ja: {
-    appTitle: "ICE BSD周辺の公共施設",
+    appTitle: "公共施設",
     appSubtitle: "ICE BSD国際コンベンション展示場",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -111,7 +111,7 @@ export const translations = {
     autoRepair: "自動車修理",
   },
   ms: {
-    appTitle: "Kemudahan Awam Sekitar ICE BSD",
+    appTitle: "Kemudahan Awam",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -133,7 +133,7 @@ export const translations = {
     autoRepair: "Pembaikan Kereta",
   },
   my: {
-    appTitle: "ICE BSD ပတ်ဝန်းကျင်ရှိ အများပြည်သူ အဆောက်အအုံများ",
+    appTitle: "အများပြည်သူ အဆောက်အအုံများ",
     appSubtitle: "ICE BSD နိုင်ငံတကာ ကွန်ဗင်းရှင်း ပြပွဲခန်းမ",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -155,7 +155,7 @@ export const translations = {
     autoRepair: "ကားပြုပြင်ရေး",
   },
   nl: {
-    appTitle: "Openbare Voorzieningen Rondom ICE BSD",
+    appTitle: "Openbare Voorzieningen",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -177,7 +177,7 @@ export const translations = {
     autoRepair: "Autoreparatie",
   },
   fil: {
-    appTitle: "Mga Pampublikong Pasilidad sa Paligid ng ICE BSD",
+    appTitle: "Mga Pampublikong Pasilidad",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -199,7 +199,7 @@ export const translations = {
     autoRepair: "Pagkukumpuni ng Kotse",
   },
   "zh-tw": {
-    appTitle: "ICE BSD 周邊公共設施",
+    appTitle: "公共設施",
     appSubtitle: "ICE BSD 國際會議展覽中心",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -221,7 +221,7 @@ export const translations = {
     autoRepair: "汽車維修",
   },
   th: {
-    appTitle: "สิ่งอำนวยความสะดวกสาธารณะรอบ ๆ ICE BSD",
+    appTitle: "สิ่งอำนวยความสะดวกสาธารณะ",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -243,7 +243,7 @@ export const translations = {
     autoRepair: "ซ่อมรถยนต์",
   },
   us: {
-    appTitle: "Public Facilities Around ICE BSD",
+    appTitle: "Public Facilities",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -265,7 +265,7 @@ export const translations = {
     autoRepair: "Auto Repair",
   },
   "pt-br": {
-    appTitle: "Facilidades Públicas ao Redor do ICE BSD",
+    appTitle: "Facilidades Públicas",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -287,7 +287,7 @@ export const translations = {
     autoRepair: "Oficina Mecânica",
   },
   "es-co": {
-    appTitle: "Instalaciones Públicas Alrededor de ICE BSD",
+    appTitle: "Instalaciones Públicas",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -309,7 +309,7 @@ export const translations = {
     autoRepair: "Taller Mecánico",
   },
   hi: {
-    appTitle: "ICE BSD के आसपास सार्वजनिक सुविधाएं",
+    appTitle: "सार्वजनिक सुविधाएं",
     appSubtitle: "ICE BSD अंतर्राष्ट्रीय कन्वेंशन प्रदर्शनी",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -331,7 +331,7 @@ export const translations = {
     autoRepair: "ऑटो मरम्मत",
   },
   it: {
-    appTitle: "Strutture Pubbliche Intorno a ICE BSD",
+    appTitle: "Strutture Pubbliche",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
@@ -353,7 +353,7 @@ export const translations = {
     autoRepair: "Riparazione Auto",
   },
   si: {
-    appTitle: "ICE BSD අවට රාජ්‍ය පහසුකම්",
+    appTitle: "රාජ්‍ය පහසුකම්",
     appSubtitle: "ICE BSD ජාත්‍යන්තර සම්මේලන ප්‍රදර්ශනය",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",
