@@ -1,12 +1,3 @@
-// Type guard for provider tuple
-function isProviderTuple(item: unknown): item is [string, ProviderType] {
-  return (
-    Array.isArray(item) &&
-    typeof item[0] === "string" &&
-    typeof item[1] === "object" &&
-    item[1] !== null
-  );
-}
 import { useParams, useNavigate } from "react-router-dom";
 import {
   Container,
@@ -35,7 +26,7 @@ type ProviderType = {
     estimatedTime: string;
     mapUrl: string;
   }>;
-  minDistance?: number;
+  minDistance: number;
 };
 
 export default function CategoryPage() {
@@ -72,9 +63,12 @@ export default function CategoryPage() {
   };
 
   // Sort locations for each provider by distance, then sort providers by their closest location
-  const unsortedProviders = Object.entries(categoryData.providers).map(
-    ([providerId, provider]) => {
-      if (typeof provider !== "object" || provider === null) return undefined;
+  // Strictly build providers array with only valid tuples
+  const providers: [string, ProviderType][] = Object.entries(
+    categoryData.providers
+  )
+    .reduce((acc: [string, ProviderType][], [providerId, provider]) => {
+      if (typeof provider !== "object" || provider === null) return acc;
       const p = provider as ProviderType;
       const sortedLocations = Array.isArray(p.locations)
         ? [...p.locations].sort(
@@ -86,16 +80,10 @@ export default function CategoryPage() {
         Array.isArray(sortedLocations) && sortedLocations.length > 0
           ? parseDistance(sortedLocations[0].distance)
           : Number.POSITIVE_INFINITY;
-      return [providerId, { ...p, locations: sortedLocations, minDistance }];
-    }
-  );
-
-  const providers = unsortedProviders
-    .filter(isProviderTuple)
-    .sort((a, b) => a[1].minDistance - b[1].minDistance) as [
-    string,
-    ProviderType
-  ][];
+      acc.push([providerId, { ...p, locations: sortedLocations, minDistance }]);
+      return acc;
+    }, [])
+    .sort((a, b) => a[1].minDistance - b[1].minDistance);
 
   // Helper function to get localized text with fallback
   const getLocalizedText = (textObj: any, fallback: string = "") => {
@@ -125,35 +113,33 @@ export default function CategoryPage() {
         </Typography>
 
         <List sx={{ bgcolor: "background.paper" }}>
-          {(providers as [string, ProviderType][]).map(
-            ([providerId, provider], index) => (
-              <div key={providerId}>
-                <ListItemButton
-                  onClick={() => handleProviderClick(providerId)}
-                  alignItems="center"
-                >
-                  <ListItemAvatar>
-                    <Avatar
-                      alt={getLocalizedText(provider.name, "Provider")}
-                      src={
-                        provider.logo ||
-                        "/placeholder.svg?height=40&width=40&query=logo"
-                      }
-                    />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={getLocalizedText(provider.name, "Provider")}
-                    secondary={`${provider.locations.length} ${
-                      t("locations", locale) || "locations"
-                    }`}
+          {providers.map(([providerId, provider], index) => (
+            <div key={providerId}>
+              <ListItemButton
+                onClick={() => handleProviderClick(providerId)}
+                alignItems="center"
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt={getLocalizedText(provider.name, "Provider")}
+                    src={
+                      provider.logo ||
+                      "/placeholder.svg?height=40&width=40&query=logo"
+                    }
                   />
-                </ListItemButton>
-                {index < providers.length - 1 && (
-                  <Divider variant="inset" component="li" />
-                )}
-              </div>
-            )
-          )}
+                </ListItemAvatar>
+                <ListItemText
+                  primary={getLocalizedText(provider.name, "Provider")}
+                  secondary={`${provider.locations.length} ${
+                    t("locations", locale) || "locations"
+                  }`}
+                />
+              </ListItemButton>
+              {index < providers.length - 1 && (
+                <Divider variant="inset" component="li" />
+              )}
+            </div>
+          ))}
         </List>
       </Container>
     </>
