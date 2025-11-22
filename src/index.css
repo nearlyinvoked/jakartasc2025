@@ -1,3 +1,6 @@
+/* Import legacy browser fallbacks */
+@import "./legacy.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -107,7 +110,7 @@ a {
   * {
     border-color: hsl(var(--border));
   }
-  
+
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));

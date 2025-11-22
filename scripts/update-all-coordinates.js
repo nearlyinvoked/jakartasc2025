@@ -66,7 +66,7 @@ function updateAllCoordinates() {
     { path: "src/data/pharmacy.json", type: "Pharmacy" },
     { path: "src/data/hospital.json", type: "Hospital" },
     { path: "src/data/gasStation.json", type: "Gas Station" },
-    { path: "src/data/restaurant.json", type: "Restaurant" }
+    { path: "src/data/restaurant.json", type: "Restaurant" },
   ];
 
   facilityFiles.forEach(({ path, type }) => {
@@ -77,6 +77,7 @@ function updateAllCoordinates() {
       console.log(`⚠️  Could not update ${type}: ${error.message}`);
     }
   });
-  
+
   console.log("\n🎉 All coordinates have been updated!");
-}updateAllCoordinates();
+}
+updateAllCoordinates();

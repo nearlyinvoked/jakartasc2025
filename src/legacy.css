@@ -1,0 +1,93 @@
+/* Legacy browser fallbacks */
+
+/* Flexbox fallbacks for older browsers */
+.flex-fallback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column-fallback {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.justify-center-fallback {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.items-center-fallback {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Grid fallbacks */
+@supports not (display: grid) {
+  .grid {
+    display: block;
+  }
+  
+  .grid > * {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* CSS Variables fallbacks */
+:root {
+  --primary-color: #1976d2;
+  --secondary-color: #dc004e;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Fallback for browsers that don't support CSS variables */
+.no-css-vars .primary-color {
+  color: #1976d2;
+}
+
+.no-css-vars .secondary-color {
+  color: #dc004e;
+}
+
+.no-css-vars .bg-primary {
+  background-color: #1976d2;
+}
+
+/* Object-fit fallbacks */
+@supports not (object-fit: cover) {
+  .object-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .object-cover img {
+    display: none;
+  }
+}
+
+/* Smooth scrolling fallback */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Pointer-events fallback */
+.no-pointer-events {
+  cursor: default;
+}
+
+/* Position sticky fallback */
+@supports not (position: sticky) {
+  .sticky {
+    position: relative;
+  }
+}
