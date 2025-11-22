@@ -8,47 +8,67 @@ export default defineConfig({
     react(),
     legacy({
       targets: [
-        "> 1%",
-        "last 2 versions",
-        "Firefox ESR",
-        "not dead",
-        "not IE 11",
+        'iOS >= 10',
+        'Android >= 5',
+        'Chrome >= 49',
+        'Firefox >= 45',
+        'Safari >= 10',
+        'Edge >= 12',
+        '> 1%',
+        'not dead'
       ],
-      additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
       renderLegacyChunks: true,
-      polyfills: [
-        "es.symbol",
-        "es.array.filter",
-        "es.promise",
-        "es.promise.finally",
-        "es/map",
-        "es/set",
-        "es.array.for-each",
-        "es.object.define-properties",
-        "es.object.define-property",
-        "es.object.get-own-property-descriptor",
-        "es.object.get-own-property-descriptors",
-        "es.object.keys",
-        "es.object.to-string",
-        "web.dom-collections.for-each",
-        "esnext.global-this",
-        "esnext.string.match-all",
+      modernPolyfills: [
+        'es.promise.finally',
+        'es.global-this',
+        'es.array.flat',
+        'es.array.flat-map'
       ],
-    }),
+      polyfills: [
+        'es.symbol',
+        'es.array.filter',
+        'es.array.for-each',
+        'es.array.includes',
+        'es.array.map',
+        'es.promise',
+        'es.promise.finally',
+        'es/map',
+        'es/set',
+        'es.object.assign',
+        'es.object.define-properties',
+        'es.object.define-property',
+        'es.object.keys',
+        'es.object.values',
+        'es.object.entries',
+        'web.dom-collections.for-each',
+        'web.url'
+      ]
+    })
   ],
   build: {
-    cssTarget: ["chrome61", "firefox60", "safari11"],
+    target: ['es2017', 'chrome49', 'firefox45', 'safari10', 'edge12'],
+    cssTarget: ['chrome49', 'firefox45', 'safari10'],
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ["react", "react-dom"],
-          router: ["react-router-dom"],
-          mui: ["@mui/material", "@mui/icons-material"],
-        },
-      },
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          mui: ['@mui/material', '@mui/icons-material']
+        }
+      }
     },
+    // Optimize for mobile performance
+    chunkSizeWarningLimit: 1000,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    }
   },
   esbuild: {
-    target: "es2015",
-  },
+    target: 'es2017'
+  }
 });

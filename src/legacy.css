@@ -1,8 +1,21 @@
-/* Legacy browser fallbacks */
+/* Legacy browser fallbacks for iOS 10+ and Android 5+ */
 
-/* Flexbox fallbacks for older browsers */
+/* Mobile-first responsive design fallbacks */
+.old-mobile * {
+  box-sizing: border-box;
+}
+
+.old-mobile body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+/* Flexbox fallbacks for older browsers with vendor prefixes */
 .flex-fallback {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -10,23 +23,26 @@
 .flex-column-fallback {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .justify-center-fallback {
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
 .items-center-fallback {
   -webkit-box-align: center;
+  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-/* Grid fallbacks */
+/* Grid fallbacks for older mobile browsers */
 @supports not (display: grid) {
   .grid {
     display: block;
@@ -37,30 +53,35 @@
     width: 100%;
     margin-bottom: 1rem;
   }
+  
+  /* Simple 2-column layout for larger screens */
+  @media (min-width: 768px) {
+    .grid > * {
+      display: inline-block;
+      width: 48%;
+      margin-right: 2%;
+      vertical-align: top;
+    }
+  }
 }
 
-/* CSS Variables fallbacks */
+/* CSS Variables fallbacks with better mobile colors */
 :root {
   --primary-color: #1976d2;
   --secondary-color: #dc004e;
   --background-color: #ffffff;
   --text-color: #000000;
+  --border-radius: 4px;
+  --spacing: 16px;
 }
 
 /* Fallback for browsers that don't support CSS variables */
-.no-css-vars .primary-color {
-  color: #1976d2;
-}
+.no-css-vars .primary-color { color: #1976d2; }
+.no-css-vars .secondary-color { color: #dc004e; }
+.no-css-vars .bg-primary { background-color: #1976d2; }
+.no-css-vars .bg-secondary { background-color: #dc004e; }
 
-.no-css-vars .secondary-color {
-  color: #dc004e;
-}
-
-.no-css-vars .bg-primary {
-  background-color: #1976d2;
-}
-
-/* Object-fit fallbacks */
+/* Object-fit fallbacks for image handling */
 @supports not (object-fit: cover) {
   .object-cover {
     background-size: cover;
@@ -73,21 +94,87 @@
   }
 }
 
-/* Smooth scrolling fallback */
+/* Smooth scrolling with reduced motion consideration */
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
 }
 
-/* Pointer-events fallback */
-.no-pointer-events {
-  cursor: default;
+/* Touch-friendly sizing for older mobile devices */
+.old-mobile button,
+.old-mobile input,
+.old-mobile select,
+.old-mobile textarea {
+  min-height: 44px; /* iOS recommended touch target */
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px; /* Prevent iOS zoom */
 }
 
-/* Position sticky fallback */
+.old-mobile a {
+  min-height: 44px;
+  display: inline-block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Position sticky fallback for older browsers */
 @supports not (position: sticky) {
   .sticky {
     position: relative;
+  }
+}
+
+/* Transform fallbacks with vendor prefixes */
+.transform-fallback {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* Animation performance improvements for older devices */
+.low-power * {
+  animation-duration: 0.01ms !important;
+  animation-delay: -1ms !important;
+  transition-duration: 0.01ms !important;
+  transition-delay: 0ms !important;
+}
+
+.low-power *::before,
+.low-power *::after {
+  animation-duration: 0.01ms !important;
+  animation-delay: -1ms !important;
+  transition-duration: 0.01ms !important;
+  transition-delay: 0ms !important;
+}
+
+/* Simplified layout for very old devices */
+.old-mobile .complex-layout {
+  display: block !important;
+}
+
+.old-mobile .complex-layout > * {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+}
+
+/* High contrast mode for accessibility */
+@media (prefers-contrast: high) {
+  * {
+    border-color: #000 !important;
+    color: #000 !important;
+    background: #fff !important;
+  }
+  
+  a {
+    color: #0000ff !important;
+  }
+  
+  button {
+    background: #e0e0e0 !important;
+    border: 2px solid #000 !important;
   }
 }
