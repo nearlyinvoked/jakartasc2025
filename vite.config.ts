@@ -57,6 +57,9 @@ export default defineConfig({
           mui: ["@mui/material", "@mui/icons-material"],
         },
       },
+      input: {
+        main: "index.html",
+      },
     },
     // Optimize for mobile performance
     chunkSizeWarningLimit: 1000,
@@ -68,6 +71,7 @@ export default defineConfig({
       },
     },
   },
+  publicDir: "public",
   esbuild: {
     target: "es2017",
   },
