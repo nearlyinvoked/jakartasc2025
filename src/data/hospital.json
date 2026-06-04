@@ -10,8 +10,8 @@
           "name": "Klinik Bela Medika",
           "address": "Kp. Pugur RT 05/02, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2822379,
+            "lng": 106.6344496
           },
           "distance": "3,4 km",
           "estimatedTime": "8 menit",
@@ -29,8 +29,8 @@
           "name": "Puskesmas Cisauk",
           "address": "MJGR+HP2, Jl. Raya Cisauk Lapan, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3236142,
+            "lng": 106.6417704
           },
           "distance": "6 km",
           "estimatedTime": "12 menit",
@@ -48,8 +48,8 @@
           "name": "Eka Hospital",
           "address": "Central Business District, Jl. Boulevard BSD Tim. Lot IX, BSD City, Tangerang Selatan, Banten 15321, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2989741,
+            "lng": 106.669916
           },
           "distance": "4,8 km",
           "estimatedTime": "14 menit",
@@ -67,8 +67,8 @@
           "name": "RS Khusus THT Bedah - KL Proklamasi BSD",
           "address": "Commercial Park Central Business District BSD Kav No. 7, Tangerang Selatan, Banten, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2960459,
+            "lng": 106.668499
           },
           "distance": "5,4 km",
           "estimatedTime": "16 menit",
@@ -86,8 +86,8 @@
           "name": "Klinik Pratama Atma Jaya BSD",
           "address": "Jl. Raya Cisauk Lapan No.A2/10, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3179151,
+            "lng": 106.6503482
           },
           "distance": "7,9 km",
           "estimatedTime": "15 menit",
@@ -105,8 +105,8 @@
           "name": "RS RIS Hospital BSD",
           "address": "Jl. Lengkong Gudang Timur Raya No.777, BSD City, Serpong, Tangerang Selatan, Banten 15321, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.294478,
+            "lng": 106.6843069
           },
           "distance": "6,7 km",
           "estimatedTime": "20 menit",
@@ -124,8 +124,8 @@
           "name": "Sehat Plus Medical Clinic BSD",
           "address": "Ruko BSD Sektor 7, Jl. Pahlawan Seribu Blok RM No.39, Lengkong Wetan, Kec. Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2815604,
+            "lng": 106.6628382
           },
           "distance": "6,7 km",
           "estimatedTime": "15 menit",
@@ -143,8 +143,8 @@
           "name": "Klinik Amira BSD",
           "address": "Jl. Ciater Raya No.7A & 8 Blok A1, Rawa Buntu, Kec. Serpong, Kota Tangerang Selatan, Banten 15317, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3092358,
+            "lng": 106.6797148
           },
           "distance": "7 km",
           "estimatedTime": "19 menit",
@@ -162,8 +162,8 @@
           "name": "RS Columbia Asia BSD",
           "address": "BSD Serpong, Jl. Letnan Sutopo No.7 Kavling Komplek 3A, Lengkong Wetan, Kec. Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2842685,
+            "lng": 106.6677385
           },
           "distance": "8,3 km",
           "estimatedTime": "18 menit",
@@ -181,8 +181,8 @@
           "name": "Bethsaida Hospital",
           "address": "Jalan Boulevard Raya Gading Serpong Kav. 29, Gading Serpong, Curug Sangereng, Kelapa Dua, Tangerang Regency, Banten 15810, Indonesia",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2556751,
+            "lng": 106.6231489
           },
           "distance": "7,3 km",
           "estimatedTime": "18 menit",
@@ -200,8 +200,8 @@
           "name": "klinik selaras bsd",
           "address": "Jl. Pahlawan Seribu Ruko BSD Sektor IV, Bumi serpong Damai No.43-45 Blok E, Lengkong Wetan, Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2811936,
+            "lng": 106.6636904
           },
           "distance": "6 km",
           "estimatedTime": "",

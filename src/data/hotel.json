@@ -10,8 +10,8 @@
           "name": "Hotel Santika Premiere ICE - BSD City",
           "address": "Jl. BSD Grand Boulevard, Pagedangan, Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3008291,
+            "lng": 106.6365617
           },
           "distance": "0,2 km",
           "estimatedTime": "",
@@ -27,8 +27,8 @@
           "name": "Joylive BSD City",
           "address": "Jl. Edutown Kav. Blok B No.6, Komplek Edutown BSD, Pagedangan, Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3029434,
+            "lng": 106.6382135
           },
           "distance": "0,3 km",
           "estimatedTime": "",
@@ -44,8 +44,8 @@
           "name": "Novotel Tangerang BSD City",
           "address": "Jalan BSD CBD 55 Lot I8, Pagedangan, Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3007981,
+            "lng": 106.6449479
           },
           "distance": "0,9 km",
           "estimatedTime": "",
@@ -61,8 +61,8 @@
           "name": "Mercure Tangerang BSD City",
           "address": "Jl. Edutown CBD 55 Kavling Lot II No. 8, Pagedangan, Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.302338163995975,
-            "lng": 106.64523157834296
+            "lat": -6.3023275,
+            "lng": 106.6452155
           },
           "distance": "1,0 km",
           "estimatedTime": "",
@@ -78,8 +78,8 @@
           "name": "Moritz Inn BSD",
           "address": "Jl. Edutown No.17 & 35, SkyHouse BSD+ Tower Leonnie L1, Pagedangan, Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.303987,
+            "lng": 106.64985
           },
           "distance": "1,5 km",
           "estimatedTime": "",
@@ -95,8 +95,8 @@
           "name": "ibis Styles Serpong BSD City",
           "address": "Kav Taman Kota Barat Lot II 9 BSD City, Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.3066606,
+            "lng": 106.6506377
           },
           "distance": "1,7 km",
           "estimatedTime": "",
@@ -112,8 +112,8 @@
           "name": "Sapphire Sky Hotel BSD City",
           "address": "Jl. BSD Boulevard Utara SC II No. 2, Tangerang, Banten 15331",
           "coordinates": {
-            "lat": -6.28894254306975,
-            "lng": 106.65055259479242
+            "lat": -6.288934,
+            "lng": 106.650544
           },
           "distance": "2,0 km",
           "estimatedTime": "",
@@ -129,8 +129,8 @@
           "name": "Starlet Hotel BSD City Tangerang",
           "address": "Jl. BSD Boulevard Utara SC II.5, Tangerang, Banten 15331",
           "coordinates": {
-            "lat": -6.288775978319048,
-            "lng": 106.65127770615985
+            "lat": -6.2887524,
+            "lng": 106.6512638
           },
           "distance": "2,1 km",
           "estimatedTime": "",
@@ -146,8 +146,8 @@
           "name": "The Grantage Hotel & Sky Lounge",
           "address": "No. 9 Jl. Boulevard Utara Kav. Commercial Lot II, BSD City, Lengkong Kulon, Tangerang, Banten 15331",
           "coordinates": {
-            "lat": -6.288246365888478,
-            "lng": 106.65080154379984
+            "lat": -6.2882385,
+            "lng": 106.6507841
           },
           "distance": "2,1 km",
           "estimatedTime": "",
@@ -163,8 +163,8 @@
           "name": "Pranaya Boutique Hotel BSD",
           "address": "Commercial Park BDC Lot VIII No. 3, Tangerang, Banten 15321",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2962567,
+            "lng": 106.6676817
           },
           "distance": "3,5 km",
           "estimatedTime": "",
@@ -180,8 +180,8 @@
           "name": "Grand Zuri BSD City",
           "address": "Jl. Pahlawan Seribu Kavling Ocean Walk Blok CBD Lot 6 BSD City, Serpong, Tangerang, Banten 15322",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2929377,
+            "lng": 106.6673076
           },
           "distance": "3,5 km",
           "estimatedTime": "",
@@ -197,8 +197,8 @@
           "name": "Trembesi Hotel",
           "address": "Jalan Pahlawan Seribu, Trembesi Tower, Lot VIIA CBD BSD, South Tangerang, Banten 15311",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2942982,
+            "lng": 106.6683213
           },
           "distance": "3,6 km",
           "estimatedTime": "",
@@ -214,8 +214,8 @@
           "name": "Hotel Santika BSD City Serpong",
           "address": "Jl. Pahlawan Seribu, Teraskota Entertainment Center, CBD Lot VII B, Serpong, Banten 15311",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2956636,
+            "lng": 106.6683685
           },
           "distance": "3,6 km",
           "estimatedTime": "",
@@ -231,8 +231,8 @@
           "name": "Qubika Boutique Hotel",
           "address": "Jl. Raya Boulevard Gading Serpong Kavling O No. 9-10, Tangerang, Banten 15811",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2639178,
+            "lng": 106.6175287
           },
           "distance": "4,6 km",
           "estimatedTime": "",
@@ -248,8 +248,8 @@
           "name": "Vivere Hotel ARTOTEL Curated",
           "address": "SOUTH78, Jl. Boulevard Gading Serpong Blok O No. 7-8, Medang, Pagedangan, Tangerang, Banten 15334",
           "coordinates": {
-            "lat": -6.2974,
-            "lng": 106.6514
+            "lat": -6.2631707,
+            "lng": 106.6176948
           },
           "distance": "4,6 km",
           "estimatedTime": "",
