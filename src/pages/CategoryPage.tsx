@@ -30,7 +30,7 @@ type ProviderType = {
 };
 
 export default function CategoryPage() {
-  const { locale = "en", category = "" } = useParams<{
+  const { locale = "id", category = "" } = useParams<{
     locale: Locale;
     category: string;
   }>();
@@ -85,16 +85,12 @@ export default function CategoryPage() {
     }, [])
     .sort((a, b) => a[1].minDistance - b[1].minDistance);
 
-  // Helper function to get localized text with fallback
+  // Helper function to get text with fallback (supports plain strings and locale objects)
   const getLocalizedText = (textObj: any, fallback: string = "") => {
-    if (!textObj || typeof textObj !== "object") return fallback;
-    return (
-      textObj[locale] ||
-      textObj["en"] ||
-      textObj["id"] ||
-      Object.values(textObj)[0] ||
-      fallback
-    );
+    if (!textObj) return fallback;
+    if (typeof textObj === "string") return textObj;
+    if (typeof textObj !== "object") return fallback;
+    return textObj["id"] || textObj["en"] || Object.values(textObj)[0] || fallback;
   };
 
   const handleProviderClick = (providerId: string) => {

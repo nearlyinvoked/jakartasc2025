@@ -1,187 +1,72 @@
 {
-  "name": {
-    "en": "Auto Repair",
-    "id": "Bengkel & Servis Mobil"
-  },
-  "icon": "car_repair",
+  "name": "Bengkel / Auto Repair",
+  "icon": "auto_repair",
   "providers": {
-    "bquik": {
-      "name": {
-        "en": "B-Quik",
-        "id": "B-Quik"
-      },
-      "logo": "/images/bquik-logo.png",
+    "b-quik-bsd": {
+      "name": "B-Quik BSD",
       "locations": [
         {
-          "id": "auto_repair-bquik_b_quik_bsd-0",
-          "name": {
-            "en": "B-Quik BSD",
-            "id": "B-Quik BSD"
-          },
-          "address": {
-            "en": "Foresta Business Loft 6, Jl. BSD Boulevard Utara No.6, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
-            "id": "Foresta Business Loft 6, Jl. BSD Boulevard Utara No.6, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331"
-          },
+          "id": "b-quik-bsd-0",
+          "name": "B-Quik BSD",
+          "address": "Foresta Business Loft 6, Jl. BSD Boulevard Utara No.6, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
           "coordinates": {
-            "lat": -6.286234341668147,
-            "lng": 106.64206558699948
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2,9 km",
-          "estimatedTime": "8 Menit (mobil)",
-          "mapUrl": "https://maps.app.goo.gl/oQkiUBy2ngryeSVZ9"
-        },
-        {
-          "id": "auto_repair-bquik_b_quik_aeon_bsd-5",
-          "name": {
-            "en": "B-QUIK AEON BSD",
-            "id": "B-QUIK AEON BSD"
-          },
-          "address": {
-            "en": "AEON Mall BSD Lantai Ground Floor 10, Banten, 15339",
-            "id": "AEON Mall BSD Lantai Ground Floor 10, Banten, 15339"
-          },
-          "coordinates": {
-            "lat": -6.304422080407435,
-            "lng": 106.64551107414218
-          },
-          "distance": "3,1 KM",
-          "estimatedTime": "11 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/yvPbWhU64EaX3h7m9"
+          "distance": "2,7 km",
+          "estimatedTime": "7 menit",
+          "mapUrl": "https://maps.app.goo.gl/LVpmuHR6YiSiuMDg6"
         }
       ]
     },
-    "jaya_mobilindo": {
-      "name": {
-        "en": "Jaya Mobilindo",
-        "id": "Jaya Mobilindo"
-      },
-      "logo": "/images/jaya_mobilindo-logo.png",
+    "bengkelin-suradita-motul-authorized-partner-garage": {
+      "name": "BENGKELIN Suradita MOTUL Authorized Partner Garage",
       "locations": [
         {
-          "id": "auto_repair-jaya_mobilindo_ungu_jaya_mobilindo_bengkel_mobil_restorasi-1",
-          "name": {
-            "en": "Ungu Jaya Mobilindo Bengkel Mobil & Restorasi",
-            "id": "Ungu Jaya Mobilindo Bengkel Mobil & Restorasi"
-          },
-          "address": {
-            "en": "Jl. Raya Kampung Cileutik, Jl. Raya Cisauk - Legok, RT.005/RW.003, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15341",
-            "id": "Jl. Raya Kampung Cileutik, Jl. Raya Cisauk - Legok, RT.005/RW.003, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15341"
-          },
+          "id": "bengkelin-suradita-motul-authorized-partner-garage-1",
+          "name": "BENGKELIN Suradita MOTUL Authorized Partner Garage",
+          "address": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343",
           "coordinates": {
-            "lat": -6.322667378451545,
-            "lng": 106.63516296041588
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "3,9 KM",
-          "estimatedTime": "7 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/SyTeo5bQ9jsTY1yQ6"
+          "distance": "6,5 km",
+          "estimatedTime": "16 menit",
+          "mapUrl": "https://maps.app.goo.gl/D52NYEo87DK7BJtHA"
         }
       ]
     },
-    "suradita_motul": {
-      "name": {
-        "en": "Suradita MOTUL",
-        "id": "Suradita MOTUL"
-      },
-      "logo": "/images/suradita_motul-logo.png",
+    "coolkars-authorized-workshop-denso-cisauk": {
+      "name": "COOLKARS Authorized Workshop DENSO Cisauk",
       "locations": [
         {
-          "id": "auto_repair-suradita_motul_bengkelin_suradita_motul_authorized_partner_garage-2",
-          "name": {
-            "en": "BENGKELIN Suradita MOTUL Authorized Partner Garage",
-            "id": "BENGKELIN Suradita MOTUL Authorized Partner Garage"
-          },
-          "address": {
-            "en": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343",
-            "id": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343"
-          },
+          "id": "coolkars-authorized-workshop-denso-cisauk-2",
+          "name": "COOLKARS Authorized Workshop DENSO Cisauk",
+          "address": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343",
           "coordinates": {
-            "lat": -6.341414033754488,
-            "lng": 106.64015360079893
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "7,1 Km",
-          "estimatedTime": "16 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ykHdjCKTUALxcMBN6"
+          "distance": "7,3 km",
+          "estimatedTime": "17 menit",
+          "mapUrl": "https://maps.app.goo.gl/23Le58sa1VkZSg3z7"
         }
       ]
     },
-    "denso": {
-      "name": {
-        "en": "Denso",
-        "id": "Denso"
-      },
-      "logo": "/images/denso-logo.png",
+    "jaya-mobilindo": {
+      "name": "Jaya Mobilindo",
       "locations": [
         {
-          "id": "auto_repair-denso_coolkars_authorized_workshop_denso_bengkel_ac_mobil-3",
-          "name": {
-            "en": "COOLKARS Authorized Workshop Denso - Bengkel AC Mobil",
-            "id": "COOLKARS Authorized Workshop Denso - Bengkel AC Mobil"
-          },
-          "address": {
-            "en": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343",
-            "id": "Jl. Raya Cisauk Lapan No.77, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343"
-          },
+          "id": "jaya-mobilindo-3",
+          "name": "Jaya Mobilindo",
+          "address": "Jl. Raya Cisauk-Legok No.37, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15338",
           "coordinates": {
-            "lat": -6.341499362531696,
-            "lng": 106.63899476355913
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "7,1 Km",
-          "estimatedTime": "13 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/cRtGEDxnya2XpGdA9"
-        }
-      ]
-    },
-    "jaya_motor": {
-      "name": {
-        "en": "Jaya Motor",
-        "id": "Jaya Motor"
-      },
-      "logo": "/images/jaya_motor-logo.png",
-      "locations": [
-        {
-          "id": "auto_repair-jaya_motor_yudi_jaya_motor-4",
-          "name": {
-            "en": "Yudi Jaya Motor",
-            "id": "Yudi Jaya Motor"
-          },
-          "address": {
-            "en": "Blok 2J No 8, Jl. Raya Bumi Puspiptek Asri Asri, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
-            "id": "Blok 2J No 8, Jl. Raya Bumi Puspiptek Asri Asri, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
-          "coordinates": {
-            "lat": -6.296203348225377,
-            "lng": 106.63112720634895
-          },
-          "distance": "4,4 KM",
-          "estimatedTime": "9 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/53bvy4hoNW2aBFCf8"
-        }
-      ]
-    },
-    "mma_cisauk": {
-      "name": {
-        "en": "MMA Cisauk",
-        "id": "MMA Cisauk"
-      },
-      "logo": "/images/mma_cisauk-logo.png",
-      "locations": [
-        {
-          "id": "auto_repair-mma_cisauk_ahass_mma_cisauk_bengkel_motor_honda-6",
-          "name": {
-            "en": "AHASS MMA Cisauk Bengkel motor honda",
-            "id": "AHASS MMA Cisauk Bengkel motor honda"
-          },
-          "address": {
-            "en": "NO. 15-19, Jl. Raya Cisauk Jl. Ruko Serpong Garden, Cibogo, Kec. Cisauk, Kabupaten Tangerang, Banten 15344",
-            "id": "NO. 15-19, Jl. Raya Cisauk Jl. Ruko Serpong Garden, Cibogo, Kec. Cisauk, Kabupaten Tangerang, Banten 15344"
-          },
-          "coordinates": {
-            "lat": -6.333842407939098,
-            "lng": 106.63924868401612
-          },
-          "distance": "6,3 KM",
-          "estimatedTime": "12 menit (motor)",
-          "mapUrl": "https://maps.app.goo.gl/nxXioHF2seEhsj6RA"
+          "distance": "4 km",
+          "estimatedTime": "8 menit",
+          "mapUrl": "https://maps.app.goo.gl/9Dvo8q5tSW19pK3r5"
         }
       ]
     }

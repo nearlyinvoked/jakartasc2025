@@ -1,0 +1,261 @@
+{
+  "name": "Hotel",
+  "icon": "hotel",
+  "providers": {
+    "hotel-santika-premiere-ice-bsd-city": {
+      "name": "Hotel Santika Premiere ICE - BSD City",
+      "locations": [
+        {
+          "id": "hotel-santika-premiere-ice-bsd-city-0",
+          "name": "Hotel Santika Premiere ICE - BSD City",
+          "address": "Jl. BSD Grand Boulevard, Pagedangan, Tangerang, Banten 15339",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "0,2 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/XVL7b99wW4GaDvsD8"
+        }
+      ]
+    },
+    "joylive-bsd-city": {
+      "name": "Joylive BSD City",
+      "locations": [
+        {
+          "id": "joylive-bsd-city-1",
+          "name": "Joylive BSD City",
+          "address": "Jl. Edutown Kav. Blok B No.6, Komplek Edutown BSD, Pagedangan, Tangerang, Banten 15339",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "0,3 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/ApJw8WrLd5j21FXk9"
+        }
+      ]
+    },
+    "novotel-tangerang-bsd-city": {
+      "name": "Novotel Tangerang BSD City",
+      "locations": [
+        {
+          "id": "novotel-tangerang-bsd-city-2",
+          "name": "Novotel Tangerang BSD City",
+          "address": "Jalan BSD CBD 55 Lot I8, Pagedangan, Tangerang, Banten 15339",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "0,9 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/omNqZ3EvJ5riBwJLA"
+        }
+      ]
+    },
+    "mercure-tangerang-bsd-city": {
+      "name": "Mercure Tangerang BSD City",
+      "locations": [
+        {
+          "id": "mercure-tangerang-bsd-city-3",
+          "name": "Mercure Tangerang BSD City",
+          "address": "Jl. Edutown CBD 55 Kavling Lot II No. 8, Pagedangan, Tangerang, Banten 15339",
+          "coordinates": {
+            "lat": -6.302338163995975,
+            "lng": 106.64523157834296
+          },
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/vmDTMRRs9ZRGSB9A9"
+        }
+      ]
+    },
+    "moritz-inn-bsd": {
+      "name": "Moritz Inn BSD",
+      "locations": [
+        {
+          "id": "moritz-inn-bsd-4",
+          "name": "Moritz Inn BSD",
+          "address": "Jl. Edutown No.17 & 35, SkyHouse BSD+ Tower Leonnie L1, Pagedangan, Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "1,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/HonB6WMdQWXosjBNA"
+        }
+      ]
+    },
+    "ibis-styles-serpong-bsd-city": {
+      "name": "ibis Styles Serpong BSD City",
+      "locations": [
+        {
+          "id": "ibis-styles-serpong-bsd-city-5",
+          "name": "ibis Styles Serpong BSD City",
+          "address": "Kav Taman Kota Barat Lot II 9 BSD City, Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "1,7 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/aJxycA9SoVzxvrBG9"
+        }
+      ]
+    },
+    "sapphire-sky-hotel-bsd-city": {
+      "name": "Sapphire Sky Hotel BSD City",
+      "locations": [
+        {
+          "id": "sapphire-sky-hotel-bsd-city-6",
+          "name": "Sapphire Sky Hotel BSD City",
+          "address": "Jl. BSD Boulevard Utara SC II No. 2, Tangerang, Banten 15331",
+          "coordinates": {
+            "lat": -6.28894254306975,
+            "lng": 106.65055259479242
+          },
+          "distance": "2,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/mnqhryscNy3jSP9b7"
+        }
+      ]
+    },
+    "starlet-hotel-bsd-city-tangerang": {
+      "name": "Starlet Hotel BSD City Tangerang",
+      "locations": [
+        {
+          "id": "starlet-hotel-bsd-city-tangerang-7",
+          "name": "Starlet Hotel BSD City Tangerang",
+          "address": "Jl. BSD Boulevard Utara SC II.5, Tangerang, Banten 15331",
+          "coordinates": {
+            "lat": -6.288775978319048,
+            "lng": 106.65127770615985
+          },
+          "distance": "2,1 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/5KwPXL6JxpQ4fNwE7"
+        }
+      ]
+    },
+    "the-grantage-hotel-sky-lounge": {
+      "name": "The Grantage Hotel & Sky Lounge",
+      "locations": [
+        {
+          "id": "the-grantage-hotel-sky-lounge-8",
+          "name": "The Grantage Hotel & Sky Lounge",
+          "address": "No. 9 Jl. Boulevard Utara Kav. Commercial Lot II, BSD City, Lengkong Kulon, Tangerang, Banten 15331",
+          "coordinates": {
+            "lat": -6.288246365888478,
+            "lng": 106.65080154379984
+          },
+          "distance": "2,1 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/FTccvaogqbWz457Y8"
+        }
+      ]
+    },
+    "pranaya-boutique-hotel-bsd": {
+      "name": "Pranaya Boutique Hotel BSD",
+      "locations": [
+        {
+          "id": "pranaya-boutique-hotel-bsd-9",
+          "name": "Pranaya Boutique Hotel BSD",
+          "address": "Commercial Park BDC Lot VIII No. 3, Tangerang, Banten 15321",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/1VrFBNPtZ71QDgnq8"
+        }
+      ]
+    },
+    "grand-zuri-bsd-city": {
+      "name": "Grand Zuri BSD City",
+      "locations": [
+        {
+          "id": "grand-zuri-bsd-city-10",
+          "name": "Grand Zuri BSD City",
+          "address": "Jl. Pahlawan Seribu Kavling Ocean Walk Blok CBD Lot 6 BSD City, Serpong, Tangerang, Banten 15322",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/F3r89YcmoEP5eS1i6"
+        }
+      ]
+    },
+    "trembesi-hotel": {
+      "name": "Trembesi Hotel",
+      "locations": [
+        {
+          "id": "trembesi-hotel-11",
+          "name": "Trembesi Hotel",
+          "address": "Jalan Pahlawan Seribu, Trembesi Tower, Lot VIIA CBD BSD, South Tangerang, Banten 15311",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,6 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/JXGjD3y7CgeFtCgp7"
+        }
+      ]
+    },
+    "hotel-santika-bsd-city-serpong": {
+      "name": "Hotel Santika BSD City Serpong",
+      "locations": [
+        {
+          "id": "hotel-santika-bsd-city-serpong-12",
+          "name": "Hotel Santika BSD City Serpong",
+          "address": "Jl. Pahlawan Seribu, Teraskota Entertainment Center, CBD Lot VII B, Serpong, Banten 15311",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,6 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/vYErMuSaav4U7BaL8"
+        }
+      ]
+    },
+    "qubika-boutique-hotel": {
+      "name": "Qubika Boutique Hotel",
+      "locations": [
+        {
+          "id": "qubika-boutique-hotel-13",
+          "name": "Qubika Boutique Hotel",
+          "address": "Jl. Raya Boulevard Gading Serpong Kavling O No. 9-10, Tangerang, Banten 15811",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "4,6 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/9zNuFDBgpW7P6DgJ7"
+        }
+      ]
+    },
+    "vivere-hotel-artotel-curated": {
+      "name": "Vivere Hotel ARTOTEL Curated",
+      "locations": [
+        {
+          "id": "vivere-hotel-artotel-curated-14",
+          "name": "Vivere Hotel ARTOTEL Curated",
+          "address": "SOUTH78, Jl. Boulevard Gading Serpong Blok O No. 7-8, Medang, Pagedangan, Tangerang, Banten 15334",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "4,6 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/GxeVUv1CKym8JogY6"
+        }
+      ]
+    }
+  }
+}

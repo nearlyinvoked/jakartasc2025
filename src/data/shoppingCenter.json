@@ -1,0 +1,125 @@
+{
+  "name": "Pusat Perbelanjaan",
+  "icon": "shopping",
+  "providers": {
+    "aeon-mall-bsd-city-aeon-bsd-city-supermarket": {
+      "name": "AEON Mall BSD City / AEON BSD City Supermarket",
+      "locations": [
+        {
+          "id": "aeon-mall-bsd-city-aeon-bsd-city-supermarket-0",
+          "name": "AEON Mall BSD City / AEON BSD City Supermarket",
+          "address": "Jl. BSD Raya Utama, Desa Pagedangan, Kec. Pagedangan, Kab. Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/x64oCJc77cE1Koac6"
+        }
+      ]
+    },
+    "grandlucky-superstore-bsd-city": {
+      "name": "GrandLucky Superstore BSD City",
+      "locations": [
+        {
+          "id": "grandlucky-superstore-bsd-city-1",
+          "name": "GrandLucky Superstore BSD City",
+          "address": "Jl. BSD Boulevard Utara No.1 Blok S5, Lengkong Kulon, Kec. Pagedangan, Kab. Tangerang, Banten 15331",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,1 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/WtCuK9h6FafPU4du6"
+        }
+      ]
+    },
+    "ranch-market-the-breeze": {
+      "name": "Ranch Market The Breeze",
+      "locations": [
+        {
+          "id": "ranch-market-the-breeze-2",
+          "name": "Ranch Market The Breeze",
+          "address": "The Breeze BSD City, BSD Green Office Park, Jl. BSD Grand Boulevard, BSD City, Kab. Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/7e3NKQWJYKgN9MSh6"
+        }
+      ]
+    },
+    "the-breeze-bsd-city": {
+      "name": "The Breeze BSD City",
+      "locations": [
+        {
+          "id": "the-breeze-bsd-city-3",
+          "name": "The Breeze BSD City",
+          "address": "BSD Green Office Park, Jl. BSD Grand Boulevard, BSD City, Kab. Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/siC7LCT6ef5nfped9"
+        }
+      ]
+    },
+    "eastvara-bsd-city": {
+      "name": "Eastvara BSD City",
+      "locations": [
+        {
+          "id": "eastvara-bsd-city-4",
+          "name": "Eastvara BSD City",
+          "address": "Jl. BSD Boulevard Utara, Cijantra, Pagedangan, Kab. Tangerang, Banten",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/HExz5xUcifzsCiC6A"
+        }
+      ]
+    },
+    "pasar-modern-intermoda-bsd-city": {
+      "name": "Pasar Modern Intermoda BSD City",
+      "locations": [
+        {
+          "id": "pasar-modern-intermoda-bsd-city-5",
+          "name": "Pasar Modern Intermoda BSD City",
+          "address": "Jl. Raya Serpong - Cisauk, Sampora, Kec. Cisauk, Kab. Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/bPmrymmca2LoLL9d9"
+        }
+      ]
+    },
+    "teraskota-entertainment-center": {
+      "name": "Teraskota Entertainment Center",
+      "locations": [
+        {
+          "id": "teraskota-entertainment-center-6",
+          "name": "Teraskota Entertainment Center",
+          "address": "Jl. Pahlawan Seribu CBD Lot VII B, Lengkong Gudang, Serpong, Kota Tangerang Selatan, Banten 15322",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "4,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/UXGJFNnstfYsiuSn6"
+        }
+      ]
+    }
+  }
+}

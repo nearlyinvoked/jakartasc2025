@@ -5,6 +5,8 @@ import gasStationData from "./gasStation.json";
 import restaurantData from "./restaurant.json";
 import moneyChangerData from "./moneyChanger.json";
 import autoRepairData from "./autoRepair.json";
+import shoppingCenterData from "./shoppingCenter.json";
+import hotelData from "./hotel.json";
 
 export const facilitiesData = {
   atm: atmData,
@@ -14,6 +16,8 @@ export const facilitiesData = {
   restaurant: restaurantData,
   moneyChanger: moneyChangerData,
   autoRepair: autoRepairData,
+  shoppingCenter: shoppingCenterData,
+  hotel: hotelData,
 };
 
 export default facilitiesData;

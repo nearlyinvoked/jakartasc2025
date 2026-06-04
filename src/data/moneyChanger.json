@@ -1,196 +1,123 @@
 {
-  "name": {
-    "en": "Money Changer",
-    "id": "Penukaran Uang"
-  },
-  "icon": "currency_exchange",
+  "name": "Money Changer",
+  "icon": "money_changer",
   "providers": {
-    "midas_xchange": {
-      "name": {
-        "en": "Midas Xchange",
-        "id": "Midas Xchange"
-      },
-      "logo": "/images/midas_xchange-logo.png",
+    "van-money-changer": {
+      "name": "VAN Money Changer",
       "locations": [
         {
-          "id": "money_changer-midas_xchange_midas_xchange_aeon_mall_bsd-0",
-          "name": {
-            "en": "Midas Xchange (AEON Mall BSD)",
-            "id": "Midas Xchange (AEON Mall BSD)"
-          },
-          "address": {
-            "en": "AEON Mall BSD, Jl. BSD Raya Utama Lantai Dasar, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345",
-            "id": "AEON Mall BSD, Jl. BSD Raya Utama Lantai Dasar, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15345"
-          },
+          "id": "van-money-changer-0",
+          "name": "VAN Money Changer",
+          "address": "BSD City / Tangerang Selatan, Banten",
           "coordinates": {
-            "lat": -6.302679672139285,
-            "lng": 106.64735267511027
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2,5 km",
-          "estimatedTime": "7 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/44i2W8ZMynys7Zjr7"
+          "distance": "5,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/in6jpuHYSo9E5zsV8"
         }
       ]
     },
-    "diva_money_changer": {
-      "name": {
-        "en": "DIVA Money Changer",
-        "id": "DIVA Money Changer"
-      },
-      "logo": "/images/diva_money_changer-logo.png",
+    "diva-money-changer": {
+      "name": "DIVA Money Changer",
       "locations": [
         {
-          "id": "money_changer-diva_money_changer_diva_money_changer_bsd-1",
-          "name": {
-            "en": "DIVA Money Changer BSD",
-            "id": "DIVA Money Changer BSD"
-          },
-          "address": {
-            "en": "Jalan Raya Serpong Sektor 8 Kavling 5 No.402, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
-            "id": "Jalan Raya Serpong Sektor 8 Kavling 5 No.402, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15310"
-          },
+          "id": "diva-money-changer-1",
+          "name": "DIVA Money Changer",
+          "address": "Jalan Raya Serpong Sektor 8 Kavling 5 No.402, Lengkong Gudang, Serpong, Kota Tangerang Selatan, Banten 15310",
           "coordinates": {
-            "lat": -6.289694130124667,
-            "lng": 106.66698360059057
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "5,3 km",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/g4p3o1ABm6pSj5Mw7"
-        }
-      ]
-    },
-    "dolarku": {
-      "name": {
-        "en": "Dolarku",
-        "id": "Dolarku"
-      },
-      "logo": "/images/dolarku-logo.png",
-      "locations": [
-        {
-          "id": "money_changer-dolarku_dolarku_money_changer_bsd_pusat_valas_asia-2",
-          "name": {
-            "en": "Dolarku Money Changer BSD (Pusat Valas Asia)",
-            "id": "Dolarku Money Changer BSD (Pusat Valas Asia)"
-          },
-          "address": {
-            "en": "Jl. Pahlawan Seribu No.12, Gedung ITC BSD Lt. Dasar Blok A3.1-2, Banten 15310",
-            "id": "Jl. Pahlawan Seribu No.12, Gedung ITC BSD Lt. Dasar Blok A3.1-2, Banten 15310"
-          },
-          "coordinates": {
-            "lat": -6.286139826367686,
-            "lng": 106.66641628339842
-          },
-          "distance": "5,8 Km",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/owMBcQRyCjNFShw18"
-        }
-      ]
-    },
-    "van_money_changer": {
-      "name": {
-        "en": "VAN Money Changer",
-        "id": "VAN Money Changer"
-      },
-      "logo": "/images/van_money_changer-logo.png",
-      "locations": [
-        {
-          "id": "money_changer-van_money_changer_van_money_changer_bsd-3",
-          "name": {
-            "en": "VAN Money Changer BSD",
-            "id": "VAN Money Changer BSD"
-          },
-          "address": {
-            "en": "ITC BSD, Jl. Pahlawan Seribu No.12, Blk. A2 - A3 No.5 City Lantai Dasar, Lengkong Wetan, Kota Tangerang Selatan, Banten 15310",
-            "id": "ITC BSD, Jl. Pahlawan Seribu No.12, Blk. A2 - A3 No.5 City Lantai Dasar, Lengkong Wetan, Kota Tangerang Selatan, Banten 15310"
-          },
-          "coordinates": {
-            "lat": -6.285600192514084,
-            "lng": 106.66566332692533
-          },
-          "distance": "6,1 km",
-          "estimatedTime": "14 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/kVTLpgCHWJqLqpZo7"
-        }
-      ]
-    },
-    "jak_money_changer": {
-      "name": {
-        "en": "JAK Money Changer",
-        "id": "JAK Money Changer"
-      },
-      "logo": "/images/jak_money_changer-logo.png",
-      "locations": [
-        {
-          "id": "money_changer-jak_money_changer_jak_money_changer_gading_serpong-4",
-          "name": {
-            "en": "JAK Money Changer Gading Serpong",
-            "id": "JAK Money Changer Gading Serpong"
-          },
-          "address": {
-            "en": "Paramount Land Serpong, Ruko The Times Square, Jl. Jenderal Gatot Subroto No.83028 Lt.2, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334",
-            "id": "Paramount Land Serpong, Ruko The Times Square, Jl. Jenderal Gatot Subroto No.83028 Lt.2, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334"
-          },
-          "coordinates": {
-            "lat": -6.26675623689771,
-            "lng": 106.62696443704448
-          },
-          "distance": "6,5 Km",
-          "estimatedTime": "14 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/sm3Qrsv3G4CzHTaA9"
-        }
-      ]
-    },
-    "dolarindo": {
-      "name": {
-        "en": "Dolarindo",
-        "id": "Dolarindo"
-      },
-      "logo": "/images/dolarindo-logo.png",
-      "locations": [
-        {
-          "id": "money_changer-dolarindo_dolarindo_money_changer_bsd-5",
-          "name": {
-            "en": "Dolarindo Money Changer – BSD",
-            "id": "Dolarindo Money Changer – BSD"
-          },
-          "address": {
-            "en": "Ruko BSD Blok RE No.46, Lengkong Wetan, Serpong, Banten",
-            "id": "Ruko BSD Blok RE No.46, Lengkong Wetan, Serpong, Banten"
-          },
-          "coordinates": {
-            "lat": -6.28099975007238,
-            "lng": 106.66426371275773
-          },
-          "distance": "3,9 KM",
-          "estimatedTime": "±12–20 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/xwArYCrSVjD7FMAY9"
+          "distance": "4,7 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/tULymsHxh88xp81s9"
         }
       ]
     },
     "dolarasia": {
-      "name": {
-        "en": "Dolarasia",
-        "id": "Dolarasia"
-      },
-      "logo": "/images/dolarasia-logo.png",
+      "name": "Dolarasia",
       "locations": [
         {
-          "id": "money_changer-dolarasia_dolarasia_money_changer_pasar_modern_bsd-6",
-          "name": {
-            "en": "Dolarasia Money Changer – Pasar Modern BSD",
-            "id": "Dolarasia Money Changer – Pasar Modern BSD"
-          },
-          "address": {
-            "en": "Pasar Modern BSD, Blok R No.53, Banten 15310",
-            "id": "Pasar Modern BSD, Blok R No.53, Banten 15310"
-          },
+          "id": "dolarasia-2",
+          "name": "Dolarasia",
+          "address": "Dolarasia Money Changer, Komplek Ruko Pasar Modern BSD, Blok R No.53, Rw. Mekar Jaya, Serpong, Kota Tangerang Selatan, Banten 15310",
           "coordinates": {
-            "lat": -6.3036279885630515,
-            "lng": 106.68523126677646
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "5,4 KM",
-          "estimatedTime": "±12–20 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/7NMv8cnwpLoubJm69"
+          "distance": "6,8 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/ug6SwbQVJQxpfvT38"
+        }
+      ]
+    },
+    "midas-xchange": {
+      "name": "Midas Xchange",
+      "locations": [
+        {
+          "id": "midas-xchange-3",
+          "name": "Midas Xchange",
+          "address": "AEON Mall BSD, Jl. BSD Raya Utama Lantai Dasar, Pagedangan, Kabupaten Tangerang, Banten 15345",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,2 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/hCUQGtHXrKFr3PYh6"
+        }
+      ]
+    },
+    "jak-money-changer": {
+      "name": "JAK Money Changer",
+      "locations": [
+        {
+          "id": "jak-money-changer-4",
+          "name": "JAK Money Changer",
+          "address": "Ruko The Times Square Paramount Serpong, Jl. Jenderal Gatot Subroto No.83028 Lt.2, Gading Serpong, Kabupaten Tangerang, Banten 15334",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "6,6 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/kQASVHBrBFANtQHt5"
+        }
+      ]
+    },
+    "dolarku": {
+      "name": "Dolarku",
+      "locations": [
+        {
+          "id": "dolarku-5",
+          "name": "Dolarku",
+          "address": "Gedung ITC BSD, Lt. Dasar Blok A3 No.1-2, Jl. Pahlawan Seribu No.12, Tangerang Selatan, Banten 15310",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "5,1 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/TxGT1DsPRJAoQTCNA"
+        }
+      ]
+    },
+    "dolarindo": {
+      "name": "Dolarindo",
+      "locations": [
+        {
+          "id": "dolarindo-6",
+          "name": "Dolarindo",
+          "address": "Jl. Komp. BSD Blok RE No.46, Serpong, Lengkong Wetan, Kota Tangerang Selatan, Banten 15310",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "5,4 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/BG5Jo49vUjdhympT6"
         }
       ]
     }

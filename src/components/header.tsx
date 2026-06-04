@@ -1,8 +1,7 @@
 import { AppBar, Toolbar, Typography, IconButton, Box } from "@mui/material";
 import { ArrowBack, Home } from "@mui/icons-material";
-import { useNavigate, useLocation } from "react-router-dom";
-import LanguageSwitcher from "./language-switcher";
-import { t, type Locale, getLocaleFromPath } from "../lib/i18n";
+import { useNavigate } from "react-router-dom";
+import { t } from "../lib/i18n";
 
 interface HeaderProps {
   title?: string;
@@ -11,15 +10,13 @@ interface HeaderProps {
 
 export default function Header({ title, showBack = false }: HeaderProps) {
   const navigate = useNavigate();
-  const location = useLocation();
-  const locale = getLocaleFromPath(location.pathname) as Locale;
 
   const goBack = () => {
     navigate(-1);
   };
 
   const goHome = () => {
-    navigate(`/${locale}`);
+    navigate("/id");
   };
 
   return (
@@ -50,7 +47,7 @@ export default function Header({ title, showBack = false }: HeaderProps) {
             component="div"
             sx={{ fontSize: { xs: "1rem", sm: "1.25rem" } }}
           >
-            {title || t("appTitle", locale)}
+            {title || t("appTitle")}
           </Typography>
           {!title && (
             <Typography
@@ -58,12 +55,9 @@ export default function Header({ title, showBack = false }: HeaderProps) {
               component="div"
               sx={{ opacity: 0.8, fontSize: "0.75rem" }}
             >
-              {t("appSubtitle", locale)}
+              {t("appSubtitle")}
             </Typography>
           )}
-        </Box>
-        <Box>
-          <LanguageSwitcher />
         </Box>
       </Toolbar>
     </AppBar>

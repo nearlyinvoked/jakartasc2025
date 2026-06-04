@@ -15,7 +15,7 @@ import facilitiesData from "../data/index";
 
 export default function ProviderPage() {
   const {
-    locale = "en",
+    locale = "id",
     category = "",
     provider = "",
   } = useParams<{
@@ -51,16 +51,12 @@ export default function ProviderPage() {
     );
   }
 
-  // Helper function to get localized text with fallback
+  // Helper function to get text with fallback (supports plain strings and locale objects)
   const getLocalizedText = (textObj: any, fallback: string = "") => {
-    if (!textObj || typeof textObj !== "object") return fallback;
-    return (
-      textObj[locale] ||
-      textObj["en"] ||
-      textObj["id"] ||
-      Object.values(textObj)[0] ||
-      fallback
-    );
+    if (!textObj) return fallback;
+    if (typeof textObj === "string") return textObj;
+    if (typeof textObj !== "object") return fallback;
+    return textObj["id"] || textObj["en"] || Object.values(textObj)[0] || fallback;
   };
 
   return (

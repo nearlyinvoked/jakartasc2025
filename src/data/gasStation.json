@@ -1,263 +1,183 @@
 {
-  "name": {
-    "en": "Gas & EV Charging Stations",
-    "id": "SPBU & Stasiun Pengisian Listrik"
-  },
-  "icon": "gas-station",
+  "name": "SPBU & SPKLU",
+  "icon": "gas_station",
   "providers": {
-    "pertamina": {
-      "name": {
-        "en": "Pertamina",
-        "id": "Pertamina"
-      },
-      "logo": "/images/pertamina-logo.png",
-      "locations": [
-        {
-          "id": "gas-pertamina-3415311-0",
-          "name": {
-            "en": "SPBU Pertamina 34-15311",
-            "id": "SPBU Pertamina 34-15311"
-          },
-          "address": {
-            "en": "Jl. Raya Cisauk Lapan No.3",
-            "id": "Jl. Raya Cisauk Lapan No.3"
-          },
-          "coordinates": {
-            "lat": -6.321617616374504,
-            "lng": 106.64105372182844
-          },
-          "distance": "5.0 KM",
-          "estimatedTime": "11 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/2jiZsgWjbH3CfrZe9"
-        },
-        {
-          "id": "gas-spbu-3415321-kadusirung-0",
-          "name": {
-            "en": "SPBU 34-15321 Kadusirung",
-            "id": "SPBU 34-15321 Kadusirung"
-          },
-          "address": {
-            "en": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Pagedangan, Tangerang, Banten 15336",
-            "id": "MJF3+9FV, Jl. Maloko Raya, Kadu Sirung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
-          },
-          "coordinates": {
-            "lat": -6.326477797914426,
-            "lng": 106.60366846130098
-          },
-          "distance": "6.4 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/tTkz5bxefHfjNZC7"
-        },
-        {
-          "id": "gas-pertamina-3415801-0",
-          "name": {
-            "en": "Pertamina 34.158.01 Gas Station",
-            "id": "Pertamina 34.158.01"
-          },
-          "address": {
-            "en": "Jl. Raya Pagedangan No.5000, Babakan, Legok, Tangerang, Banten 15820",
-            "id": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820"
-          },
-          "coordinates": {
-            "lat": -6.298572226383271,
-            "lng": 106.59015825288675
-          },
-          "distance": "7.7 KM",
-          "estimatedTime": "14 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/gCaMgnUogdabbDr16"
-        },
-        {
-          "id": "gas-pertamina-3415810-0",
-          "name": {
-            "en": "Pertamina 34.158.10 Gas Station",
-            "id": "Pertamina 34.158.10"
-          },
-          "address": {
-            "en": "Jl. Raya Jatake No.77, Caringin, Legok, Tangerang, Banten 15330",
-            "id": "Jl. Raya Jatake No.77, Caringin, Kec. Legok, Kabupaten Tangerang, Banten 15330"
-          },
-          "coordinates": {
-            "lat": -6.318116911633452,
-            "lng": 106.58722870747111
-          },
-          "distance": "8.4 KM",
-          "estimatedTime": "16 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/AKX7kPrbmJ18i6iB7"
-        },
-        {
-          "id": "gas-pertamina-3415323-0",
-          "name": {
-            "en": "Pertamina 34.15.323 Gas Station",
-            "id": "Pertamina 34.15.323"
-          },
-          "address": {
-            "en": "Jl. Raya Pagedangan No.80-88, Cicalengka, Pagedangan, Tangerang, Banten 15336",
-            "id": "Jl. Raya Pagedangan No.80-88, Cicalengka, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
-          },
-          "coordinates": {
-            "lat": -6.298295206058865,
-            "lng": 106.61838884534578
-          },
-          "distance": "9.3 KM",
-          "estimatedTime": "17 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/dsDbZr6tBWWir2ZD7"
-        }
-      ]
-    },
-
     "shell": {
-      "name": { "en": "Shell", "id": "Shell" },
-      "logo": "/images/shell-logo.png",
+      "name": "Shell",
       "locations": [
         {
-          "id": "gas-shell-bsd-4-0",
-          "name": { "en": "Shell BSD-4", "id": "Shell BSD-4" },
-          "address": {
-            "en": "Jl. BSD Raya Utama, Pagedangan, Tangerang, Banten 15339",
-            "id": "Jl. BSD Raya Utama, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
+          "id": "shell-bsd-4-0",
+          "name": "Shell BSD-4",
+          "address": "10 Kavling Commercial Park Barat, BSD City, Tangerang, Banten 15322, Indonesia",
           "coordinates": {
-            "lat": -6.290875920155744,
-            "lng": 106.63945512543184
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2.1 KM",
-          "estimatedTime": "4 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Q4QRpXCJxbNDxjQa7"
+          "distance": "2,15 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/Gh77QmC24mKSLCrK9"
         }
       ]
     },
-
+    "vivo": {
+      "name": "VIVO",
+      "locations": [
+        {
+          "id": "vivo-bsd-1",
+          "name": "VIVO BSD",
+          "address": "Jl. Pahlawan Seribu No.6, RT.6/RW.4, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15321, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,71 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/5MdPBBV7SnHjGXdGA"
+        }
+      ]
+    },
+    "pertamina": {
+      "name": "Pertamina",
+      "locations": [
+        {
+          "id": "pertamina-rawa-buntu-2",
+          "name": "Pertamina Rawa Buntu",
+          "address": "Jl. Boulevard BSD, Rawa Buntu, Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,13 km",
+          "estimatedTime": "",
+          "mapUrl": ""
+        },
+        {
+          "id": "pertamina-lengkong-gudang-3",
+          "name": "Pertamina Lengkong Gudang",
+          "address": "Jl. Pahlawan Seribu, Lengkong Gudang, Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,45 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/xwZ4wSTRr1kMM6oK7"
+        },
+        {
+          "id": "pertamina-coco-bsd-city-31-153-02-4",
+          "name": "Pertamina COCO BSD City 31.153.02",
+          "address": "Jl. Pahlawan Seribu Kavling Commercial IV A Blok 1-2, Lengkong Karya, Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2,45 km",
+          "estimatedTime": "",
+          "mapUrl": ""
+        },
+        {
+          "id": "pertamina-31-153-01-bsd-lengkong-5",
+          "name": "Pertamina 31.153.01 BSD Lengkong",
+          "address": "Jalan Letnan Sutopo No.2, Lengkong Gudang Timur, Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "3,60 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/Bqm4171ZHZTkrE117"
+        },
+        {
+          "id": "pertamina-34-153-21-kadu-sirung-6",
+          "name": "Pertamina 34.153.21 Kadu Sirung",
+          "address": "Jl. Maloko Raya, Kadu Sirung, Pagedangan, Kabupaten Tangerang, Banten 15336, Indonesia",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "4,80 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/pNnYne84iTkmdD798"
+        },
+        {
+          "id": "pertamina-34-153-11-cisauk-11",
+          "name": "pertamina 34.153.11 cisauk",
+          "address": "Jl. Raya Cisauk Lapan No.3, Situ Gadung, Kec. Pagedangan, Kabupaten Tangerang, Banten 15338",
+          "coordinates": {
+            "lat": -6.2974,
+            "lng": 106.6514
+          },
+          "distance": "2 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/a27qmeBuDJfUkW5k6"
+        }
+      ]
+    },
     "bp": {
-      "name": {
-        "en": "BP",
-        "id": "BP"
-      },
-      "logo": "/images/bp-logo.png",
+      "name": "BP",
       "locations": [
         {
-          "id": "gas-bp-asterra-west-bsd-0",
-          "name": {
-            "en": "SPBU bp Asterra West - BSD City",
-            "id": "SPBU bp Asterra West - BSD City"
-          },
-          "address": {
-            "en": "Jl. Raya Pagedangan Kp. Cicayur II Blok Batu No.16, Cijantra, Pagedangan, Tangerang, Banten 15336",
-            "id": "Jl. Raya Pagedangan Kp. Cicayur II Blok Batu No.16, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336"
-          },
+          "id": "bp-asterra-west-bsd-city-7",
+          "name": "Bp Asterra West BSD City",
+          "address": "Jl. BSD Boulevard Utara, Commercial Business Park BSD Tahap II Barat, BSD City, Tangerang, Banten, Indonesia",
           "coordinates": {
-            "lat": -6.288515934784374,
-            "lng": 106.61783325751844
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "5.6 KM",
-          "estimatedTime": "9 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/i3zDHU5bXgrAFS8n6"
+          "distance": "3,00 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/BXC9Susoce3PuPcN6"
         }
       ]
     },
-
-    "charging-station": {
-      "name": {
-        "en": "Charging Station",
-        "id": "Stasiun Pengisian Listrik"
-      },
-      "logo": "/images/default-logo.png",
+    "terra-charge": {
+      "name": "Terra Charge",
       "locations": [
         {
-          "id": "gas-spklu-charging-station-0",
-          "name": {
-            "en": "SPKLU Charging Station",
-            "id": "SPKLU Charging Station"
-          },
-          "address": {
-            "en": "MJVV+HXV, Pagedangan, Tangerang Regency, Banten 15339",
-            "id": "MJVV+HXV, Pagedangan, Kabupaten Tangerang, Banten 15339"
-          },
+          "id": "terra-charge-saveria-bsd-8",
+          "name": "Terra Charge Saveria BSD",
+          "address": "Saveria Apartment, Jl. BSD Raya Barat, Sampora, Cisauk, Kabupaten Tangerang, Banten 15345, Indonesia",
           "coordinates": {
-            "lat": -6.303993248692348,
-            "lng": 106.6434425860386
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2.4 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/VkjbJr3THPWZfr6VA"
-        },
-        {
-          "id": "gas-evcuzz-charging-station-0",
-          "name": {
-            "en": "EVCuzz Charging Station",
-            "id": "EVCuzz Charging Station"
-          },
-          "address": {
-            "en": "Jl. BSD Boulevard Utara No.18-23, Lengkong Kulon, Pagedangan, Tangerang, Banten 15331",
-            "id": "Jl. BSD Boulevard Utara No.18-23, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331"
-          },
-          "coordinates": {
-            "lat": -6.287089784454315,
-            "lng": 106.6397817125257
-          },
-          "distance": "3.8 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/r18DpAjSAphSipB78"
-        },
-        {
-          "id": "gas-voltron-charging-station-0",
-          "name": {
-            "en": "Voltron Charging Station",
-            "id": "Voltron Charging Station"
-          },
-          "address": {
-            "en": "MJXV+WH5, Jl. BSD Grand Boulevard, Pagedangan, Tangerang, Banten",
-            "id": "MJXV+WH5, Jl. BSD Grand Boulevard, Kec. Pagedangan, Kabupaten Tangerang, Banten"
-          },
-          "coordinates": {
-            "lat": -6.30023803798032,
-            "lng": 106.6440382613944
-          },
-          "distance": "8.4 KM",
-          "estimatedTime": "17 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/uTEwZiTvjhK3RM9E6"
+          "distance": "0,16 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/jiSzbfpzVnqBG6Ag6"
         }
       ]
     },
-
-    "others": {
-      "name": {
-        "en": "Others",
-        "id": "Lainnya"
-      },
-      "logo": "/images/default-logo.png",
+    "spklu-lainnya": {
+      "name": "SPKLU Lainnya",
       "locations": [
         {
-          "id": "gas-mobil-indostation-pagedangan-0",
-          "name": {
-            "en": "Mobil Indostation Pagedangan",
-            "id": "Mobil Indostation Pagedangan"
-          },
-          "address": {
-            "en": "Jl. Raya Pagedangan No.5000, Babakan, Legok, Tangerang, Banten 15820",
-            "id": "Jl. Raya Pagedangan No.5000, Babakan, Kec. Legok, Kabupaten Tangerang, Banten 15820"
-          },
+          "id": "aeon-mall-bsd-9",
+          "name": "AEON Mall BSD",
+          "address": "AEON Mall BSD City, Area Parkir Utara  Jl. BSD Raya Utama, Pagedangan, Kabupaten Tangerang, Banten 15339, Indonesia",
           "coordinates": {
-            "lat": -6.302481643391976,
-            "lng": 106.59442093794199
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2.2 KM",
-          "estimatedTime": "6 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/nQX4gUJhm8KgukGj9"
-        },
+          "distance": "0,84 km",
+          "estimatedTime": "",
+          "mapUrl": ""
+        }
+      ]
+    },
+    "voltron": {
+      "name": "Voltron",
+      "locations": [
         {
-          "id": "gas-astra-otopower-0",
-          "name": { "en": "Astra Otopower", "id": "Astra Otopower" },
-          "address": {
-            "en": "Astra Biz Center, BSD City, Jl. BSD Raya Utama No.11A, Serpong, Tangerang, Banten 15310",
-            "id": "Astra Biz Center, BSD City, Jl. BSD Raya Utama No.11A, Lengkong Kulon, Kec. Serpong, Tangerang, Banten 15310"
-          },
+          "id": "voltron-mcdonald-s-sunburst-bsd-10",
+          "name": "Voltron McDonald's Sunburst BSD",
+          "address": "McDonald's Sunburst BSD, Jl. Kapten Soebijanto Djojohadikusumo, BSD City, Lengkong Gudang, Serpong, Tangerang Selatan, Banten 15321, Indonesia",
           "coordinates": {
-            "lat": -6.289170346707269,
-            "lng": 106.63864617168711
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2.5 KM",
-          "estimatedTime": "6 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/8FneknHybzetdbox5"
+          "distance": "1,76 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/dXsi19ffWkgYWpoA6"
         }
       ]
     }

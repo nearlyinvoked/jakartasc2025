@@ -1,985 +1,378 @@
 {
-  "name": {
-    "en": "Restaurant",
-    "id": "Restoran"
-  },
-  "icon": "food",
+  "name": "Restoran",
+  "icon": "restaurant",
   "providers": {
-    "hygge_cafe_bsd": {
-      "name": { "en": "Hygge Cafe BSD", "id": "Hygge Cafe BSD" },
-      "logo": "/images/fnb-logo.png",
+    "jalarasa-the-breeze-bsd": {
+      "name": "Jalarasa The Breeze BSD",
       "locations": [
         {
-          "id": "restaurant-hygge_cafe_bsd-1",
-          "name": {
-            "en": "Hygge Cafe BSD",
-            "id": "Hygge Cafe BSD"
-          },
-          "address": {
-            "en": "Jl. BSD Grand Boulevard, Sampora, Cisauk, Tangerang 15345",
-            "id": "Jl. BSD Grand Boulevard, Sampora, Cisauk, Tangerang 15345"
-          },
+          "id": "jalarasa-the-breeze-bsd-0",
+          "name": "Jalarasa The Breeze BSD",
+          "address": "The Breeze BSD City, Jl. BSD Green Office Park, Sampora, Cisauk, Kab. Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.2976843301348,
-            "lng": 106.64030907327624
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "1.6 KM",
-          "estimatedTime": "6 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/AeoEpL1LQt7kzkXV9"
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/3m7hZjSUW4mAZRqn6"
         }
       ]
     },
-
-    "mcdonalds_edutown_bsd": {
-      "name": {
-        "en": "McDonald's Edutown BSD",
-        "id": "McDonald's Edutown BSD"
-      },
-      "logo": "/images/fnb-logo.png",
+    "sushi-tei-the-breeze-bsd": {
+      "name": "Sushi Tei The Breeze BSD",
       "locations": [
         {
-          "id": "restaurant-mcdonalds_edutown_bsd-1",
-          "name": {
-            "en": "McDonald's Edutown BSD",
-            "id": "McDonald's Edutown BSD"
-          },
-          "address": {
-            "en": "Jl. BSD Raya Utama No.22, Pagedangan, Tangerang 15339",
-            "id": "Jl. BSD Raya Utama No.22, Pagedangan, Tangerang 15339"
-          },
+          "id": "sushi-tei-the-breeze-bsd-1",
+          "name": "Sushi Tei The Breeze BSD",
+          "address": "The Breeze BSD City, BSD Green Office Park, Sampora, Cisauk, Kab. Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.299832308923422,
-            "lng": 106.64145100854687
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "1.3 KM",
-          "estimatedTime": "5 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/LacRZvE4At61NT2K7"
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/X4TMNFxnyBbCPdrYA"
         }
       ]
     },
-
-    "kopi_nako_bsd": {
-      "name": { "en": "Kopi Nako BSD", "id": "Kopi Nako BSD" },
-      "logo": "/images/fnb-logo.png",
+    "sate-khas-senayan-the-breeze-bsd": {
+      "name": "Sate Khas Senayan The Breeze BSD",
       "locations": [
         {
-          "id": "restaurant-kopi_nako_bsd-1",
-          "name": {
-            "en": "Kopi Nako BSD",
-            "id": "Kopi Nako BSD"
-          },
-          "address": {
-            "en": "Jl. Edutown, Pagedangan, Tangerang 15339",
-            "id": "Jl. Edutown, Pagedangan, Tangerang 15339"
-          },
+          "id": "sate-khas-senayan-the-breeze-bsd-2",
+          "name": "Sate Khas Senayan The Breeze BSD",
+          "address": "The Breeze BSD City, BSD Green Office Park, Sampora, Cisauk, Kab. Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.302449404210548,
-            "lng": 106.63955403800979
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "4.6 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ePyJtuPwFoN3Z1CLA"
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/FWGQbKvx974MgJkm6"
         }
       ]
     },
-
-    "starbucks": {
-      "name": { "en": "Starbucks", "id": "Starbucks" },
-      "logo": "/images/fnb-logo.png",
+    "jittlada-restaurant-the-breeze-bsd": {
+      "name": "Jittlada Restaurant The Breeze BSD",
       "locations": [
         {
-          "id": "restaurant-starbucks-1",
-          "name": {
-            "en": "Starbucks",
-            "id": "Starbucks"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, BSD Raya Utama, Tangerang 15339",
-            "id": "AEON Mall BSD City, BSD Raya Utama, Tangerang 15339"
-          },
+          "id": "jittlada-restaurant-the-breeze-bsd-3",
+          "name": "Jittlada Restaurant The Breeze BSD",
+          "address": "The Breeze BSD City, BSD Green Office Park, Sampora, Cisauk, Kab. Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.304324416875953,
-            "lng": 106.64408281578552
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/1NksmGMmJ3d3zFKy9"
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/z8YRhgC9CPDF9R478"
         }
       ]
     },
-
-    "kfc_bsd_square": {
-      "name": { "en": "KFC BSD Square", "id": "KFC BSD Square" },
-      "logo": "/images/fnb-logo.png",
+    "bebek-bengil-the-breeze-bsd": {
+      "name": "Bebek Bengil The Breeze BSD",
       "locations": [
         {
-          "id": "restaurant-kfc_bsd_square-1",
-          "name": {
-            "en": "KFC BSD Square",
-            "id": "KFC BSD Square"
-          },
-          "address": {
-            "en": "KFC BSD Square, BSD City, Tangerang 15321",
-            "id": "KFC BSD Square, BSD City, Tangerang 15321"
-          },
+          "id": "bebek-bengil-the-breeze-bsd-4",
+          "name": "Bebek Bengil The Breeze BSD",
+          "address": "The Breeze BSD City, BSD Green Office Park, Sampora, Cisauk, Kab. Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.2931505268273815,
-            "lng": 106.66714245931645
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "5.4 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Xx7QEp2ZvtS2Ku6u9"
+          "distance": "2,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/qg1to2tjzv8pk2486"
         }
       ]
     },
-
-    "popolamama": {
-      "name": {
-        "en": "Popolamama Pizza & Pasta",
-        "id": "Popolamama Pizza & Pasta"
-      },
-      "logo": "/images/fnb-logo.png",
+    "mcd-edutown-bsd": {
+      "name": "MCD Edutown bsd",
       "locations": [
         {
-          "id": "restaurant-popolamama-1",
-          "name": {
-            "en": "Popolamama Pizza & Pasta",
-            "id": "Popolamama Pizza & Pasta"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "mcd-edutown-bsd-5",
+          "name": "MCD Edutown bsd",
+          "address": "Jl. BSD Raya Utama No.22, Pagedangan, Kec. Pagedangan, Kabupaten Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.304303295808488,
-            "lng": 106.64420085415823
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/GjauLeqx4RRuYcbL9"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/io315v6wDkMorUSQA"
         }
       ]
     },
-
-    "pizza_marzano": {
-      "name": { "en": "Pizza Marzano", "id": "Pizza Marzano" },
-      "logo": "/images/fnb-logo.png",
+    "umatis-resto": {
+      "name": "umatis resto",
       "locations": [
         {
-          "id": "restaurant-pizza_marzano-1",
-          "name": {
-            "en": "Pizza Marzano",
-            "id": "Pizza Marzano"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "umatis-resto-6",
+          "name": "umatis resto",
+          "address": "BSD City, Kavling Taman Kota Barat Lot No.II.6, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
           "coordinates": {
-            "lat": -6.304559231810209,
-            "lng": 106.64369391654436
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Qrjn6MoZHgf2zTDt9"
+          "distance": "3 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/dTjUAxTkr2S29URp8"
         }
       ]
     },
-
-    "nannys_pavillon": {
-      "name": {
-        "en": "Nanny's Pavillon – AEON Mall BSD City",
-        "id": "Nanny's Pavillon – AEON Mall BSD City"
-      },
-      "logo": "/images/fnb-logo.png",
+    "lembur-kuring-bsd": {
+      "name": "Lembur Kuring BSD",
       "locations": [
         {
-          "id": "restaurant-nannys_pavillon-1",
-          "name": {
-            "en": "Nanny's Pavillon – AEON Mall BSD City",
-            "id": "Nanny's Pavillon – AEON Mall BSD City"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "lembur-kuring-bsd-7",
+          "name": "Lembur Kuring BSD",
+          "address": "Jl. Boulevard BSD Timur, Serpong, Tangerang Selatan, Banten",
           "coordinates": {
-            "lat": -6.304079657735098,
-            "lng": 106.64397958042008
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/eEemw85m6wwmFLMVA"
-        },
-        {
-          "id": "restaurant-nannys_pavillon-2",
-          "name": {
-            "en": "Nanny's Pavillon – AEON Mall BSD City",
-            "id": "Nanny's Pavillon – AEON Mall BSD City"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
-          "coordinates": {
-            "lat": -6.304082562698952,
-            "lng": 106.64398012024441
-          },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Ue7oSGcoz61SPgv1A"
+          "distance": "4,5 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/AsjebWtBsYgzoLLb9"
         }
       ]
     },
-
-    "zenbu": {
-      "name": { "en": "Zenbu House of Mozaru", "id": "Zenbu House of Mozaru" },
-      "logo": "/images/fnb-logo.png",
+    "warung-tekko-bsd": {
+      "name": "Warung Tekko BSD",
       "locations": [
         {
-          "id": "restaurant-zenbu-1",
-          "name": {
-            "en": "Zenbu House of Mozaru",
-            "id": "Zenbu House of Mozaru"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "warung-tekko-bsd-8",
+          "name": "Warung Tekko BSD",
+          "address": "Qbig Mall, Jl. BSD Raya Utama No. 48, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
           "coordinates": {
-            "lat": -6.303907700983186,
-            "lng": 106.64427060015008
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/RDLPC2HPmhNaj2yj8"
+          "distance": "2,8 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/sRd46StcifnyB7VY7"
         }
       ]
     },
-
-    "gyu_kaku": {
-      "name": { "en": "Gyu-Kaku", "id": "Gyu-Kaku" },
-      "logo": "/images/fnb-logo.png",
+    "soto-betawi-h-mamat-bsd": {
+      "name": "Soto Betawi H. Mamat BSD",
       "locations": [
         {
-          "id": "restaurant-gyu_kaku-1",
-          "name": {
-            "en": "Gyu-Kaku",
-            "id": "Gyu-Kaku"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "soto-betawi-h-mamat-bsd-9",
+          "name": "Soto Betawi H. Mamat BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.303917630142964,
-            "lng": 106.64469495132963
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/YN4ipxXZEEYNC18o6"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/E7DhQU1ajqMnUurM9"
         }
       ]
     },
-
-    "ramen_seirockya": {
-      "name": { "en": "Ramen Seirock-Ya", "id": "Ramen Seirock-Ya" },
-      "logo": "/images/fnb-logo.png",
+    "the-duck-king-aeon-mall-bsd-city": {
+      "name": "The Duck King AEON Mall BSD City",
       "locations": [
         {
-          "id": "restaurant-ramen_seirockya-1",
-          "name": {
-            "en": "Ramen Seirock-Ya",
-            "id": "Ramen Seirock-Ya"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "the-duck-king-aeon-mall-bsd-city-10",
+          "name": "The Duck King AEON Mall BSD City",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.305355679584067,
-            "lng": 106.64295086705943
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/kP7GvG5JrrLeQFk57"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/AhaDHaf6XDkGr1998"
         }
       ]
     },
-
-    "menya_sakura": {
-      "name": { "en": "Menya Sakura", "id": "Menya Sakura" },
-      "logo": "/images/fnb-logo.png",
+    "imperial-kitchen-dimsum-aeon-mall-bsd": {
+      "name": "Imperial Kitchen & Dimsum AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-menya_sakura-1",
-          "name": {
-            "en": "Menya Sakura",
-            "id": "Menya Sakura"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "imperial-kitchen-dimsum-aeon-mall-bsd-11",
+          "name": "Imperial Kitchen & Dimsum AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.30521564829839,
-            "lng": 106.64296281935896
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/KTZJwN2gePYXWSfN7"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/KdjkCKSfoP5D8wR77"
         }
       ]
     },
-
-    "steak21": {
-      "name": { "en": "Steak 21", "id": "Steak 21" },
-      "logo": "/images/fnb-logo.png",
+    "kimukatsu-aeon-mall-bsd": {
+      "name": "Kimukatsu AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-steak21-1",
-          "name": {
-            "en": "Steak 21",
-            "id": "Steak 21"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "kimukatsu-aeon-mall-bsd-12",
+          "name": "Kimukatsu AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.304906359603801,
-            "lng": 106.64345436011675
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/TnDE3wsivnYJVytE8"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/zHdfQrT9EJFoHCHSA"
         }
       ]
     },
-
-    "bijin_nabe": {
-      "name": { "en": "Bijin Nabe", "id": "Bijin Nabe" },
-      "logo": "/images/fnb-logo.png",
+    "pepper-lunch-aeon-mall-bsd": {
+      "name": "Pepper Lunch AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-bijin_nabe-1",
-          "name": {
-            "en": "Bijin Nabe",
-            "id": "Bijin Nabe"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Tangerang 15339",
-            "id": "AEON Mall BSD City, Tangerang 15339"
-          },
+          "id": "pepper-lunch-aeon-mall-bsd-13",
+          "name": "Pepper Lunch AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.303716638802662,
-            "lng": 106.6446433041063
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "2 KM",
-          "estimatedTime": "10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/XvfqxR6LutDFWA6m6"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/wvTiu8YdJxyiWa9y7"
         }
       ]
     },
-
-    "imperial_kitchen": {
-      "name": {
-        "en": "Imperial Kitchen & Dimsum",
-        "id": "Imperial Kitchen & Dimsum"
-      },
-      "logo": "/images/fnb-logo.png",
+    "gyu-kaku-aeon-mall-bsd": {
+      "name": "Gyu-Kaku AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-imperial_kitchen-1",
-          "name": {
-            "en": "Imperial Kitchen & Dimsum",
-            "id": "Imperial Kitchen & Dimsum"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Unit 3F, BSD Raya Utama",
-            "id": "AEON Mall BSD City, Unit 3F, BSD Raya Utama"
-          },
+          "id": "gyu-kaku-aeon-mall-bsd-14",
+          "name": "Gyu-Kaku AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.304942431972577,
-            "lng": 106.64373287116456
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.5 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/wxgMfd8HMKeEUJKx7"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/ckMxfeAuGBcnrjcGA"
         }
       ]
     },
-
-    "ichiro_ramen": {
-      "name": { "en": "Ichiro Ramen", "id": "Ichiro Ramen" },
-      "logo": "/images/fnb-logo.png",
+    "zenbu-aeon-mall-bsd": {
+      "name": "Zenbu AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-ichiro_ramen-1",
-          "name": {
-            "en": "Ichiro Ramen",
-            "id": "Ichiro Ramen"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Ramen Village, 3rd Floor",
-            "id": "AEON Mall BSD City, Ramen Village, Lantai 3"
-          },
+          "id": "zenbu-aeon-mall-bsd-15",
+          "name": "Zenbu AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.305264995903784,
-            "lng": 106.64307877115694
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.5 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/iU9X1bXWmWzshPgt5"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/tEhvYQUYafkJYmRTA"
         }
       ]
     },
-
-    "sukiya": {
-      "name": { "en": "Sukiya Gyudon", "id": "Sukiya Gyudon" },
-      "logo": "/images/fnb-logo.png",
+    "ramen-seirock-ya-aeon-mall-bsd": {
+      "name": "Ramen Seirock-Ya AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-sukiya-1",
-          "name": {
-            "en": "Sukiya Gyudon",
-            "id": "Sukiya Gyudon"
-          },
-          "address": {
-            "en": "AEON Mall BSD City",
-            "id": "AEON Mall BSD City"
-          },
+          "id": "ramen-seirock-ya-aeon-mall-bsd-16",
+          "name": "Ramen Seirock-Ya AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.3049706319737,
-            "lng": 106.64333530000097
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.5 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/2YkAP5Cs64yFn1Bd9"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/XcHCxyP78J82hZdk7"
         }
       ]
     },
-
-    "uchino_shokudo": {
-      "name": { "en": "Uchino Shokudo", "id": "Uchino Shokudo" },
-      "logo": "/images/fnb-logo.png",
+    "pizza-marzano-aeon-mall-bsd": {
+      "name": "Pizza Marzano AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-uchino_shokudo-1",
-          "name": {
-            "en": "Uchino Shokudo",
-            "id": "Uchino Shokudo"
-          },
-          "address": {
-            "en": "AEON Mall BSD City GF, Sampora, Cisauk",
-            "id": "AEON Mall BSD City GF, Sampora, Cisauk"
-          },
+          "id": "pizza-marzano-aeon-mall-bsd-17",
+          "name": "Pizza Marzano AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.304073259896921,
-            "lng": 106.64432499999513
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.9 KM",
-          "estimatedTime": "7–8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/8E4ayn2xiT3fq4cF6"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/cf2jGww3jvaa3XXr7"
         }
       ]
     },
-
-    "wingstop_aeon": {
-      "name": { "en": "Wingstop AEON Mall", "id": "Wingstop AEON Mall" },
-      "logo": "/images/fnb-logo.png",
+    "bakmi-gm-aeon-mall-bsd": {
+      "name": "Bakmi GM AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-wingstop_aeon-1",
-          "name": {
-            "en": "Wingstop AEON Mall",
-            "id": "Wingstop AEON Mall"
-          },
-          "address": {
-            "en": "AEON Mall BSD City Lantai 3",
-            "id": "AEON Mall BSD City Lantai 3"
-          },
+          "id": "bakmi-gm-aeon-mall-bsd-18",
+          "name": "Bakmi GM AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.304701659867316,
-            "lng": 106.64323497116415
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.9 KM",
-          "estimatedTime": "7–8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/LfrBqaSaGxbJNmtq9"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/MsaBFpoGRZVBLRFT8"
         }
       ]
     },
-
-    "golden_lamian": {
-      "name": { "en": "Golden Lamian", "id": "Golden Lamian" },
-      "logo": "/images/fnb-logo.png",
+    "yoshinoya-aeon-mall-bsd": {
+      "name": "Yoshinoya AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-golden_lamian-1",
-          "name": {
-            "en": "Golden Lamian",
-            "id": "Golden Lamian"
-          },
-          "address": {
-            "en": "Summarecon Mall Serpong, Gading Serpong, Lantai 3",
-            "id": "Summarecon Mall Serpong, Gading Serpong, Lantai 3"
-          },
+          "id": "yoshinoya-aeon-mall-bsd-19",
+          "name": "Yoshinoya AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.303560295955444,
-            "lng": 106.64440477116261
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.9 KM",
-          "estimatedTime": "7–8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Jv9FtQVAAYDsZ7MeA"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/mKYYbeBbaYShqfu86"
         }
       ]
     },
-
-    "ootoya": {
-      "name": {
-        "en": "Ootoya Japanese Restaurant",
-        "id": "Ootoya Japanese Restaurant"
-      },
-      "logo": "/images/fnb-logo.png",
+    "wingstop-aeon-mall-bsd": {
+      "name": "Wingstop AEON Mall BSD",
       "locations": [
         {
-          "id": "restaurant-ootoya-1",
-          "name": {
-            "en": "Ootoya Japanese Restaurant",
-            "id": "Ootoya Japanese Restaurant"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Ground Floor",
-            "id": "AEON Mall BSD City, Ground Floor"
-          },
+          "id": "wingstop-aeon-mall-bsd-20",
+          "name": "Wingstop AEON Mall BSD",
+          "address": "AEON Mall BSD City, Jl. BSD Raya Utama, Pagedangan, Kab. Tangerang, Banten 15339",
           "coordinates": {
-            "lat": -6.305399874339009,
-            "lng": 106.6432980191581
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "0.9 KM",
-          "estimatedTime": "7–8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/mt5H2cj71TCTEvBB7"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": ""
         }
       ]
     },
-
-    "on_yasai": {
-      "name": { "en": "On-Yasai Shabu Shabu", "id": "On-Yasai Shabu Shabu" },
-      "logo": "/images/fnb-logo.png",
+    "intermoda-bsd-foodcourt": {
+      "name": "Intermoda BSD foodcourt",
       "locations": [
         {
-          "id": "restaurant-on_yasai-1",
-          "name": {
-            "en": "On-Yasai Shabu Shabu",
-            "id": "On-Yasai Shabu Shabu"
-          },
-          "address": {
-            "en": "AEON Mall BSD City, Cisauk",
-            "id": "AEON Mall BSD City, Cisauk"
-          },
+          "id": "intermoda-bsd-foodcourt-21",
+          "name": "Intermoda BSD foodcourt",
+          "address": "MJJW+QR2, Jalan Raya, Sampora, Cisauk, Tangerang Regency, Banten 15345",
           "coordinates": {
-            "lat": -6.30397088520696,
-            "lng": 106.64463912613313
+            "lat": -6.2974,
+            "lng": 106.6514
           },
-          "distance": "1 KM",
-          "estimatedTime": "8–10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/ZpHWv5mnQLbVcB6h6"
-        }
-      ]
-    },
-
-    "rocca_osteria": {
-      "name": { "en": "Rocca Osteria Bar", "id": "Rocca Osteria Bar" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-rocca_osteria-1",
-          "name": {
-            "en": "Rocca Osteria Bar",
-            "id": "Rocca Osteria Bar"
-          },
-          "address": {
-            "en": "QBig BSD City, BSD Raya Utama No.7",
-            "id": "QBig BSD City, BSD Raya Utama No.7"
-          },
-          "coordinates": {
-            "lat": -6.283543967810062,
-            "lng": 106.63715787116976
-          },
-          "distance": "1.8 KM",
-          "estimatedTime": "8–10 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/uFns8c1AES4c2V9aA"
-        }
-      ]
-    },
-
-    "moto_moto": {
-      "name": { "en": "Moto Moto", "id": "Moto Moto" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-moto_moto-1",
-          "name": {
-            "en": "Moto Moto",
-            "id": "Moto Moto"
-          },
-          "address": {
-            "en": "QBig BSD City, BSD Raya Utama",
-            "id": "QBig BSD City, BSD Raya Utama"
-          },
-          "coordinates": {
-            "lat": -6.283328649361677,
-            "lng": 106.6370609694275
-          },
-          "distance": "1.3 KM",
-          "estimatedTime": "7–8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Pksk4zGZCJ9pt2HBA"
-        }
-      ]
-    },
-
-    "hog_wild": {
-      "name": {
-        "en": "Hog Wild with Chef Bruno",
-        "id": "Hog Wild with Chef Bruno"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-hog_wild-1",
-          "name": {
-            "en": "Hog Wild with Chef Bruno",
-            "id": "Hog Wild with Chef Bruno"
-          },
-          "address": {
-            "en": "Ruko South Goldfinch, BSD City",
-            "id": "Ruko South Goldfinch, BSD City"
-          },
-          "coordinates": {
-            "lat": -6.273918709394137,
-            "lng": 106.64239231533485
-          },
-          "distance": "3.1 KM",
-          "estimatedTime": "14 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/THvHejKjxQFjK8Vq7"
-        }
-      ]
-    },
-
-    "jittlada": {
-      "name": { "en": "Jittlada Thai Cuisine", "id": "Jittlada Thai Cuisine" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-jittlada-1",
-          "name": {
-            "en": "Jittlada Thai Cuisine",
-            "id": "Jittlada Thai Cuisine"
-          },
-          "address": {
-            "en": "The Breeze L-21, BSD City",
-            "id": "The Breeze L-21, BSD City"
-          },
-          "coordinates": {
-            "lat": -6.3016110679948,
-            "lng": 106.65427937115602
-          },
-          "distance": "3.9 KM",
-          "estimatedTime": "15 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Wv3uTEF988WYogea6"
-        }
-      ]
-    },
-
-    "sale_ristorante": {
-      "name": {
-        "en": "SALE Italian Ristorante",
-        "id": "SALE Italian Ristorante"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-sale_ristorante-1",
-          "name": {
-            "en": "SALE Italian Ristorante",
-            "id": "SALE Italian Ristorante"
-          },
-          "address": {
-            "en": "The Icon Business Park, BSD",
-            "id": "The Icon Business Park, BSD"
-          },
-          "coordinates": {
-            "lat": -6.315392804409631,
-            "lng": 106.65215172883029
-          },
-          "distance": "2.5 KM",
-          "estimatedTime": "12–15 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/m8SWN4mh3QKZaqfQA"
-        }
-      ]
-    },
-
-    "la_vera_pizza": {
-      "name": { "en": "La Vera Pizza", "id": "La Vera Pizza" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-la_vera_pizza-1",
-          "name": {
-            "en": "La Vera Pizza",
-            "id": "La Vera Pizza"
-          },
-          "address": {
-            "en": "Jl. BSD Raya Utama No.9, Serpong",
-            "id": "Jl. BSD Raya Utama No.9, Serpong"
-          },
-          "coordinates": {
-            "lat": -6.295017932076565,
-            "lng": 106.64000017117039
-          },
-          "distance": "2.4 KM",
-          "estimatedTime": "-",
-          "mapUrl": "https://maps.app.goo.gl/Sn4XjRH66voBdVeP9"
-        }
-      ]
-    },
-
-    "manteman_space": {
-      "name": { "en": "Manteman Space", "id": "Manteman Space" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-manteman_space-1",
-          "name": {
-            "en": "Manteman Space",
-            "id": "Manteman Space"
-          },
-          "address": {
-            "en": "Jl. BSD Raya Pusat, Lengkong Kulon",
-            "id": "Jl. BSD Raya Pusat, Lengkong Kulon"
-          },
-          "coordinates": {
-            "lat": -6.291876324740827,
-            "lng": 106.62291647116878
-          },
-          "distance": "4.6 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/QRZ8VBdhv96nEjPH6?g_st=iw"
-        }
-      ]
-    },
-
-    "tabespot_bsd": {
-      "name": {
-        "en": "Ruko Tabespot BSD City (Food Court)",
-        "id": "Ruko Tabespot BSD City (Food Court)"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-tabespot_bsd-1",
-          "name": {
-            "en": "Ruko Tabespot BSD City (Food Court)",
-            "id": "Ruko Tabespot BSD City (Food Court)"
-          },
-          "address": {
-            "en": "Jl. BSD Raya Pusat, Lengkong Kulon",
-            "id": "Jl. BSD Raya Pusat, Lengkong Kulon"
-          },
-          "coordinates": {
-            "lat": -6.292850196289346,
-            "lng": 106.62348157117044
-          },
-          "distance": "4.8 KM",
-          "estimatedTime": "8 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/qTvJbLLrSrrrc6pG7?g_st=iw"
-        }
-      ]
-    },
-
-    "west_park_bsd": {
-      "name": { "en": "West Park BSD", "id": "West Park BSD" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-west_park_bsd-1",
-          "name": {
-            "en": "West Park BSD",
-            "id": "West Park BSD"
-          },
-          "address": {
-            "en": "Ruko West Park BSD, Pagedangan",
-            "id": "Ruko West Park BSD, Pagedangan"
-          },
-          "coordinates": {
-            "lat": -6.29596183206689,
-            "lng": 106.62194337117154
-          },
-          "distance": "5.3 KM",
-          "estimatedTime": "9 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/5TJw6ZaoJ2KoPLr47?g_st=iw"
-        }
-      ]
-    },
-
-    "ice_business_park": {
-      "name": {
-        "en": "Ruko ICE Business Park BSD",
-        "id": "Ruko ICE Business Park BSD"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-ice_business_park-1",
-          "name": {
-            "en": "Ruko ICE Business Park BSD",
-            "id": "Ruko ICE Business Park BSD"
-          },
-          "address": {
-            "en": "Jl. BSD Grand Boulevard, Pagedangan",
-            "id": "Jl. BSD Grand Boulevard, Pagedangan"
-          },
-          "coordinates": {
-            "lat": -6.303325140066997,
-            "lng": 106.63435284233194
-          },
-          "distance": "800 M",
-          "estimatedTime": "2 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/wDVDeVTSTCBRNihP6?g_st=iw"
-        }
-      ]
-    },
-
-    "kyzn_bsd": {
-      "name": {
-        "en": "KYZN BSD @ Quantis Clubhouse",
-        "id": "KYZN BSD @ Quantis Clubhouse"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-kyzn_bsd-1",
-          "name": {
-            "en": "KYZN BSD @ Quantis Clubhouse",
-            "id": "KYZN BSD @ Quantis Clubhouse"
-          },
-          "address": {
-            "en": "The Quantis Club, Majorie Ave No.1, BSD",
-            "id": "The Quantis Club, Majorie Ave No.1, BSD"
-          },
-          "coordinates": {
-            "lat": -6.293106467909772,
-            "lng": 106.63348077116528
-          },
-          "distance": "1.6 KM",
-          "estimatedTime": "5 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/FCxrxxsX2wsgmq5v6?g_st=iw"
-        }
-      ]
-    },
-
-    "mako_bakery": {
-      "name": { "en": "MAKO Bakery & Cake", "id": "MAKO Bakery & Cake" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-mako_bakery-1",
-          "name": {
-            "en": "MAKO Bakery & Cake",
-            "id": "MAKO Bakery & Cake"
-          },
-          "address": {
-            "en": "Foresta Business Loft 1, BSD City",
-            "id": "Foresta Business Loft 1, BSD City"
-          },
-          "coordinates": {
-            "lat": -6.295271967925599,
-            "lng": 106.64065708650543
-          },
-          "distance": "3.1 KM",
-          "estimatedTime": "7 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/7uWT75iwgoAT98Kx6?g_st=iw"
-        }
-      ]
-    },
-
-    "campton_bsd": {
-      "name": {
-        "en": "Ruko Campton (AW, Warteg Bahari, Soto Mie Bogor)",
-        "id": "Ruko Campton (AW, Warteg Bahari, Soto Mie Bogor)"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-campton_bsd-1",
-          "name": {
-            "en": "Ruko Campton (AW, Warteg Bahari, Soto Mie Bogor)",
-            "id": "Ruko Campton (AW, Warteg Bahari, Soto Mie Bogor)"
-          },
-          "address": {
-            "en": "Sampora, Cisauk",
-            "id": "Sampora, Cisauk"
-          },
-          "coordinates": {
-            "lat": -6.317550631843259,
-            "lng": 106.65071612883594
-          },
-          "distance": "5.3 KM",
-          "estimatedTime": "11 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/N7HdYYcWx6T9aLsP8?g_st=iw"
-        }
-      ]
-    },
-
-    "pasar_modern_intermoda": {
-      "name": {
-        "en": "Pasar Modern Intermoda BSD City (Food Court)",
-        "id": "Pasar Modern Intermoda BSD City (Food Court)"
-      },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-pasar_modern_intermoda-1",
-          "name": {
-            "en": "Pasar Modern Intermoda BSD City (Food Court)",
-            "id": "Pasar Modern Intermoda BSD City (Food Court)"
-          },
-          "address": {
-            "en": "Jl. Raya Serpong–Cisauk, Cisauk",
-            "id": "Jl. Raya Serpong–Cisauk, Cisauk"
-          },
-          "coordinates": {
-            "lat": -6.320193295441444,
-            "lng": 106.64333742883701
-          },
-          "distance": "4.5 KM",
-          "estimatedTime": "12 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/Pg6RDfKBqk6LQHQLA?g_st=iw"
-        }
-      ]
-    },
-
-    "pasar_intermosa": {
-      "name": { "en": "Pasar Intermosa BSD", "id": "Pasar Intermosa BSD" },
-      "logo": "/images/fnb-logo.png",
-      "locations": [
-        {
-          "id": "restaurant-pasar_intermosa-1",
-          "name": {
-            "en": "Pasar Intermosa BSD",
-            "id": "Pasar Intermosa BSD"
-          },
-          "address": {
-            "en": "Jl. Raya Serpong–Cisauk, Cisauk",
-            "id": "Jl. Raya Serpong–Cisauk, Cisauk"
-          },
-          "coordinates": {
-            "lat": -6.320161304559555,
-            "lng": 106.64331597115715
-          },
-          "distance": "6 KM",
-          "estimatedTime": "15 Menit (Mobil)",
-          "mapUrl": "https://maps.app.goo.gl/wYi2Gw8BXvTVp1r97"
+          "distance": "1,0 km",
+          "estimatedTime": "",
+          "mapUrl": "https://maps.app.goo.gl/bTArDVTLbfW8GzSd8"
         }
       ]
     }
