@@ -8,7 +8,7 @@ export const getLocaleFromPath = (_path: string): Locale => "id";
 
 export const translations = {
   id: {
-    appTitle: "Pertemuan Regional Jakarta",
+    appTitle: "Pertemuan Regional Saksi Saksi Yehuwa",
     appSubtitle: "ICE BSD International Convention Exhibition",
     location:
       "ICE BSD, Jl. BSD Grand Boulevard No.1, Pagedangan, Tangerang, Banten 15339",

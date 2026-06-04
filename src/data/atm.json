@@ -3,7 +3,7 @@
   "icon": "atm",
   "providers": {
     "dbs": {
-      "name": "Dbs",
+      "name": "DBS",
       "locations": [
         {
           "id": "atm-dbs-0",
@@ -20,7 +20,7 @@
       ]
     },
     "bca": {
-      "name": "Bca",
+      "name": "BCA",
       "locations": [
         {
           "id": "atm-bca-1",
@@ -107,7 +107,7 @@
       ]
     },
     "bsi": {
-      "name": "Bsi",
+      "name": "BSI",
       "locations": [
         {
           "id": "atm-bsi-7",
@@ -136,7 +136,7 @@
       ]
     },
     "bri": {
-      "name": "Bri",
+      "name": "BRI",
       "locations": [
         {
           "id": "atm-bri-9",
@@ -206,7 +206,7 @@
       ]
     },
     "ocbc": {
-      "name": "Ocbc",
+      "name": "OCBC",
       "locations": [
         {
           "id": "atm-ocbc-14",
@@ -235,7 +235,7 @@
       ]
     },
     "cimb-niaga": {
-      "name": "Cimb Niaga",
+      "name": "CIMB Niaga",
       "locations": [
         {
           "id": "atm-cimb-niaga-15",
@@ -264,7 +264,7 @@
       ]
     },
     "cimb-niaga-gedung-unilever-bsd": {
-      "name": "Cimb Niaga (Gedung Unilever Bsd)",
+      "name": "CIMB Niaga (Gedung Unilever BSD)",
       "locations": [
         {
           "id": "atm-cimb-niaga-gedung-unilever-bsd-16",
@@ -322,7 +322,7 @@
       ]
     },
     "bni": {
-      "name": "Bni",
+      "name": "BNI",
       "locations": [
         {
           "id": "atm-bni-22",
@@ -351,7 +351,7 @@
       ]
     },
     "mandiri": {
-      "name": "Mandiri",
+      "name": "Bank Mandiri",
       "locations": [
         {
           "id": "atm-bank-mandiri-24",

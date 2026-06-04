@@ -2,20 +2,18 @@ import { useParams } from "react-router-dom";
 import {
   Container,
   Typography,
-  Card,
-  CardContent,
-  List,
   Box,
   Button,
+  Chip,
 } from "@mui/material";
-import { LocationOn, AccessTime, Directions } from "@mui/icons-material";
+import { LocationOn, AccessTime, Directions, Phone, Map } from "@mui/icons-material";
 import Header from "../components/header";
-import { t, type Locale } from "../lib/i18n";
+import { t } from "../lib/i18n";
+import type { Locale } from "../lib/i18n";
 import facilitiesData from "../data/index";
 
 export default function ProviderPage() {
   const {
-    locale = "id",
     category = "",
     provider = "",
   } = useParams<{
@@ -24,14 +22,13 @@ export default function ProviderPage() {
     provider: string;
   }>();
 
-  // Get provider data
   const categoryData = facilitiesData[category as keyof typeof facilitiesData];
   if (!categoryData) {
     return (
       <>
-        <Header showBack title="Not Found" />
+        <Header showBack title="Tidak Ditemukan" />
         <Container maxWidth="sm" sx={{ py: 3 }}>
-          <Typography>Category not found</Typography>
+          <Typography>Kategori tidak ditemukan</Typography>
         </Container>
       </>
     );
@@ -43,15 +40,14 @@ export default function ProviderPage() {
   if (!providerData) {
     return (
       <>
-        <Header showBack title="Not Found" />
+        <Header showBack title="Tidak Ditemukan" />
         <Container maxWidth="sm" sx={{ py: 3 }}>
-          <Typography>Provider not found</Typography>
+          <Typography>Penyedia tidak ditemukan</Typography>
         </Container>
       </>
     );
   }
 
-  // Helper function to get text with fallback (supports plain strings and locale objects)
   const getLocalizedText = (textObj: any, fallback: string = "") => {
     if (!textObj) return fallback;
     if (typeof textObj === "string") return textObj;
@@ -61,83 +57,150 @@ export default function ProviderPage() {
 
   return (
     <>
-      <Header
-        showBack
-        title={getLocalizedText(providerData.name, "Provider")}
-      />
-      <Container maxWidth="sm" sx={{ py: 3 }}>
-        <Typography variant="h5" component="h1" gutterBottom>
-          {t("locations", locale) || "Locations"}
+      <Header showBack title={getLocalizedText(providerData.name, "Provider")} />
+      <Container maxWidth="sm" sx={{ pt: 2.5, pb: 4 }}>
+        <Typography
+          variant="overline"
+          sx={{ color: "text.secondary", letterSpacing: "0.1em", fontSize: "0.7rem", mb: 1.5, display: "block" }}
+        >
+          {t("locations")} · {providerData.locations.length} titik
         </Typography>
 
-        <List sx={{ bgcolor: "background.paper" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
           {providerData.locations.map((location: any) => (
-            <Card key={location.id} sx={{ mb: 2 }}>
-              <CardContent>
-                <Typography variant="h6" component="h2">
-                  {getLocalizedText(location.name, "Location")}
+            <Box
+              key={location.id}
+              sx={{
+                borderRadius: "16px",
+                border: "1.5px solid",
+                borderColor: "divider",
+                bgcolor: "background.paper",
+                overflow: "hidden",
+              }}
+            >
+              {/* Map embed with placeholder background */}
+              <Box
+                sx={{
+                  width: "100%",
+                  height: 180,
+                  position: "relative",
+                  bgcolor: "#e8eef5",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {/* Visible behind the iframe while it loads */}
+                <Box sx={{
+                  position: "absolute", inset: 0,
+                  display: "flex", flexDirection: "column",
+                  alignItems: "center", justifyContent: "center", gap: 0.5,
+                  pointerEvents: "none",
+                }}>
+                  <Map sx={{ fontSize: "2rem", color: "primary.light", opacity: 0.5 }} />
+                  <Typography variant="caption" color="text.disabled">Memuat peta…</Typography>
+                </Box>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, display: "block", position: "relative", zIndex: 1 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src={`https://maps.google.com/maps?q=${location.coordinates.lat},${location.coordinates.lng}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                  title={`Peta ${getLocalizedText(location.name, "Lokasi")}`}
+                />
+              </Box>
+
+              {/* Content */}
+              <Box sx={{ p: 2 }}>
+                <Typography
+                  variant="subtitle1"
+                  fontWeight={700}
+                  sx={{ mb: 0.5, lineHeight: 1.35, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+                >
+                  {getLocalizedText(location.name, "Lokasi")}
                 </Typography>
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  sx={{ mb: 2 }}
+                  sx={{ mb: 1.5, lineHeight: 1.6, fontSize: "0.8rem" }}
                 >
-                  {getLocalizedText(location.address, "Address not available")}
+                  {getLocalizedText(location.address, "Alamat tidak tersedia")}
                 </Typography>
 
-                <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
-                  <LocationOn fontSize="small" sx={{ mr: 1 }} />
-                  <Typography variant="body2">
-                    {t("distance", locale)}: {location.distance}
-                  </Typography>
+                {/* Chips row — wraps on narrow screens */}
+                <Box sx={{ display: "flex", gap: 0.75, flexWrap: "wrap", mb: location.phone ? 1 : 1.5 }}>
+                  {location.distance && (
+                    <Chip
+                      icon={<LocationOn sx={{ fontSize: "0.8rem !important" }} />}
+                      label={location.distance}
+                      size="small"
+                      sx={{ bgcolor: "rgba(74,109,167,0.08)", color: "primary.dark", fontWeight: 600, fontSize: "0.7rem", height: 26 }}
+                    />
+                  )}
+                  {location.estimatedTime && (
+                    <Chip
+                      icon={<AccessTime sx={{ fontSize: "0.8rem !important" }} />}
+                      label={location.estimatedTime}
+                      size="small"
+                      sx={{ bgcolor: "rgba(74,109,167,0.08)", color: "primary.dark", fontWeight: 600, fontSize: "0.7rem", height: 26 }}
+                    />
+                  )}
+                  {location.hours && (
+                    <Chip
+                      label={location.hours}
+                      size="small"
+                      sx={{
+                        bgcolor: "rgba(0,0,0,0.04)",
+                        color: "text.secondary",
+                        fontSize: "0.68rem",
+                        height: "auto",
+                        py: 0.25,
+                        "& .MuiChip-label": { whiteSpace: "normal", lineHeight: 1.4 },
+                      }}
+                    />
+                  )}
                 </Box>
 
-                <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
-                  <AccessTime fontSize="small" sx={{ mr: 1 }} />
-                  <Typography variant="body2">
-                    {t("estimatedTime", locale)}: {location.estimatedTime}
-                  </Typography>
-                </Box>
-
-                <Box
-                  sx={{
-                    width: "100%",
-                    height: "200px",
-                    mb: 2,
-                    borderRadius: 1,
-                    overflow: "hidden",
-                  }}
-                >
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
-                    src={`https://maps.google.com/maps?q=${location.coordinates.lat},${location.coordinates.lng}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
-                    title={`Map of ${getLocalizedText(
-                      location.name,
-                      "Location"
-                    )}`}
-                  />
-                </Box>
+                {/* Phone */}
+                {location.phone && (
+                  <Box
+                    component="a"
+                    href={`tel:${location.phone}`}
+                    sx={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 0.75,
+                      mb: 1.5,
+                      textDecoration: "none",
+                      color: "primary.main",
+                      minHeight: 36,
+                    }}
+                  >
+                    <Phone sx={{ fontSize: "1rem" }} />
+                    <Typography variant="body2" fontWeight={500} sx={{ fontSize: "0.85rem" }}>
+                      {location.phone}
+                    </Typography>
+                  </Box>
+                )}
 
                 <Button
                   variant="contained"
-                  color="primary"
                   fullWidth
                   startIcon={<Directions />}
-                  href={location.mapUrl}
+                  href={location.mapUrl || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
+                  disabled={!location.mapUrl}
+                  sx={{ borderRadius: "10px", fontWeight: 600, py: 1.25, fontSize: "0.9rem" }}
                 >
-                  {t("directions", locale)}
+                  {t("directions")}
                 </Button>
-              </CardContent>
-            </Card>
+              </Box>
+            </Box>
           ))}
-        </List>
+        </Box>
       </Container>
     </>
   );

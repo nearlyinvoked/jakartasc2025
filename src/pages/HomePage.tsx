@@ -6,7 +6,6 @@ import {
   CardActionArea,
   Typography,
   Box,
-  Paper,
 } from "@mui/material";
 import {
   Atm,
@@ -14,7 +13,6 @@ import {
   LocalPharmacy,
   Restaurant,
   LocalGasStation,
-  LocationOn,
   CurrencyExchange,
   Build,
   Storefront,
@@ -28,15 +26,15 @@ export default function HomePage() {
   const navigate = useNavigate();
 
   const categories = [
-    { id: "atm", icon: <Atm fontSize="large" />, name: t("atm") },
-    { id: "hospital", icon: <LocalHospital fontSize="large" />, name: t("hospital") },
-    { id: "pharmacy", icon: <LocalPharmacy fontSize="large" />, name: t("pharmacy") },
-    { id: "restaurant", icon: <Restaurant fontSize="large" />, name: t("restaurant") },
-    { id: "gasStation", icon: <LocalGasStation fontSize="large" />, name: t("gasStation") },
-    { id: "moneyChanger", icon: <CurrencyExchange fontSize="large" />, name: t("moneyChanger") },
-    { id: "autoRepair", icon: <Build fontSize="large" />, name: t("autoRepair") },
-    { id: "shoppingCenter", icon: <Storefront fontSize="large" />, name: t("shoppingCenter") },
-    { id: "hotel", icon: <Hotel fontSize="large" />, name: t("hotel") },
+    { id: "atm", icon: <Atm />, name: t("atm") },
+    { id: "hospital", icon: <LocalHospital />, name: t("hospital") },
+    { id: "pharmacy", icon: <LocalPharmacy />, name: t("pharmacy") },
+    { id: "restaurant", icon: <Restaurant />, name: t("restaurant") },
+    { id: "gasStation", icon: <LocalGasStation />, name: t("gasStation") },
+    { id: "moneyChanger", icon: <CurrencyExchange />, name: t("moneyChanger") },
+    { id: "autoRepair", icon: <Build />, name: t("autoRepair") },
+    { id: "shoppingCenter", icon: <Storefront />, name: t("shoppingCenter") },
+    { id: "hotel", icon: <Hotel />, name: t("hotel") },
   ];
 
   const navigateToCategory = (categoryId: string) => {
@@ -48,84 +46,88 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <Container maxWidth="sm" sx={{ py: 3 }}>
-        <Paper
-          elevation={1}
-          sx={{ p: 2, mb: 3, bgcolor: "primary.main", color: "white" }}
+      <Container maxWidth="sm" sx={{ pt: 3, pb: 5 }}>
+        <Typography
+          variant="overline"
+          sx={{
+            color: "text.secondary",
+            letterSpacing: "0.1em",
+            fontSize: "0.7rem",
+            mb: 1.5,
+            display: "block",
+          }}
         >
-          <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
-            <LocationOn sx={{ mt: 0.5, flexShrink: 0 }} />
-            <Box>
-              <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 0.5 }}>
-                {t("appSubtitle")}
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{ opacity: 0.9, lineHeight: 1.4 }}
-              >
-                {t("location")}
-              </Typography>
-            </Box>
-          </Box>
-        </Paper>
-
-        <Typography variant="h5" component="h1" gutterBottom sx={{ mb: 3 }}>
           {t("categories")}
         </Typography>
-        <Grid container spacing={2}>
-          {categories.map((category) => (
-            <Grid size={{ xs: 6, sm: 4 }} key={category.id}>
-              <Card
-                elevation={2}
-                sx={{
-                  height: 120,
-                  opacity: facilitiesData[category.id as keyof typeof facilitiesData] ? 1 : 0.5,
-                  transition: "all 0.2s ease-in-out",
-                  "&:hover": { elevation: 4, transform: "translateY(-2px)" },
-                }}
-              >
-                <CardActionArea
+
+        <Grid container spacing={1.5}>
+          {categories.map((category) => {
+            const available = !!facilitiesData[category.id as keyof typeof facilitiesData];
+            return (
+              <Grid size={{ xs: 4, sm: 3 }} key={category.id}>
+                <Card
+                  elevation={0}
                   sx={{
-                    height: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    p: 2,
-                    gap: 1,
+                    borderRadius: "16px",
+                    border: "1.5px solid",
+                    borderColor: "divider",
+                    opacity: available ? 1 : 0.4,
+                    transition: "all 0.18s ease",
+                    WebkitTapHighlightColor: "transparent",
+                    "&:active": available ? { transform: "scale(0.96)" } : {},
                   }}
-                  onClick={() => navigateToCategory(category.id)}
-                  disabled={!facilitiesData[category.id as keyof typeof facilitiesData]}
                 >
-                  <Box
+                  <CardActionArea
                     sx={{
+                      height: { xs: 96, sm: 112 },
                       display: "flex",
+                      flexDirection: "column",
                       justifyContent: "center",
                       alignItems: "center",
-                      color: "primary.main",
-                      minHeight: 48,
+                      gap: 0.75,
+                      borderRadius: "16px",
+                      p: 1,
                     }}
+                    onClick={() => navigateToCategory(category.id)}
+                    disabled={!available}
                   >
-                    {category.icon}
-                  </Box>
-                  <Typography
-                    variant="subtitle2"
-                    align="center"
-                    sx={{
-                      fontWeight: 500,
-                      lineHeight: 1.2,
-                      minHeight: 32,
-                      display: "flex",
-                      alignItems: "center",
-                      textAlign: "center",
-                    }}
-                  >
-                    {category.name}
-                  </Typography>
-                </CardActionArea>
-              </Card>
-            </Grid>
-          ))}
+                    <Box
+                      sx={{
+                        width: { xs: 40, sm: 44 },
+                        height: { xs: 40, sm: 44 },
+                        borderRadius: "12px",
+                        bgcolor: "primary.main",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "#fff",
+                        flexShrink: 0,
+                      }}
+                    >
+                      {category.icon}
+                    </Box>
+                    <Typography
+                      variant="caption"
+                      align="center"
+                      sx={{
+                        fontWeight: 600,
+                        lineHeight: 1.2,
+                        color: "text.primary",
+                        fontSize: { xs: "0.65rem", sm: "0.7rem" },
+                        px: 0.5,
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                      }}
+                    >
+                      {category.name}
+                    </Typography>
+                  </CardActionArea>
+                </Card>
+              </Grid>
+            );
+          })}
         </Grid>
       </Container>
     </>
